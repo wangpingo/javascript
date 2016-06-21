@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        window.onload=function(){
+            var aA=document.getElementsByTagName("a");
+            for(var i=0;i<aA.length;i++){
+                aA[i].onclick=function(){
+                    /*
+                        parentNode: only one  ;only read
+                     */
+                    this.parentNode.style.display='none';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<ul id="ui1">
+    <li>11111 <a href="javascript:;">隐藏</a></li>
+    <li>22222 <a href="javascript:;">隐藏</a></li>
+    <li>33333 <a href="javascript:;">隐藏</a></li>
+    <li>44444 <a href="javascript:;">隐藏</a></li>
+</ul>
+</body>
+</html>

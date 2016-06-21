@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{padding: 40px 50px;}
+        #div1{background: red;}
+        #div2{background: green;}
+        #div3{background: yellow;}
+    </style>
+    <script>
+        window.onload=function() {
+            var oDiv3 = document.getElementById('div3');
+            /*
+            offsetLeft[Top]:只读属性当前元素定位到父级距离的偏移值;
+            到当前元素offsetLeft的距离
+            ie7:如果自己没有定位，那么offset是到body的距离
+            如皋没有定位父级
+            offersetParent-》body
+            offer
+            标准：
+             */
+            alert(oDiv3.offsetTop);
+        }
+    </script>
+</head>
+<body>
+<div id="div1">
+    <div id="div2">
+        <div id="div3"></div>
+    </div>
+</div>
+</body>
+</html>

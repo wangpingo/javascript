@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>垂直导航</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol{
+           list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #menu .main-menu{
+            width: 100px;
+            /*height: 30px;*/
+            background-color: gray;
+            margin-right: 5px;
+            /*float: left;*/
+
+        }
+        #menu .main-menu a{
+            display: block;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            line-height: 30px;
+
+        }
+        #menu .main-menu a:hover{
+            background-color: lavenderblush;
+        }
+        #menu .sub-menu a{
+
+            background-color: lightblue;
+            text-align: left;
+            text-indent: 5px;
+            border-bottom: dashed 1px #000;
+            /*display: none;*/
+        }
+        #menu .sub-menu {
+            display: none;
+        }
+        #menu .sub-menu a:hover{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+<ul id="menu">
+    <li class="main-menu">
+        <h3>link1</h3>
+        <ul class="sub-menu" >
+            <li><a href="#">sub-link1</a></li>
+            <li><a href="#">sub-link1</a></li>
+            <li><a href="#">sub-link1</a></li>
+        </ul>
+    </li>
+    <li class="main-menu" >
+        <h3>link2</h3>
+        <ul class="sub-menu">
+            <li><a href="#">sub-link2</a></li>
+            <li><a href="#">sub-link2</a></li>
+            <li><a href="#">sub-link2</a></li>
+        </ul>
+    </li>
+    <li class="main-menu" >
+        <h3>link3</h3>
+        <ul class="sub-menu">
+            <li><a href="#">sub-link2</a></li>
+            <li><a href="#">sub-link2</a></li>
+            <li><a href="#">sub-link2</a></li>
+        </ul>
+    </li>
+
+</ul>
+<script>
+        var oUl=document.getElementById("menu");
+        var aLi=oUl.children;
+        for(var i=0;i<aLi.length;i++){
+            aLi[i].onmouseover=function(){
+                var oSubMenu=this.children[1];
+                oSubMenu.style.display="block";
+            };
+
+            aLi[i].onmouseout=function(){
+                var oSubMenu=this.children[1];
+                oSubMenu.style.display="none";
+            }
+        }
+
+
+</script>
+</body>
+</html>

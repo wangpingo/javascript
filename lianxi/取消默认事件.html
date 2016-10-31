@@ -10,7 +10,7 @@
             padding: 0;
         }
         ul,ol{
-           list-style: none;
+            list-style: none;
         }
         a{
             text-decoration: none;
@@ -45,15 +45,13 @@
         #menu .sub-menu {
             display: none;
         }
-        #menu .sub-menu a:hover{
-            background-color: burlywood;
-        }
+
     </style>
 </head>
 <body>
 <ul id="menu">
     <li class="main-menu">
-        <h3 >link1</h3>
+        <h3 onselectstart="return false;">link1</h3>
         <ul class="sub-menu" >
             <li><a href="#">sub-link1</a></li>
             <li><a href="#">sub-link1</a></li>
@@ -61,15 +59,7 @@
         </ul>
     </li>
     <li class="main-menu" >
-        <h3 >link2</h3>
-        <ul class="sub-menu">
-            <li><a href="#">sub-link2</a></li>
-            <li><a href="#">sub-link2</a></li>
-            <li><a href="#">sub-link2</a></li>
-        </ul>
-    </li>
-    <li class="main-menu" >
-        <h3>link3</h3>
+        <h3 onselectstart="return false;">link2</h3>
         <ul class="sub-menu">
             <li><a href="#">sub-link2</a></li>
             <li><a href="#">sub-link2</a></li>
@@ -78,26 +68,40 @@
     </li>
 
 </ul>
-<!--<script>-->
-        <!--var oUl=document.getElementById("menu");-->
-        <!--var aLi=oUl.children;-->
-        <!--for(var i=0;i<aLi.length;i++){-->
-            <!--aLi[i].onmouseover=function(){-->
-                <!--var oSubMenu=this.children[1];-->
-                <!--oSubMenu.style.display="block";-->
-            <!--};-->
+<script>
+    var oMenu=document.getElementById("menu");
+    var aH3=oMenu.getElementsByTagName("h3");
+    //var aSubmenu=oMenu.getElementsByTagName("ul"); //2
 
-            <!--aLi[i].onmouseout=function(){-->
-                <!--var oSubMenu=this.children[1];-->
-                <!--oSubMenu.style.display="none";-->
-            <!--}-->
-        <!--}-->
-<!--</script>-->
-<!--<script>-->
-    <!--var oMenu=document.getElementById("menu");-->
-    <!--var aH3=oMenu.getElementsByTagName("h3");-->
-    <!--for-->
-<!--</script>-->
+//    for(var i=0;i< aH3.length;i++){
+//        aH3[i].index=i;
+//        aH3[i].flag=false;
+//        aH3[i].onclick=function(){
+//
+//            var oSubMenu=aSubmenu[this.index];
+//            if(this.flag){
+//                oSubMenu.style.display="none";
+//            }else{
+//                oSubMenu.style.display="block";
+//            }
+//            this.flag=!this.flag;
+//        }
+//    }
+    for(var i=0;i<aH3[i].length;i++){
+        aH3[i].onclick=function(){
+            aH3[i]
+        }
+
+    }
+    function next(elem){
+        do{
+            elem=elen.nextSibling;
+        }
+        while(elem && elem.nodeType!=1);
+        return elem;
+    }
+
+</script>
 
 </body>
 </html>

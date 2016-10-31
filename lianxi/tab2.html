@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>tab</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #container{
+            width: 400px;
+            height: 450px;
+
+            margin: 100px auto;
+        }
+        #tab{
+            overflow: hidden;
+        }
+        #container li{
+            width: 100px;
+            float: left;
+            margin-right: 20px;
+            background-color: darkgray;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+        }
+        #content{
+
+            height: 420px;
+            background-color: darkkhaki;
+        }
+        #container .selected{
+            background-color: mediumslateblue;
+        }
+        #content div{
+         display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul id="tab">
+            <li class="selected">html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ul>
+        <div id="content">
+            <div >001</div>
+            <div >002</div>
+            <div >003</div>
+        </div>
+    </div>
+    <!--<div id="container">-->
+        <!--<ul id="tab">-->
+            <!--<li class="selected">html</li>-->
+            <!--<li>css</li>-->
+            <!--<li>javascript</li>-->
+        <!--</ul>-->
+        <!--<div id="content">-->
+            <!--<div >001</div>-->
+            <!--<div >002</div>-->
+            <!--<div >003</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<script>
+    var oTab=document.getElementById("tab");
+    var aLi=oTab.getElementsByTagName("li");
+    var aDiv=document.getElementById("content").getElementsByTagName("div");
+    for(var i=0;i<aLi.length;i++){
+        aLi[i].index=i;
+        aLi[i].onclick=function(){
+            for(var i=0;i<aDiv.length;i++){
+                aDiv[i].style.display="none";
+            }
+            aLi[this.index].className="selected";
+            aDiv[this.index].style.display="block";
+        }
+    }
+</script>
+</body>
+</html>

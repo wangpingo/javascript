@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>图片放大镜</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #container{
+            
+            padding: 20px;
+            background-color: burlywood;
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+        #content{
+
+            width: 300px;
+            height: 300px;
+            cursor: pointer;
+            overflow: hidden;
+            position: absolute;
+        }
+        #smallPhoto{
+                display: block;
+        }
+        #bigPhoto{
+            display: none;
+            position: absolute;
+        }
+
+    </style>
+</head>
+
+<body>
+        <div id="container">
+        <div id="content">
+            <img id="smallPhoto" src="img/1_tb.jpg">
+            <img  id="bigPhoto" src="img/1_big.jpg">
+        </div>
+        </div>
+<script>
+    (function(){
+        var oDiv= document.getElementById("content");
+        var smallPhoto=document.getElementById("smallPhoto");
+        var bigPhoto=document.getElementById("bigPhoto");
+        oDiv.onmousemove=function(e){
+                smallPhoto.style.display='none';
+                bigPhoto.style.display='block';
+                e=e||window.event;
+                var topHeight= e.clientY-oDiv.offsetTop;
+                var leftWidth= e.clientX-oDiv.offsetLeft;
+                var moveTop= -topHeight*(bigPhoto.offsetWidth/oDiv.offsetWidth-1);
+                var moveLeft=-leftWidth*(bigPhoto.offsetHeight/oDiv.offsetHeight-1);
+                bigPhoto.style.top=moveTop+"px";
+                bigPhoto.style.left=moveLeft+"px";
+
+        };
+
+        oDiv.onmouseout=function(){
+            smallPhoto.style.display='block';
+            bigPhoto.style.display='none';
+        }
+    })();
+</script>
+</body>
+</html>

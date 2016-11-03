@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>图片切换</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        #tab{
+            right: 10px;
+            bottom: 10px;
+            position: absolute;
+            z-index: 1;
+        }
+        #tab li{
+            width: 20px;
+            height: 20px;
+            background: black;
+            color: white;
+            float: left;
+            text-align: center;
+            line-height: 20px;
+            margin-right: 5px;
+        }
+        #container{
+            height: 344px;
+            width: 680px;
+            position: relative;
+            margin:  50px auto;
+            overflow: hidden;
+        }
+        #arrow{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+        #content{
+            left: 0;
+            position: absolute;
+        }
+        #arrow span{
+            width: 20px;
+            height: 20px;
+            float: left;
+            margin-right: 5px;
+            background: black;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            cursor: pointer;
+        }
+        #tab .selected{
+            background: yellow;
+        }
+        #content img{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <ul id="tab">
+        <li class="selected">1</li>
+        <li onselectstart="return false;">2</li>
+        <li onselectstart="return false;">3</li>
+        <li onselectstart="return false;">4</li>
+    </ul>
+    <div id="content">
+        <img src="img/1.jpg">
+        <img src="img/2.jpg">
+        <img src="img/3.jpg">
+        <img src="img/4.jpg">
+    </div>
+    <div id="arrow">
+        <span id="prev" onselectstart="return false;">&lt;</span>
+        <span id="next" onselectstart="return false;">&gt;</span>
+    </div>
+</div>
+<script src="jslib.js"></script>
+<script>
+    window.onload=function(){
+    var oContainer=document.getElementById("container");
+    var oContent=document.getElementById("content");
+    var aLi=oContainer.getElementsByTagName("li");
+    var aImg=oContainer.getElementsByTagName("img");
+    var oNext=document.getElementById("next");
+    var oPrev=document.getElementById("prev");
+    var timer;
+    var iNow=0;
+    oContent.style.width=aLi.length*aImg[0].offsetWidth+"px";
+    for(var i=0;i<aLi.length;i++){
+        aLi[i].index=i;
+
+        aLi[i].onmouseover=function(){
+            changeImag(this.index);
+            iNow=this.index;
+        }
+    }
+    oNext.onclick=function(){
+        iNow++;
+        iNow=iNow%aLi.length;
+        changeImag(iNow);
+    };
+    oPrev.onclick=function(){
+        iNow--;
+        if(iNow==-1) iNow=aLi.length-1;
+        changeImag(iNow);
+    };
+    function changeImag(elem){
+        for(var i=0;i<aLi.length;i++){
+            aLi[i].className="";
+        }
+        aLi[elem].className="selected";
+        //oContent.style.left=-elem*aImg[0].offsetWidth+"px";
+        animate(oContent,{left:-aImg[0].offsetWidth * elem});
+    }
+    timer=setInterval(function(){
+        oNext.onclick();
+    },1000);
+    oContainer.onmouseover=function(){
+        clearInterval(timer);
+    };
+    oContainer.onmouseout=function(){
+        timer=setInterval(function(){
+            oNext.onclick();
+        },1000)
+    }
+    }
+</script>
+</body>
+</html>

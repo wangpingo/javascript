@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>银行家算法</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #btn{
+
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+        #btn input{
+            display: inline-block;
+            height: 20px;
+            width: 30px;
+        }
+        #theme{
+            position: absolute;
+            font-family: sans-serif;
+            font-size: 40px;
+            font-weight: bolder;
+            top: -46px;
+            width: 600px;
+            text-align: center;
+        }
+
+        #container {
+            border:1px solid black;
+            position: relative;
+            background: grey;
+            width: 600px;
+            height: 250px;
+            margin: 100px auto;
+        }
+
+        #keywords {
+            position: absolute;
+            background: skyblue;
+            height: 60px;
+            width: 600px;
+            right: 0px;
+            top: 0px;
+        }
+
+        #data{
+            width: 600px;
+            position: absolute;
+            right: 0px;
+            height: 190px;
+            background:burlywood;
+            bottom: 0px;
+        }
+        span{
+            font-size: 20px;
+            font-family: monospace;
+            font-weight: bolder;
+            text-align: center;
+            display: block;
+            float: left;
+            width: 119px;
+            height: 59px;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        #last{
+            border-right: 0px;
+        }
+        hr{
+            border: 1px solid black;
+
+        }
+        .progress{
+
+            height: 30px;
+            width: 600px;
+
+        }
+        .progress span{
+            border: 0px;
+            height: 30px;
+            width: 119px;
+            background: cadetblue;
+            line-height: 30px;
+            border-left: 1px solid black;
+        }
+        .progress input{
+            height: 20px;
+            width: 20px;
+            left: 0;
+        }
+        #btn2{
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            display: block;
+            width: 50px;
+            height: 30px;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <div id="theme">银行家算法(10,5,7)</div>
+    <div id="keywords">
+        <span>资源情况<hr>进程</span>
+        <span>Max<hr>A &nbsp;B &nbsp;C</span>
+        <span>Allocation<hr>A &nbsp;B &nbsp;C</span>
+        <span>Need<hr>A &nbsp;B &nbsp;C</span>
+        <span id="last">Available<hr>A &nbsp;B &nbsp;C</span>
+    </div>
+    <div id="data">
+        <!--<div class="progress">-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+        <!--</div>-->
+        <div id="data-top">
+        <div class="progress">
+            <!--<span>P0</span>-->
+            <!--<span>1 &nbsp;2 &nbsp;3</span>-->
+            <!--<span>1 &nbsp;2 &nbsp;3</span>-->
+            <!--<span>1 &nbsp;2 &nbsp;3</span>-->
+            <!--<span>1 &nbsp;2 &nbsp;3</span>-->
+        </div>
+        </div>
+        <div >
+            <button id="btn2">测试</button>
+        </div>
+        <div id="btn">
+            点我创建<input id="vals" type="text"/>
+        </div>
+    </div>
+
+    <script>
+        (function(){
+            var aProgress=["P0","P1","P2","P3","P4","P5"];
+            var bProgress=[];
+            var oDivData=document.getElementById("data-top");
+            oDivData.innerHTML="";
+            var AvailableA=10;
+            var AvailableB=5;
+            var AvailableC=7;
+            document.getElementById("vals").onfocus=function(){
+                document.getElementById("vals").value = "";
+            };
+            document.getElementById("vals").onblur=function() {
+                var iNum=parseInt(document.getElementById("vals").value);
+                for (var i = 0; i < iNum; i++) {
+                    if(i==0){oDivData.innerHTML = oDivData.innerHTML +
+                            "<div class='progress'>" +
+                            "<span>"+aProgress[i]+"</span>" +
+                            "<span>"+"<input class='MaxA' type='text'/>"+"&nbsp;"+"<input class='MaxB' type='text'/>"+"&nbsp;"+"<input class='MaxC'  type='text'/>"+"</span>" +
+                            "<span>"+"<input class='AllocationA'  type='text'/>"+"&nbsp;"+"<input class='AllocationB'   type='text'/>"+"&nbsp;"+"<input class='btn3' type='text'/>"+"</span>" +
+                            "<span>"+"<input class='NeedA' type='text'/>"+"&nbsp;"+"<input class='NeedB'  type='text'/>"+"&nbsp;"+"<input class='NeedC'  type='text'/>"+"</span>" +
+                            "<span>"+"<input id='AvailableA' type='text'/>"+"&nbsp;"+"<input id='AvailableB' type='text'/>"+"&nbsp;"+"<input id='AvailableC' type='text'/>"+"</span>" +
+
+                            "</div>"
+                    }else{
+                        oDivData.innerHTML = oDivData.innerHTML +
+                                "<div class='progress'>" +
+                                "<span>"+aProgress[i]+"</span>" +
+                                "<span>"+"<input class='MaxA'  type='text'/>"+"&nbsp;"+"<input class='MaxB'  type='text'/>"+"&nbsp;"+"<input class='MaxC'  type='text'/>"+"</span>" +
+                                "<span>"+"<input class='AllocationA'   type='text'/>"+"&nbsp;"+"<input class='AllocationB'   type='text'/>"+"&nbsp;"+"<input class='btn3' type='text'/>"+"</span>" +
+                                "<span>"+"<input  class='NeedA' type='text'/>"+"&nbsp;"+"<input  class='NeedB' type='text'/>"+"&nbsp;"+"<input class='NeedC'  type='text'/>"+"</span>" +
+                                "<span></span>"+
+                                "</div>"
+                    }
+
+                }
+
+                var oBtn2=document.getElementById("btn2");
+                oBtn2.onclick=function(){
+                    var aMaxA=document.getElementsByClassName('MaxA');
+                    var aMaxB=document.getElementsByClassName('MaxB');
+                    var aMaxB=document.getElementsByClassName('MaxC');
+                    for(var i=0;i<aMaxA.length;i++){
+                        if(aMaxA[i].value>10){
+                            alert("MaxA值超过总的资源数")
+                        }
+                    }
+                    for(var k=0;i<aMaxB.length;k++){
+                        if(aMaxB[k].value>5){
+                            alert("MaxB值超过总的资源数")
+                        }
+                    }
+                    for(var j=0;i<aMaxB.length;j++){
+                        if(aMaxB[j].value>7){
+                            alert("MaxC值超过总的资源数")
+                        }
+                    }
+
+                    var aNeedA=document.getElementsByClassName('NeedA');
+                    var aNeedArrays=[];
+                    var aNeedBrrays=[];
+                    var aNeedCrrays=[];
+                    for(var c=0;c<aNeedA.length;c++){
+                        aNeedArrays[c]=aNeedA[c].value;
+                    }
+                    var aNeedB=document.getElementsByClassName('NeedB');
+                    for(var d=0;d<aNeedB.length;d++){
+                        aNeedBrrays[d]=aNeedB[d].value;
+                    }
+                    var aNeedC=document.getElementsByClassName('NeedC');
+                    for(var e=0;e<aNeedC.length;e++){
+                        aNeedCrrays[e]=aNeedC[e].value;
+                    }
+                    var aAllocationA=document.getElementsByClassName('AllocationA');
+                    var aAllocationB=document.getElementsByClassName('AllocationB');
+                    var aAllocationC=document.getElementsByClassName('btn3');
+                    var alength=aNeedA.length;
+
+                    for(var b=0;b<alength;b++){
+                    for(var a=0;a<alength;a++){
+                        if(AvailableA>=aNeedArrays[a] && AvailableB>=aNeedBrrays[a] && AvailableC>=aNeedCrrays[a]){
+                            bProgress.push(aProgress[a]);
+                            aNeedArrays.splice(1,a,"100");
+                            AvailableA=AvailableA+parseInt(aAllocationA[a].value);
+                            AvailableB=AvailableB+parseInt(aAllocationB[a].value);
+                            AvailableC=AvailableC+parseInt(aAllocationC[a].value);
+                        }
+                    }
+                    }
+                    if(bProgress.length==aNeedA.length){
+                        alert("安全序列："+bProgress.join(","));
+                    }else{
+                        alert("没有安全序列");
+                    }
+
+                };
+                var oBtnMaxA=document.getElementsByClassName("MaxA");
+                var oBtnMaxB=document.getElementsByClassName("MaxB");
+                var oBtnMaxC=document.getElementsByClassName("MaxC");
+                for(var nMaxA=0;nMaxA<oBtnMaxA.length;nMaxA++){
+                    oBtnMaxA[nMaxA].onblur=function(){
+                        if(this.value>10){
+                            alert("MaxA超过最大值");
+                        }
+                    }
+                }
+                for(var nMaxB=0;nMaxB<oBtnMaxB.length;nMaxB++){
+                    oBtnMaxB[nMaxB].onblur=function(){
+                        if(this.value>5){
+                            alert("MaxB超过最大值");
+                        }
+                    }
+                }
+                for(var nMaxC=0;nMaxC<oBtnMaxC.length;nMaxC++){
+                    oBtnMaxC[nMaxC].onblur=function(){
+                        if(this.value>7){
+                            alert("MaxC超过最大值");
+                        }
+                    }
+                }
+                var oBtn3=document.getElementsByClassName("btn3");
+                for(var n=0;n<oBtn3.length;n++){
+                        oBtn3[n].index=n;
+                        oBtn3[n].onblur=function(){
+
+                            var aClass=document.getElementsByClassName('progress');
+                            var aInputs=aClass[this.index].getElementsByTagName("input");
+                            for(var j=0;j<aInputs.length;j++){     //一维数组里面每个元素数组可以包含的数量p，p也是一个变量；
+                                aInputs[j]=aInputs[j].value;     //这里将变量初始化，我这边统一初始化为空，后面在用所需的值覆盖里面的值
+
+                            }
+                            aInputs[6].value=aInputs[0].value-aInputs[3].value;
+                            aInputs[7].value=aInputs[1].value-aInputs[4].value;
+                            aInputs[8].value=aInputs[2].value-aInputs[5].value;
+                            AvailableA=AvailableA-aInputs[3].value;
+                            AvailableB=AvailableB-aInputs[4].value;
+                            AvailableC=AvailableC-aInputs[5].value;
+                    }
+                }
+                var oAvailable=document.getElementById("last");
+                oAvailable.onclick=function(){
+                    document.getElementById("AvailableA").value= AvailableA;
+                    document.getElementById("AvailableB").value= AvailableB;
+                    document.getElementById("AvailableC").value=AvailableC ;
+                };
+
+            }
+            })();
+    </script>
+</div>
+</body>
+</html>

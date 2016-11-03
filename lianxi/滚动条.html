@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>滚动条</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            margin:  100px auto;
+            height: 300px;
+            width: 200px;
+            background: crimson;
+            position: relative;
+            /*overflow: hidden;*/
+        }
+        #content{
+            position: absolute;
+            width: 200px;
+            color: black;
+            top: 0;
+        }
+        #bar{
+            position: absolute;
+            left: 200px;
+            top: 0px;
+            width: 20px;
+            height: 20px;
+            background: lawngreen;
+        }
+        #lll{
+            position: absolute;
+            overflow: hidden;
+            width: 200px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="lll">
+        <div id="content">
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            >
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            >
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            >
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            啊啊啊啊啊啊
+            啊啊啊啊啊啊
+            啊啊啊啊啊啊
+            啊啊啊啊啊啊
+            啊啊啊啊啊啊
+            啊啊啊啊啊啊啊啊啊啊啊啊
+            啊啊啊啊啊啊
+            啊啊啊啊啊啊
+
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            >
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            >
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            >
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷>
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷嗷
+            嗷嗷嗷嗷嗷嗷嗷嗷嗷
+        </div>
+        </div>
+        <div id="bar">
+        </div>
+    </div>
+</body>
+<script>
+
+    (function(){
+        //一堆屎
+        var oBar=document.getElementById("bar");
+        var oContent=document.getElementById("content");
+        var oContainer=document.getElementById("container");
+        var iContainerHeight=oContainer.offsetHeight;
+        var iContentHeight=oContent.offsetHeight;
+        oBar.style.height=  iContainerHeight*(iContainerHeight/iContentHeight)+"px";
+        var iBarHeight=oBar.offsetHeight;
+
+        oBar.onmousedown=function(e){
+        var e=e|| window.event;
+        var inHeight= e.clientY-this.offsetTop;
+        document.onmousemove=function(e){
+            var e=e|| window.event;
+            var iBartop= e.clientY-inHeight-100;
+
+            if(iBartop<0){
+                iBartop=0;
+            }
+            var iMax=iContainerHeight-iBarHeight;
+
+            if(iBartop>iMax){
+                iBartop=iMax;
+            }
+            var iScale=iBartop/iMax;
+            oBar.style.top= iBartop+"px";
+
+            oContent.style.top=-iScale*(iContentHeight-300)+"px";
+            return false;
+        }
+    };
+         document.onmouseup=function(){
+         document.onmousemove=null;
+     }
+    })();
+</script>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>tab</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #tab-container{
+            width: 300px;
+            height: 250px;
+
+            margin: 100px auto;
+        }
+        #tab-container2{
+            width: 400px;
+            height: 250px;
+            margin: 100px auto;
+        }
+         .tab{
+            overflow: hidden;
+        }
+         li{
+            width: 80px;
+            float: left;
+            margin-right: 20px;
+            background-color: darkgray;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+        }
+             .content{
+
+            height: 220px;
+            background-color: darkkhaki;
+        }
+            .selected{
+            background-color: mediumslateblue;
+        }
+
+    </style>
+</head>
+<body>
+<!--id会变  // li 个数-->
+<div id="tab-container">
+    <ul class="tab">
+        <li class="selected">html</li>
+        <li>css</li>
+        <li>javascript</li>
+    </ul>
+    <div class="content" id="cccc">111</div>
+</div>
+
+<div id="tab-container2" >
+    <ul class="tab" >
+        <li class="selected">htmls</li>
+        <li>csss</li>
+        <li>jas</li>
+        <li>jqus</li>
+    </ul>
+    <div class="content">111</div>
+</div>
+<script>
+    var aTab=className("tab");  //两个tab
+    var arr=["111","222","333","444"];
+    for(var  i=0;i<aTab.length;i++){
+       var oTabs=aTab[i];
+        var aLi= oTabs.getElementsByTagName("li");
+        for(var j=0;j<aLi.length;j++){
+            aLi[j].index=j;
+            aLi[j].onclick=function(){
+                var oTab=this.parentNode;
+                for(var i=0;i<oTab.children.length;i++){
+                    oTab.children[i].className="";
+                }
+                oTab.children[this.index].className="selected";//bug是：效果每次都是显示在存在最后一个选项卡
+                next(oTab).innerHTML=arr[this.index];
+            }
+        };
+    }
+    function next(elem){  //解决 兼容性问题nextSibling
+        do{
+            elem=elem.nextSibling;
+        }while(elem && elem.nodeType!=1);
+        return elem;
+    }
+    function className(name){ //兼容解决ie8 不识别getClassName方法
+        var aUl=document.getElementsByTagName("ul"),j=0,aUls=[];
+        for(var i=0;i<aUl.length;i++){
+            if(aUl[i].className==name){
+                   aUls[j++]=aUl[i];
+            }
+        }
+        return aUls;
+
+    }
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无缝切换</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            position: relative;
+            margin:50px auto;
+            width: 400px;
+            height: 250px;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        #content{
+            /*-webkit-transition: .1s;*/
+            /*-moz-transition: .1s;*/
+            /*-ms-transition: .1s;*/
+            /*-o-transition: .1s;*/
+            /*transition: .1s;*/
+            width: 650px;
+            height: 200px;
+            font-size: 50px;
+            text-align: center;
+            line-height: 200px;
+            line-height: 150px;
+            position: absolute;
+        }
+
+        #footer{
+            position: absolute;
+            width: 400px;
+            height: 50px;
+            left: 0px;
+            top: 190px;
+        }
+        #footer span{
+            height: 30px;
+            float: left;
+            display: inline-block;
+            background: darkgray;
+            margin-right: 20px;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bolder;
+        }
+        #fist{
+            margin-left: 130px;
+        }
+        .num{
+            color: white;
+            background: black;
+            width: 110px;
+            height: 160px;
+            margin-right: 20px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <div class="num">1
+            </div>
+            <div class="num">2
+            </div>
+            <div class="num">3
+            </div>
+            <div class="num">4
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <span id="fist">&lt;&lt;向右</span>
+            <span id="second">向左&gt;&gt;</span>
+        </div>
+    </div>
+<script>
+    (function(){
+
+        var oDir=0;
+        var i= 1;
+        var timer=setInterval(function(){
+            var oDiv=document.getElementById("content");
+            oDir=oDir-3.25;
+            oDiv.style.left=oDir+"px";
+            if(oDir==-130){
+                if(i==5)
+                    i=1;
+                var a=oDiv.innerHTML;
+
+                oDiv.removeChild(oDiv.children[0]);
+                oDir=0;
+                oDiv.style.left=oDir+"px";
+                oDiv=document.getElementById("content");
+
+                oDiv.innerHTML=oDiv.innerHTML+ "<div class='num'>"+i+ "</div>";
+                i++;
+//                oDiv.appendChild(remove);
+            }
+        },20)
+    })();
+</script>
+</body>
+</html>

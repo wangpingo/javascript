@@ -1,15 +1,14 @@
-function animate(elem, attr, callback){
-	clearInterval(elem.timer);
-	elem.timer = setInterval(function(){
-		var bStop = true;//一个标识位，true代表可以停止定时器，false代表不可不停止
-		for(var prop in attr){//1:width
-			var curr = parseInt(getStyle(elem, prop));
+function animate(elem, attr, callback){      //声明animate函数
+	clearInterval(elem.timer);			    //清楚定时器
+	elem.timer = setInterval(function(){    //声明一个定时器
+		var bStop = true;                   //一个标识位，true代表可以停止定时器，false代表不可不停止
+		for(var prop in attr){ //1:{width:100px}
+			var curr = parseInt(getStyle(elem, prop)); //得到原有属性的值
 			if(prop == 'opacity'){
 				curr = parseInt(getStyle(elem, prop)*100);
 			}
 			var speed = (attr[prop] -  curr) / 8;
-			speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
-
+			speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);//speed取整
 			if(curr != attr[prop]){
 				bStop = false;
 			}
@@ -27,7 +26,6 @@ function animate(elem, attr, callback){
 		}
 	}, 30);
 }
-
 function getStyle(elem, attr){
 	if(elem.currentStyle){//IE
 		return elem.currentStyle[attr];
@@ -35,6 +33,7 @@ function getStyle(elem, attr){
 		return getComputedStyle(elem, false)[attr];
 	}
 }
+
 
 function drag(elem, obj, callback){
 	var option = {

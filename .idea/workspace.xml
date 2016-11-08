@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/1 _big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/1_tb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/20160915081124_57360.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/20161103141413chromecj.com.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147856483247975.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147856664850291.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147856672310979.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147856678853798.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147856685490860.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147857632837612.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147858997720935.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/ninja147859002782076.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/splash_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/照片/jquery-1.12.3.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lianxi/缩略图之轮播图.html" afterPath="$PROJECT_DIR$/lianxi/缩略图之轮播图.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -279,6 +299,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="照片" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lianxi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -474,7 +508,19 @@
       <option name="project" value="LOCAL" />
       <updated>1478593958190</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="更新代码">
+      <created>1478595029137</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1478595029137</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新代码">
+      <created>1478595055432</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1478595055433</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">

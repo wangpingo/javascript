@@ -36,7 +36,7 @@
             width: 680px;
             position: relative;
             margin: 50px auto;
-            /*overflow: hidden;*/
+            overflow: hidden;
         }
 
         #arrow {
@@ -91,21 +91,23 @@
         <span id="next" onselectstart="return false;">&gt;</span>
     </div>
 </div>
-<script src="jslib.js"></script>
+<script src="jslibs.js"></script>
 <script>
     window.onload = function () {
         var oContainer = document.getElementById("container");
         var oContent = document.getElementById("content");
+
         var aLi = oContainer.getElementsByTagName("li");
         var aImg = oContainer.getElementsByTagName("img");
+        var newImg=aImg[0].cloneNode();
+        oContent.appendChild(newImg);
         var oNext = document.getElementById("next");
         var oPrev = document.getElementById("prev");
         var timer;
         var iNow = 0;
-        oContent.style.width = aLi.length * aImg[0].offsetWidth + "px";
+        oContent.style.width =aImg.length * aImg[0].offsetWidth + "px";
         for (var i = 0; i < aLi.length; i++) {
             aLi[i].index = i;
-
             aLi[i].onmouseover = function () {
                 changeImag(this.index);
                 iNow = this.index;
@@ -113,24 +115,28 @@
         }
         oNext.onclick = function () {
             iNow++;
-            iNow = iNow % aLi.length;
+            if(iNow ==aImg.length){
+                oContent.style.left=0;
+                iNow=1;
+            };
             changeImag(iNow);
         };
         oPrev.onclick = function () {
             iNow--;
-            if (iNow == -1) iNow = aLi.length - 1;
+            if (iNow == -1){
+                oContent.style.left=-aImg[0].offsetWidth*(aImg.length-1)+'px';
+                iNow=aImg.length-2;
+            };
             changeImag(iNow);
         };
         function changeImag(elem) {
             for (var i = 0; i < aLi.length; i++) {
                 aLi[i].className = "";
             }
-            aLi[elem].className = "selected";
+            aLi[elem==aImg.length-1?0:elem].className = "selected";
             //oContent.style.left=-elem*aImg[0].offsetWidth+"px";
-            //animate(oContent, {left: -aImg[0].offsetWidth * elem});
-
+            animate(oContent, {left: -aImg[0].offsetWidth * elem});
         }
-
         timer = setInterval(function () {
             oNext.onclick();
         }, 4000);

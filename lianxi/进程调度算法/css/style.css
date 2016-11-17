@@ -1,0 +1,126 @@
+@charset "utf-8";
+*{list-style-type:none;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "������";}
+
+ul{
+    font-size: 22px;
+    position: absolute;
+    padding: 0px;
+}
+li{
+    position: relative;
+    margin-top: 8px;
+    line-height: 17px;
+    font-family: "Microsoft YaHei";
+    font-size: 17px;
+    font-weight: normal;
+    left: 19px;
+    color: darkseagreen;
+    display: block;
+
+}
+span{
+    width: 74px;
+    height: 22px;
+    display:inline-block;
+    text-align: center;
+
+}
+#box{
+    height: 600px;
+    width: 800px ;
+    margin: 10px auto 0px;
+    background-color: beige;
+    position: relative;
+}
+#left{
+    position: absolute;
+    left: 15px;
+    top:15px;
+    height: 483px;
+    width: 300px;
+    background-color: bisque;
+}
+#inPut{
+    position: absolute;
+    display:inline;
+    left: 119px;
+    top: -4px;
+}
+#inPut input{
+    height: 18px;
+    width: 40px;
+
+}
+
+#info{
+    color:burlywood;
+    font-family:"Microsoft YaHei";
+    font-size:18px;
+    font-weight:normal;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+#right{
+    position: absolute;
+}
+#dynamics{
+    left: 13px;
+    bottom: 100px;
+    height: 300px;
+    width: 273px;
+    position: absolute;
+    background-color: #2A4A47;
+}
+#right1{
+    position: absolute;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 0px;
+    right: 312px;
+    top: 17px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+#right2{
+    position: absolute;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 0px;
+    right: 200px;
+    top: 17px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+#bottom{
+    position: absolute;
+    background-color: darkcyan;
+    right: 142px;
+    bottom: 216px;
+    width: 270px;
+    height: 200px;
+
+}
+#danCi{
+    display: block;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 200px;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    top: 80px ;
+    left: 30px;
+}

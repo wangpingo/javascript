@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>高响应比优先调度算法</title>
+    <link href="css/style.css"  rel="stylesheet"/>
+</head>
+<body>
+<div id="box" >
+        <div id="left">
+            <h4 id="info">创建任务数：<span id="inPut"><input type="text" id="vals" /></span></h4>
+            <div id="dynamics">
+                <ul id="list">
+                    <li><span>等待时间&nbsp;</span><span> 服务时间</span><span> 优先权</span></li>
+                    A:<li><span>3s</span><span> 3s</span><span> 3s</span></li>
+                    B:<li><span>3s</span><span> 3s</span><span> 3s</span></li>
+                    C:<li><span>3s</span><span> 3s</span><span> 3s</span></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="right1">0</div>
+
+        <div id="right2">0</div>
+
+        <div id="bottom"><a href="javascript:void (0)" id="danCi">A</a></div>
+</div>
+<script type="text/javascript" src="javascript/myHRRN.js" charset="utf-8"></script>
+
+</body>
+</html>

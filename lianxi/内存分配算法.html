@@ -45,7 +45,7 @@
             line-height: 60px;
             text-align: center;
             transition:  transform 2s;
-            /*text-shadow: 10px 10px 10px #000000;*/
+            /*text-shadow: 5px 5px 5px #000000;*/
         }
         #foot{
             position: absolute;
@@ -100,6 +100,7 @@
     </div>
 <script>
     var oFirAdapt=document.getElementById("firAdapt");
+    var oPreAdapt=document.getElementById('preAdapt');
     var oSize=document.getElementById('size');
     var oAddress=document.getElementById('address');
     var aSize=oSize.getElementsByTagName('li');
@@ -107,6 +108,9 @@
     var arrSize=[];
     var arrAddress=[];
     var oInput=document.getElementById('num');
+    oInput.onfocus=function(){
+        oInput.value="";
+    };
     for(var i=0;i<aSize.length;i++){
         arrSize[i]=aSize[i].innerText;
     }
@@ -114,18 +118,36 @@
         aAddress[j]=aAddress[j].innerText;
     }
     oFirAdapt.onclick=function(){
-        var num=parseInt(oInput.value);
+        for(var m=1;m<aSize.length;m++){
+            aSize[m].style.transform='';
+            aSize[m].style.backgroundColor='';
 
+        }
+        for(var n=1;n<aAddress.length;n++){
+            aAddress[n].style.transform='';
+            aAddress[n].style.backgroundColor='';
+        }
+        var num=parseInt(oInput.value);
             for(var i=1;i<arrSize.length;i++){
                 if(parseInt(arrSize[i])>num){
-
                     aSize[i].innerText=parseInt(aSize[i].innerText)-num;
                     aAddress[i].innerText=parseInt(aAddress[i].innerText)+num;
-                    aAddress.style.transform='rotate(360deg)';
-                    a
-                }
+                    aSize[i].style.transform='rotate(360deg)';
+                    aSize[i].style.backgroundColor='antiquewhite';
 
+                    aAddress[i].style.transform='rotate(360deg)';
+                    aAddress[i].style.backgroundColor='antiquewhite';
+                    for(var i=0;i<aSize.length;i++){
+                        arrSize[i]=aSize[i].innerText;
+                    }
+                    for(var j=0;j<aAddress.length;j++){
+                        aAddress[j]=aAddress[j].innerText;
+                    }
+                    return;
+                }
             }
+    };
+    oPreAdapt.onclick=function(){
 
     }
 </script>

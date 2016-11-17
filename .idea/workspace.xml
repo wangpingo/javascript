@@ -173,8 +173,8 @@
       <file leaf-file-name="内存分配算法.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lianxi/内存分配算法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49912435">
-              <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.5901926">
+              <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -514,7 +514,13 @@
       <option name="project" value="LOCAL" />
       <updated>1479361564486</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更新代码">
+      <created>1479368141192</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1479368141193</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -920,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/内存分配算法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49912435">
-          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.5901926">
+          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
           <folding />
         </state>
       </provider>

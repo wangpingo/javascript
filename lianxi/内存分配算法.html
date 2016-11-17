@@ -4,50 +4,56 @@
     <meta charset="UTF-8">
     <title>内存分配</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        ul,li{
+
+        ul, li {
             list-style: none;
         }
 
-        #container{
-            margin:  50px auto;
+        #container {
+            margin: 50px auto;
             font-weight: bolder;
             width: 500px;
             height: 500px;
             background: grey;
             position: relative;
         }
-        #content{
+
+        #content {
             position: absolute;
             width: 500px;
             height: 420px;
             background: #dddddd;
             font-size: 30px;
         }
-        #size{
+
+        #size {
             position: absolute;
             width: 250px;
             height: 420px;
             left: 0px;
         }
-        #address{
+
+        #address {
             position: absolute;
             width: 250px;
             height: 420px;
             left: 250px;
             top: 0px;
         }
-        li{
+
+        li {
             height: 60px;
             line-height: 60px;
             text-align: center;
-            transition:  transform 2s;
+            transition: transform 2s;
             /*text-shadow: 5px 5px 5px #000000;*/
         }
-        #foot{
+
+        #foot {
             position: absolute;
             width: 500px;
             height: 80px;
@@ -58,12 +64,13 @@
 
         span {
             padding: 10px 20px;
-            background:#dddddd;
-            border:2px solid #a1a1a1;
-            border-radius:25px;
-            -moz-border-radius:25px; /* Old Firefox */
+            background: #dddddd;
+            border: 2px solid #a1a1a1;
+            border-radius: 25px;
+            -moz-border-radius: 25px; /* Old Firefox */
         }
-        input{
+
+        input {
             width: 80px;
             display: inline-block;
         }
@@ -71,84 +78,119 @@
 </head>
 <!--style="background-color: antiquewhite"-->
 <body>
-    <div id="container">
-        <div id="content">
-            <ul id="size">
-                <li>分区大小(KB)</li>
-                <li>60</li>
-                <li>20</li>
-                <li>200</li>
-                <li>100</li>
-                <li>60</li>
-                <li>120</li>
-            </ul>
-            <ul id="address">
-                <li>分区起止大小(KB)</li>
-                <li>100</li>
-                <li>200</li>
-                <li>300</li>
-                <li>700</li>
-                <li>820</li>
-                <li>900</li>
-            </ul>
-        </div>
-        <div id="foot">
-        <span id="firAdapt">首次适应</span>
-        <span id="preAdapt"><input id="num" placeholder="分配数量" /></span>
-        <span>最佳适应</span>
-        </div>
+<div id="container">
+    <div id="content">
+        <ul id="size">
+            <li>分区大小(KB)</li>
+            <li>60</li>
+            <li>20</li>
+            <li>200</li>
+            <li>100</li>
+            <li>60</li>
+            <li>120</li>
+        </ul>
+        <ul id="address">
+            <li>分区起止大小(KB)</li>
+            <li>100</li>
+            <li>200</li>
+            <li>300</li>
+            <li>700</li>
+            <li>820</li>
+            <li>900</li>
+        </ul>
     </div>
+    <div id="foot">
+        <span id="firAdapt">首次适应</span>
+        <span><input id="num" placeholder="分配数量"/></span>
+        <span id="preAdapt">最佳适应</span>
+    </div>
+</div>
 <script>
-    var oFirAdapt=document.getElementById("firAdapt");
-    var oPreAdapt=document.getElementById('preAdapt');
-    var oSize=document.getElementById('size');
-    var oAddress=document.getElementById('address');
-    var aSize=oSize.getElementsByTagName('li');
-    var aAddress=oAddress.getElementsByTagName('li');
-    var arrSize=[];
-    var arrAddress=[];
-    var oInput=document.getElementById('num');
-    oInput.onfocus=function(){
-        oInput.value="";
+    var oFirAdapt = document.getElementById("firAdapt");
+    var oPreAdapt = document.getElementById('preAdapt');
+    var oSize = document.getElementById('size');
+    var oAddress = document.getElementById('address');
+    var aSize = oSize.getElementsByTagName('li');
+    var aAddress = oAddress.getElementsByTagName('li');
+    var arrSize = [];
+    var arrAddress = [];
+    var arrDynamic = new Array();
+    var oInput = document.getElementById('num');
+    oInput.onfocus = function () {
+        oInput.value = "";
     };
-    for(var i=0;i<aSize.length;i++){
-        arrSize[i]=aSize[i].innerText;
+    for (var i = 0; i < aSize.length; i++) {
+        arrSize[i] = aSize[i].innerText;
     }
-    for(var j=0;j<aAddress.length;j++){
-        aAddress[j]=aAddress[j].innerText;
+    for (var j = 0; j < aAddress.length; j++) {
+        aAddress[j] = aAddress[j].innerText;
     }
-    oFirAdapt.onclick=function(){
-        for(var m=1;m<aSize.length;m++){
-            aSize[m].style.transform='';
-            aSize[m].style.backgroundColor='';
+    oFirAdapt.onclick = function () {
+        for (var m = 1; m < aSize.length; m++) {
+            aSize[m].style.transform = '';
+            aSize[m].style.backgroundColor = '';
 
         }
-        for(var n=1;n<aAddress.length;n++){
-            aAddress[n].style.transform='';
-            aAddress[n].style.backgroundColor='';
+        for (var n = 1; n < aAddress.length; n++) {
+            aAddress[n].style.transform = '';
+            aAddress[n].style.backgroundColor = '';
         }
-        var num=parseInt(oInput.value);
-            for(var i=1;i<arrSize.length;i++){
-                if(parseInt(arrSize[i])>num){
-                    aSize[i].innerText=parseInt(aSize[i].innerText)-num;
-                    aAddress[i].innerText=parseInt(aAddress[i].innerText)+num;
-                    aSize[i].style.transform='rotate(360deg)';
-                    aSize[i].style.backgroundColor='antiquewhite';
-
-                    aAddress[i].style.transform='rotate(360deg)';
-                    aAddress[i].style.backgroundColor='antiquewhite';
-                    for(var i=0;i<aSize.length;i++){
-                        arrSize[i]=aSize[i].innerText;
-                    }
-                    for(var j=0;j<aAddress.length;j++){
-                        aAddress[j]=aAddress[j].innerText;
-                    }
-                    return;
+        var num = parseInt(oInput.value);
+        for (var i = 1; i < arrSize.length; i++) {
+            if (parseInt(arrSize[i]) > num) {
+                aSize[i].innerText = parseInt(aSize[i].innerText) - num;
+                aAddress[i].innerText = parseInt(aAddress[i].innerText) + num;
+                aSize[i].style.transform = 'rotate(360deg)';
+                aSize[i].style.backgroundColor = 'antiquewhite';
+                aAddress[i].style.transform = 'rotate(360deg)';
+                aAddress[i].style.backgroundColor = 'antiquewhite';
+                for (var i = 0; i < aSize.length; i++) {
+                    arrSize[i] = aSize[i].innerText;
                 }
+                for (var j = 0; j < aAddress.length; j++) {
+                    aAddress[j] = aAddress[j].innerText;
+                }
+                return;
             }
+        }
     };
-    oPreAdapt.onclick=function(){
+    oPreAdapt.onclick = function () {
+        for (var m = 1; m < aSize.length; m++) {
+            aSize[m].style.transform = '';
+            aSize[m].style.backgroundColor = '';
 
+        }
+        for (var n = 1; n < aAddress.length; n++) {
+            aAddress[n].style.transform = '';
+            aAddress[n].style.backgroundColor = '';
+        }
+        var num = parseInt(oInput.value);
+        for (var i = 1; i < arrSize.length; i++) {
+            if (parseInt(arrSize[i]) >= num) {
+                var oElem={};
+                oElem.num=parseInt(aSize[i].innerText) - num;
+                oElem.index = i;
+                oElem.toString=function(){
+                  return this.num;
+                };
+                arrDynamic[i - 1] = oElem;
+            }
+        }
+        arrDynamic.sort(function (a, b) {
+            return a - b;
+        });
+        aSize[arrDynamic[0].index].innerText = parseInt(aSize[arrDynamic[0].index].innerText) - num;
+        aAddress[arrDynamic[0].index].innerText = parseInt(aAddress[arrDynamic[0].index].innerText) + num;
+        aSize[arrDynamic[0].index].style.transform = 'rotate(360deg)';
+        aSize[arrDynamic[0].index].style.backgroundColor = 'antiquewhite';
+        aAddress[arrDynamic[0].index].style.transform = 'rotate(360deg)';
+        aAddress[arrDynamic[0].index].style.backgroundColor = 'antiquewhite';
+        for (var i = 0; i < aSize.length; i++) {
+            arrSize[i] = aSize[i].innerText;
+        }
+        for (var j = 0; j < aAddress.length; j++) {
+            aAddress[j] = aAddress[j].innerText;
+        }
     }
 </script>
 </body>

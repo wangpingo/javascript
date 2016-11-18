@@ -137,7 +137,7 @@
         }
         var num = parseInt(oInput.value);
         for (var i = 1; i < arrSize.length; i++) {
-            if (parseInt(arrSize[i]) > num) {
+            if (parseInt(arrSize[i]) >= num) {
                 aSize[i].innerText = parseInt(aSize[i].innerText) - num;
                 aAddress[i].innerText = parseInt(aAddress[i].innerText) + num;
                 aSize[i].style.transform = 'rotate(360deg)';

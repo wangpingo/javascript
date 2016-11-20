@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片墙</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            margin: 0 auto;
+            width:660px ;
+        }
+        #content img{
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            float: left;
+        }
+        #content img.selected{
+            border: 1px solid #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <img src="images/1.jpg">
+            <img src="images/2.jpg">
+            <img src="images/3.jpg">
+            <img src="images/4.jpg">
+            <img src="images/5.jpg">
+            <img src="images/6.jpg">
+            <img src="images/7.jpg">
+            <img src="images/8.jpg">
+            <img src="images/9.jpg">
+        </div>
+    </div>
+    <script src="jslib.js"></script>
+<script>
+    var oContent=document.getElementById('content');
+    var aImgs=oContent.getElementsByTagName('img');
+    var zIndex=1;
+    var checkArray=[];
+    var index;
+    var nearElem;
+    for (var i=aImgs.length-1;i>=0;i--){
+        aImgs[i].style.left=aImgs[i].offsetLeft+"px";
+        aImgs[i].style.top=aImgs[i].offsetTop+"px";
+        aImgs[i].style.position="absolute";
+        aImgs[i].style.margin=0;
+        drag(aImgs[i]);
+        aImgs[i].pos={
+            left:aImgs[i].offsetLeft,
+            top:aImgs[i].offsetTop
+        };
+    }
+    function drag(elem) {
+        elem.onmousedown=function (e) {
+            var e=e||window.event;
+            var iDisX=e.clientX-elem.offsetLeft;
+            var iDisY=e.clientY-elem.offsetTop;
+            elem.style.zIndex=zIndex++;
+            document.onmousemove=function (e) {
+                checkArray=[];
+                index=null;
+                var e=e||window.event;
+                elem.style.left=(e.clientX-iDisX)+"px";
+                elem.style.top=(e.clientY-iDisY)+'px';
+                for (var i=0;i<aImgs.length;i++){
+                    if (aImgs[i]==elem)
+                        continue;
+                    if (checkCollide(elem,aImgs[i])){
+                        checkArray.push(aImgs[i]);
+                    }
+                    aImgs[i].className='';
+                }
+                if (checkArray.length>0){
+                    nearElem=nearests(elem);
+                    nearElem.className='selected';
+                }else {
+                    nearElem=null;
+                }
+                return false;
+            };
+            document.onmouseup=function () {
+                document.onmousemove=null;
+                if (nearElem){
+                    animate(elem,nearElem.pos);
+                    animate(nearElem,elem.pos);
+                    var elemTemp;
+                    elemTemp=elem.pos;
+                    elem.pos=nearElem.pos;
+                    nearElem.pos=elemTemp;
+                    nearElem.className='';
+                    nearElem=null;
+                }else {
+                    animate(elem,elem.pos);
+                }
+            }
+        };
+    }
+    function checkCollide(elem,target) {
+        var elemR = elem.offsetLeft + elem.offsetWidth,
+            elemB = elem.offsetTop + elem.offsetHeight,
+            elemT = elem.offsetTop,
+            elemL = elem.offsetLeft;
+        var targetR = target.offsetLeft + target.offsetWidth,
+            targetB = target.offsetTop + target.offsetHeight,
+            targetT = target.offsetTop,
+            targetL = target.offsetLeft;
+        if (elemR < targetL || elemL > targetR || elemT > targetB || elemB < targetT) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    function nearests(elem) {
+        var minDis=9999;
+        for(var i=0;i<checkArray.length;i++){
+            var x=elem.offsetLeft-checkArray[i].offsetLeft;
+            var y=elem.offsetTop-checkArray[i].offsetTop;
+            var iDis=Math.sqrt(x*x+y*y);
+            if (iDis<minDis){
+                minDis=iDis;
+                index=i;
+            }
+    }
+        return checkArray[index];
+
+    }
+</script>
+</body>
+</html>

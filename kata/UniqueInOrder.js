@@ -13,18 +13,21 @@ function uniqueInOrder(str) {
     newStr.push(compare);
     do {
         toCompare(istart,aStr)
-    }while (iCompare!=aStr.length-1);
+    }while (iCompare!=aStr.length);
     function toCompare(start,aStr) {
         for (var i=start;i<aStr.length;i++){
             iCompare++;  //4,
+            //console.log(iCompare);
             if (compare==aStr[i]){
+                //console.log(aStr[i]);
                 continue;
             }
             compare=aStr[i];//B
+            //console.log(compare);
             newStr.push(compare);//['A','B']
             break;
         }
-        istart=i;
+        istart=i+1;
     }
    return newStr;
 };

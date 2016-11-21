@@ -32,8 +32,6 @@ function getStyle(elem, attr){
 		return getComputedStyle(elem, false)[attr];//谷歌
 	}
 }
-
-
 function drag(elem, obj, callback){
 	var option = {
 		leftDragable: true,

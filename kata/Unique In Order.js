@@ -7,21 +7,24 @@ function uniqueInOrder(str) {
     var aStr = str.split('');
     var newStr=[];
     var compare;
-    var iCompare=1;
+    var iCompare=0;
     compare = aStr[0];
     newStr.push(compare);
-    toCompare(aStr);
-    function toCompare(aStr) {
-        for (var i=0;i<aStr.length;i++){
+    do {
+        toCompare(toCompare(0,aStr),aStr)
+    }while (iCompare!=aStr.length);
+    function toCompare(start,aStr) {
+        for (var i=start;i<aStr.length;i++){
+            iCompare++;
             if (compare==aStr[i]){
                 continue;
             }
             compare=aStr[i];
-            iCompare=i;
             newStr.push(compare);
             break;
         }
-        return
+        return i;
     }
+    console.log(newStr);
 };
 uniqueInOrder('AAAABBBCCDAABBB');

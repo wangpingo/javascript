@@ -8,23 +8,24 @@ function uniqueInOrder(str) {
     var newStr=[];
     var compare;
     var iCompare=0;
+    var istart=0;
     compare = aStr[0];
     newStr.push(compare);
     do {
-        toCompare(toCompare(0,aStr),aStr)
-    }while (iCompare!=aStr.length);
+        toCompare(istart,aStr)
+    }while (iCompare!=aStr.length-1);
     function toCompare(start,aStr) {
         for (var i=start;i<aStr.length;i++){
-            iCompare++;
+            iCompare++;  //4,
             if (compare==aStr[i]){
                 continue;
             }
-            compare=aStr[i];
-            newStr.push(compare);
+            compare=aStr[i];//B
+            newStr.push(compare);//['A','B']
             break;
         }
-        return i;
+        istart=i;
     }
-    console.log(newStr);
+   return newStr;
 };
-uniqueInOrder('AAAABBBCCDAABBB');
+console.log(uniqueInOrder('AAAABBBCCDAABBB'));

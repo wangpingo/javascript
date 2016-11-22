@@ -32,3 +32,9 @@ function uniqueInOrder(str) {
    return newStr;
 };
 console.log(uniqueInOrder('AAAABBBCCDAABBB'));
+// var i=0;
+// do {
+//     i++;
+//     console.log(i);
+// }while (i!=14);
+

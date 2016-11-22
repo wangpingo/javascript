@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <script>
+        var a="aaaAbbbcccdddrrraaabbb";
+        var s=[];
+//        function mv(elem){
+//            for(var i=0;i< elem.length;i++){
+//                s[i]=elem.charAt(i);
+//            }
+//            console.log(s);
+//            for(var j=0;j< s.length;j++){
+//                if(s[j]==s[j+1]){
+//                }else{
+//                    console.log(s[j]);
+//                }
+//            }
+//        }
+        function mv(elem){
+            var b=elem.split('');
+            for(var j=0;j< b.length;j++){
+                if(b[j]==b[j+1]){
+                }else{
+                    console.log(b[j]);
+                }
+            }
+        }
+        mv(a);
+    </script>
+</body>
+</html>

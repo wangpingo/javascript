@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/编程风格/编程风格" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/affsetParent.html" afterPath="$PROJECT_DIR$/lianxi/affsetParent.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/animate.js" afterPath="$PROJECT_DIR$/lianxi/animate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/getPost.html" afterPath="$PROJECT_DIR$/lianxi/getPost.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslianxi.js" afterPath="$PROJECT_DIR$/lianxi/jslianxi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/offerLeft,offsetTop.html" afterPath="$PROJECT_DIR$/lianxi/offerLeft,offsetTop.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/元素宽高.html" afterPath="$PROJECT_DIR$/lianxi/元素宽高.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/图片拖拽.html" afterPath="$PROJECT_DIR$/lianxi/图片拖拽11.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/父节点.html" afterPath="$PROJECT_DIR$/lianxi/父节点.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/理论.html" afterPath="$PROJECT_DIR$/lianxi/理论.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,7 +158,18 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="编程风格" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/编程风格/编程风格">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -223,6 +226,7 @@
         <option value="$PROJECT_DIR$/kata/UniqueInOrder.js" />
         <option value="$PROJECT_DIR$/js面向对象编程/Object.js" />
         <option value="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
+        <option value="$PROJECT_DIR$/编程风格/编程风格" />
       </list>
     </option>
   </component>
@@ -264,6 +268,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="编程风格" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,7 +431,7 @@
       <workItem from="1479732959448" duration="1479000" />
       <workItem from="1479781755413" duration="3941000" />
       <workItem from="1479860671859" duration="13864000" />
-      <workItem from="1479966593730" duration="1622000" />
+      <workItem from="1479966593730" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="日常联系代码">
       <created>1477202650730</created>
@@ -709,17 +727,24 @@
       <option name="project" value="LOCAL" />
       <updated>1479967951621</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="更新代码">
+      <created>1479968224991</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1479968224991</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50802000" />
+    <option name="totallyTimeSpent" value="51613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -787,13 +812,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianxi/offerLeft,offsetTop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/index1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1138,6 +1156,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程风格/编程风格">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding />
         </state>
       </provider>

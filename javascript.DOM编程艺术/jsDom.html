@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p title="hello"></p>
+    <p title=""></p>
+<script>
+    var aP=document.getElementsByTagName('p');
+    for (var i=0;i<aP.length;i++){
+        var title_text=aP[i].getAttribute('title');
+        if (title_text){
+            aP[i].setAttribute('title','new text');
+            alert(aP[i].getAttribute('title'))
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+一：节点
+1.元素节点
+    DOM的结点是元素节点。
+    在描述刚才那份“购物清单”文档时，我们使用了诸如。。。
+2.文本节点
+    在XHTML中文本节点总是被包含在元素节点中
+3.属性节点
+二：CSS
+    CSS中强大的特点就是继承
+    class
+    id
+三：获取元素
+    getElementById
+    getElementByTagName
+    gatElementByClassName
+四：获取和设置属性
+    getAttribute是一个函数。
+    Object.getAttribute('title');
+    得到某个属性的值
+    setAttribute是一个函数
+
+
+
+

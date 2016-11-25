@@ -1,0 +1,4 @@
+跨域是指 不同域名之间相互访问
+例如 我的电脑有两个服务器 如果第一个服务器上的页面访问第二个服务器就叫做跨域
+或者http://www.baidu.com要访问http://www.xxx.com也是不同域名，也叫做跨域
+html5里有个方法window.postMessage方法，支持跨域访问

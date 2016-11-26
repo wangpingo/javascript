@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            position: relative;
+            margin: 50px auto;
+            width: 400px;
+            height: 434px;
+            background-color: #a1a1a1;
+            overflow: hidden;
+        }
+        #content{
+            width: 400px;
+            height: 320px;
+            position: absolute;
+        }
+        #foot{
+            position: absolute;
+            width: 800px;
+            height: 114px;
+
+            left: 0px;
+            bottom: 0px;
+        }
+        #content img{
+           position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        .bottomImg{
+            display: block;
+            width: 120px;
+            height: 94px;
+            float: left;
+            margin-top: 10px;
+
+            margin-left: 10px;
+
+        }
+        #left{
+            z-index: 1;
+            position: absolute;
+            left: 0px;
+            top: 120px;
+            width: 60px;
+            height: 60px;
+            background: url(img/btn.gif) no-repeat;
+        }
+        #right{
+            z-index: 1;
+            position: absolute;
+            right: 0px;
+            top: 120px;
+            width: 60px;
+            height: 60px;
+            background: url(img/btn.gif) no-repeat -0 -60px;
+        }
+        #bottom{
+            z-index: 2;
+            position: absolute;
+            width: 400px;
+            height: 30px;
+            opacity: 0.5;
+            left: 0px;
+            bottom: 0px;
+            background-color: black;
+        }
+        #content a{
+            color: white;
+        }
+        #text{
+            left: 0px;
+            position: absolute;
+            display: inline-block;
+            width:200px ;
+            line-height: 30px;
+            text-indent:25px
+        }
+        #index{
+            right: 0px;
+            position: absolute;
+            display: inline-block;
+            width:30px ;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <img src="img/1.jpg" style="z-index: 1">
+            <img src="img/2.jpg" >
+            <img src="img/3.jpg" >
+            <img src="img/4.jpg" >
+            <img src="img/5.jpg" >
+            <img src="img/6.jpg" >
+            <span id="left"></span>
+            <span id="right"></span>
+            <span id="bottom"><a id="text">名贵跑车</a><a id="index">4/6</a></span>
+        </div>
+        <div id="foot">
+            <img src="img/1.jpg" class="bottomImg">
+            <img src="img/2.jpg" class="bottomImg">
+            <img src="img/3.jpg"class="bottomImg">
+            <img src="img/4.jpg" class="bottomImg">
+            <img src="img/5.jpg" class="bottomImg">
+            <img src="img/6.jpg"class="bottomImg">
+        </div>
+    </div>
+<script>
+    var oContent=document.getElementById('content');
+    var aImgs=oContent.getElementsByTagName('img');
+    for (var i=0;i<aImgs.length;i++){
+
+    }
+</script>
+</body>
+</html>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/jslib.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/测试题/编程4.1.html" afterPath="$PROJECT_DIR$/测试题/编程4.1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/测试题/编程5.html" afterPath="$PROJECT_DIR$/测试题/编程5.html" />
     </list>
     <ignored path="javascripts.iws" />
@@ -165,14 +163,14 @@
         <entry file="file://$PROJECT_DIR$/测试题/编程5.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="274" column="0" lean-forward="false" selection-start-line="274" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
+              <caret line="265" column="79" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5905#6269#0" expanded="false" />
-                <element signature="e#6100#6263#0" expanded="false" />
-                <element signature="e#7105#7205#0" expanded="false" />
-                <element signature="e#7400#7527#0" expanded="false" />
+                <element signature="e#5783#6112#0" expanded="false" />
+                <element signature="e#5960#6106#0" expanded="false" />
+                <element signature="e#7217#7325#0" expanded="false" />
+                <element signature="e#7532#7664#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -469,14 +467,7 @@
       <workItem from="1480065889830" duration="4296000" />
       <workItem from="1480123232815" duration="10584000" />
       <workItem from="1480138421215" duration="6217000" />
-      <workItem from="1480212557121" duration="11326000" />
-    </task>
-    <task id="LOCAL-00004" summary="日常练习  代码">
-      <created>1477912833479</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1477912833479</updated>
+      <workItem from="1480212557121" duration="13042000" />
     </task>
     <task id="LOCAL-00005" summary="日常练习  代码">
       <created>1477989929820</created>
@@ -814,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480147371718</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="更新代码">
+      <created>1480231565869</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1480231565869</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92533000" />
+    <option name="totallyTimeSpent" value="94249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -1226,14 +1224,14 @@
     <entry file="file://$PROJECT_DIR$/测试题/编程5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="274" column="0" lean-forward="false" selection-start-line="274" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
+          <caret line="265" column="79" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5905#6269#0" expanded="false" />
-            <element signature="e#6100#6263#0" expanded="false" />
-            <element signature="e#7105#7205#0" expanded="false" />
-            <element signature="e#7400#7527#0" expanded="false" />
+            <element signature="e#5783#6112#0" expanded="false" />
+            <element signature="e#5960#6106#0" expanded="false" />
+            <element signature="e#7217#7325#0" expanded="false" />
+            <element signature="e#7532#7664#0" expanded="false" />
           </folding>
         </state>
       </provider>

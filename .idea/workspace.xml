@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/img/图片.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/简答1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/简答2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/简答3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/简答4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/编程1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/编程2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/编程3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/编程4.1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/编程4.2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/编程5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试题/jslib.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript.DOM编程艺术/what.js" afterPath="$PROJECT_DIR$/javascript.DOM编程艺术/what.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/测试题/编程4.1.html" afterPath="$PROJECT_DIR$/测试题/编程4.1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/测试题/编程5.html" afterPath="$PROJECT_DIR$/测试题/编程5.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -178,50 +161,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="编程3.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/测试题/编程3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="n#!!doc;n#check#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="编程1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/测试题/编程1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <element signature="n#!!doc;n#test#0" expanded="false" />
-                <element signature="e#86#106#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="编程2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/测试题/编程2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc;n#checkLength#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="编程5.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="编程5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/测试题/编程5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="312">
+              <caret line="274" column="0" lean-forward="false" selection-start-line="274" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5905#6269#0" expanded="false" />
+                <element signature="e#6100#6263#0" expanded="false" />
+                <element signature="e#7105#7205#0" expanded="false" />
+                <element signature="e#7400#7527#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -244,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animate.js" />
-        <option value="$PROJECT_DIR$/lianxi/银行家算法.html" />
         <option value="$PROJECT_DIR$/lianxi/缩略图之轮播图.html" />
         <option value="$PROJECT_DIR$/lianxi/图片切换3.html" />
         <option value="$PROJECT_DIR$/lianxi/无缝切换.html" />
@@ -291,10 +240,12 @@
         <option value="$PROJECT_DIR$/测试题/9.html" />
         <option value="$PROJECT_DIR$/测试题/编程4.2.html" />
         <option value="$PROJECT_DIR$/测试题/1.js" />
-        <option value="$PROJECT_DIR$/测试题/编程5.html" />
         <option value="$PROJECT_DIR$/测试题/编程1.js" />
         <option value="$PROJECT_DIR$/测试题/编程2.js" />
         <option value="$PROJECT_DIR$/测试题/编程3.js" />
+        <option value="$PROJECT_DIR$/测试题/编程4.1.html" />
+        <option value="$PROJECT_DIR$/测试题/jslib.js" />
+        <option value="$PROJECT_DIR$/测试题/编程5.html" />
       </list>
     </option>
   </component>
@@ -328,6 +279,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -370,8 +323,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,15 +340,15 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="http:// git@github.com:ruanyf/react-demos.git" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\360js\javascript\lianxi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\360js\javascript\测试题" />
       <recent name="D:\360js\javascript\kata" />
       <recent name="D:\360js\javascript\lianxi" />
       <recent name="D:\360js\javascript\lianxi\img" />
       <recent name="D:\360js\javascript\照片" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\360js\javascript\lianxi" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.7.js">
@@ -517,14 +468,8 @@
       <workItem from="1480054107569" duration="2848000" />
       <workItem from="1480065889830" duration="4296000" />
       <workItem from="1480123232815" duration="10584000" />
-      <workItem from="1480138421215" duration="5050000" />
-    </task>
-    <task id="LOCAL-00003" summary="日常练习  代码">
-      <created>1477912822310</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1477912822310</updated>
+      <workItem from="1480138421215" duration="6217000" />
+      <workItem from="1480212557121" duration="11326000" />
     </task>
     <task id="LOCAL-00004" summary="日常练习  代码">
       <created>1477912833479</created>
@@ -862,21 +807,28 @@
       <option name="project" value="LOCAL" />
       <updated>1480073342066</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="更新代码">
+      <created>1480147371718</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1480147371718</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80040000" />
+    <option name="totallyTimeSpent" value="92533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13813815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2057057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6213115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10327869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -940,13 +892,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianxi/jslibs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/图片切换.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1167,9 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc;n#mySort#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,7 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,50 +1171,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/测试题/编程4.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试题/编程4.1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试题/编程5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/测试题/编程1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="23" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试题/编程1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc;n#test#0" expanded="false" />
-            <element signature="e#86#106#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,18 +1182,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc;n#checkLength#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试题/编程1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/测试题/编程3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="268">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试题/编程4.1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试题/编程4.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试题/jslib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试题/编程5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="274" column="0" lean-forward="false" selection-start-line="274" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc;n#check#0" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5905#6269#0" expanded="false" />
+            <element signature="e#6100#6263#0" expanded="false" />
+            <element signature="e#7105#7205#0" expanded="false" />
+            <element signature="e#7400#7527#0" expanded="false" />
           </folding>
         </state>
       </provider>

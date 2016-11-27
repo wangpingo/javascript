@@ -8,26 +8,57 @@
             margin: 0;
             padding: 0;
         }
+        a{
+            text-decoration: none;
+        }
+        ul,li{
+            list-style: none;
+        }
         #container{
             position: relative;
             margin: 50px auto;
             width: 400px;
             height: 434px;
             background-color: #a1a1a1;
-            overflow: hidden;
         }
         #content{
             width: 400px;
             height: 320px;
             position: absolute;
         }
+        #big-pic{
+            width:400px;
+            height: 320px;
+            position: absolute;
+        }
+        #big-pic li{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 400px;
+            height: 320px;
+            overflow: hidden;
+        }
         #foot{
             position: absolute;
-            width: 800px;
+            width: 400px;
             height: 114px;
-
             left: 0px;
             bottom: 0px;
+            overflow: hidden;
+        }
+        #small-pic{
+            position: absolute;
+            width: 780px;
+            height: 114px;
+        }
+        #small-pic li{
+            opacity: 0.6;
+            width: 120px;
+            height: 94px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
         }
         #content img{
            position: absolute;
@@ -35,17 +66,29 @@
             top: 0px;
         }
         .bottomImg{
-            display: block;
             width: 120px;
             height: 94px;
-            float: left;
-            margin-top: 10px;
+        }
+        #left-div{
+            z-index: 9999;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 200px;
 
-            margin-left: 10px;
-
+            height: 320px;
+            opacity: 0;
+        }
+        #right-div{
+            z-index: 9999;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+            height: 320px;
+            opacity: 0;
         }
         #left{
-            z-index: 1;
             position: absolute;
             left: 0px;
             top: 120px;
@@ -54,7 +97,6 @@
             background: url(img/btn.gif) no-repeat;
         }
         #right{
-            z-index: 1;
             position: absolute;
             right: 0px;
             top: 120px;
@@ -63,7 +105,7 @@
             background: url(img/btn.gif) no-repeat -0 -60px;
         }
         #bottom{
-            z-index: 2;
+            z-index: 9998;
             position: absolute;
             width: 400px;
             height: 30px;
@@ -90,35 +132,149 @@
             width:30px ;
             line-height: 30px;
         }
+
     </style>
 </head>
 <body>
     <div id="container">
         <div id="content">
-            <img src="img/1.jpg" style="z-index: 1">
-            <img src="img/2.jpg" >
-            <img src="img/3.jpg" >
-            <img src="img/4.jpg" >
-            <img src="img/5.jpg" >
-            <img src="img/6.jpg" >
-            <span id="left"></span>
-            <span id="right"></span>
-            <span id="bottom"><a id="text">名贵跑车</a><a id="index">4/6</a></span>
+            <ul id="big-pic">
+                <li style="z-index: 1">
+                    <img src="img/1.jpg" title="1111">
+                </li>
+                <li>
+                    <img src="img/2.jpg" title="2222">
+                </li>
+                <li>
+                    <img src="img/3.jpg" title="3333">
+                </li>
+                <li>
+                    <img src="img/4.jpg" title="4444">
+                </li>
+                <li>
+                    <img src="img/5.jpg" title="5555">
+                </li>
+                <li>
+                    <img src="img/6.jpg" title="6666">
+                </li>
+            </ul>
+            <div id="left-div">
+                <span id="left"></span>
+            </div>
+            <div id="right-div">
+                <span id="right"></span>
+            </div>
+            <span id="bottom"><a id="text">1111</a>
+                <a id="index"><span id="num">1</span>/6</a>
+            </span>
         </div>
         <div id="foot">
-            <img src="img/1.jpg" class="bottomImg">
-            <img src="img/2.jpg" class="bottomImg">
-            <img src="img/3.jpg"class="bottomImg">
-            <img src="img/4.jpg" class="bottomImg">
-            <img src="img/5.jpg" class="bottomImg">
-            <img src="img/6.jpg"class="bottomImg">
+            <ul id="small-pic">
+                <li style="opacity: 1">
+                    <img src="img/1.jpg" class="bottomImg" >
+                </li>
+                <li>
+                    <img src="img/2.jpg" class="bottomImg">
+                </li>
+                <li>
+                    <img src="img/3.jpg"class="bottomImg">
+                </li>
+                <li>
+                    <img src="img/4.jpg" class="bottomImg">
+                </li>
+                <li>
+                    <img src="img/5.jpg" class="bottomImg">
+                </li>
+                <li>
+                    <img src="img/6.jpg"class="bottomImg">
+                </li>
+            </ul>
         </div>
     </div>
+<script src="jslib.js"></script>
 <script>
+    var oContainer=document.getElementById('container');
     var oContent=document.getElementById('content');
     var aImgs=oContent.getElementsByTagName('img');
-    for (var i=0;i<aImgs.length;i++){
-
+    var oLeftDiv=document.getElementById('left-div');
+    var oRightDiv=document.getElementById('right-div');
+    var oLeft=document.getElementById('left');
+    var oRight=document.getElementById('right');
+    var aBigPicLi=oContent.getElementsByTagName('li');
+    var aBigPic=oContent.getElementsByTagName('img');
+    var oSmallPicUl=document.getElementById('small-pic');
+    var aSmallPicLi=oSmallPicUl.getElementsByTagName('li');
+    var oText=document.getElementById('text');
+    var oNum=document.getElementById('num');
+    var iNow=0;
+    var zIndex=1;
+    oLeftDiv.onmouseover=oRightDiv.onmouseover=function () {
+        animate(this,{opacity:100});
+    };
+    oLeftDiv.onmouseout=oRightDiv.onmouseout=function () {
+        animate(this,{opacity:0})
+    };
+    oLeft.onclick=oRight.onclick=function () {
+            if(this==oRight){
+                iNow++;
+                if(iNow==aImgs.length){
+                    iNow=0;
+                }
+                changeImag(iNow);
+            } else {
+                iNow--;
+                if (iNow==-1){
+                    iNow=aImgs.length-1;
+                }
+                changeImag(iNow);
+            }
+    };
+    function changeImag(iNow) {
+        aBigPicLi[iNow].style.zIndex=zIndex++;
+        oText.innerHTML=aBigPic[iNow].title;
+        oNum.innerHTML=iNow+1;
+        aBigPicLi[iNow].style.height='0';
+        animate(aBigPicLi[iNow],{height:320});
+        for (var i=0;i<aSmallPicLi.length;i++){
+            aSmallPicLi[i].style.opacity='0.6';
+        }
+        aSmallPicLi[iNow].style.opacity='1';
+        if (iNow==0){
+            oSmallPicUl.style.left="0";
+        }else if(iNow==aSmallPicLi.length-1) {
+            oSmallPicUl.style.left=-(aSmallPicLi[0].offsetWidth+10)*(iNow-2)+'px';
+        }else {
+            oSmallPicUl.style.left=-(aSmallPicLi[0].offsetWidth+10)*(iNow-1)+'px';
+        }
+    }
+    for (var i=0;i<aSmallPicLi.length;i++){
+        aSmallPicLi[i].index=i;
+        
+        aSmallPicLi[i].onmouseover=function () {
+            if (iNow!=this.index)
+            aSmallPicLi[this.index].style.opacity='1';
+        };
+        aSmallPicLi[i].onmouseout=function () {
+            if (iNow!=this.index)
+            aSmallPicLi[this.index].style.opacity='0.6';
+        };
+        aSmallPicLi[i].onclick=function () {
+            if (iNow!=this.index){
+                iNow=this.index;
+                changeImag(iNow);
+            }
+        }
+    }
+    var timer=setInterval(function () {
+        oRight.onclick();
+    },3000);
+    oContainer.onmouseover=function () {
+        clearInterval(timer);
+    };
+    oContainer.onmouseout=function () {
+         timer=setInterval(function () {
+            oRight.onclick();
+        },3000);
     }
 </script>
 </body>

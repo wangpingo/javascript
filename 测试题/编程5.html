@@ -8,15 +8,12 @@
             margin: 0;
             padding: 0;
         }
-
         a {
             text-decoration: none;
         }
-
         ul, li {
             list-style: none;
         }
-
         #container {
             position: relative;
             margin: 50px auto;
@@ -24,19 +21,16 @@
             height: 434px;
             background-color: #a1a1a1;
         }
-
         #content {
             width: 400px;
             height: 320px;
             position: absolute;
         }
-
         #big-pic {
             width: 400px;
             height: 320px;
             position: absolute;
         }
-
         #big-pic li {
             position: absolute;
             top: 0;
@@ -45,7 +39,6 @@
             height: 320px;
             overflow: hidden;
         }
-
         #foot {
             position: absolute;
             width: 400px;
@@ -54,13 +47,11 @@
             bottom: 0px;
             overflow: hidden;
         }
-
         #small-pic {
             position: absolute;
             width: 780px;
             height: 114px;
         }
-
         #small-pic li {
             opacity: 0.6;
             width: 120px;
@@ -69,29 +60,24 @@
             margin-top: 10px;
             margin-left: 10px;
         }
-
         #content img {
             position: absolute;
             left: 0px;
             top: 0px;
         }
-
         .bottomImg {
             width: 120px;
             height: 94px;
         }
-
         #left-div {
             z-index: 9999;
             position: absolute;
             left: 0;
             top: 0;
             width: 200px;
-
             height: 320px;
             opacity: 0;
         }
-
         #right-div {
             z-index: 9999;
             position: absolute;
@@ -101,7 +87,6 @@
             height: 320px;
             opacity: 0;
         }
-
         #left {
             position: absolute;
             left: 0px;
@@ -110,7 +95,6 @@
             height: 60px;
             background: url(img/btn.gif) no-repeat;
         }
-
         #right {
             position: absolute;
             right: 0px;
@@ -119,7 +103,6 @@
             height: 60px;
             background: url(img/btn.gif) no-repeat -0 -60px;
         }
-
         #bottom {
             z-index: 9998;
             position: absolute;
@@ -130,11 +113,9 @@
             bottom: 0px;
             background-color: black;
         }
-
         #content a {
             color: white;
         }
-
         #text {
             left: 0px;
             position: absolute;
@@ -143,7 +124,6 @@
             line-height: 30px;
             text-indent: 25px
         }
-
         #index {
             right: 0px;
             position: absolute;
@@ -151,7 +131,6 @@
             width: 30px;
             line-height: 30px;
         }
-
     </style>
 </head>
 <body>
@@ -271,7 +250,6 @@
     }
     for (var i = 0; i < aSmallPicLi.length; i++) {
         aSmallPicLi[i].index = i;
-
         aSmallPicLi[i].onmouseover = function () {
             if (iNow != this.index)
                 aSmallPicLi[this.index].style.opacity = '1';

@@ -7,7 +7,6 @@ function triangleType(a, b, c) {
         return a - b;
     });
     if (triangleArr[2] > triangleArr[1] + triangleArr[0]) {
-        //cosA=[b²＋c²－a²]/(2bc)cosB=[a²＋c²－b²]/(2ac)cosC=[a²＋b²－c²]/(2ab)
         var fAngle=triangleArr[0]*triangleArr[0]+triangleArr[1]*triangleArr[1]-triangleArr[2]*triangleArr[2];
         if (fAngle>0)return 1;
         if (fAngle=0)return 2;

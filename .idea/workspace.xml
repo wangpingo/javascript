@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/triangleType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/groupCheck.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" afterPath="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/triangleType.js" afterPath="$PROJECT_DIR$/kata/triangleType.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,13 +160,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="triangleType.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
+      <file leaf-file-name="groupCheck.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kata/groupCheck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="26">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
               <folding>
-                <element signature="n#!!doc;n#triangleType#0" expanded="false" />
+                <element signature="n#!!doc;n#groupCheck#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -189,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianxi/图片切换3.html" />
         <option value="$PROJECT_DIR$/lianxi/无缝切换.html" />
         <option value="$PROJECT_DIR$/lianxi/无缝切换2.html" />
         <option value="$PROJECT_DIR$/lianxi/图片切换2.html" />
@@ -240,6 +239,7 @@
         <option value="$PROJECT_DIR$/js面向对象编程/继承.js" />
         <option value="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
         <option value="$PROJECT_DIR$/kata/triangleType.js" />
+        <option value="$PROJECT_DIR$/kata/groupCheck.js" />
       </list>
     </option>
   </component>
@@ -359,11 +359,8 @@
       <recent name="D:\360js\javascript\照片" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.triangleType.js">
+  <component name="RunManager" selected="Node.js.groupCheck.js">
     <configuration default="false" name="7.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/测试题/编程3.js" working-dir="$PROJECT_DIR$/测试题">
-      <method />
-    </configuration>
-    <configuration default="false" name="1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/测试题/编程1.js" working-dir="$PROJECT_DIR$/测试题">
       <method />
     </configuration>
     <configuration default="false" name="继承.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="继承.js" working-dir="$PROJECT_DIR$/js面向对象编程">
@@ -373,6 +370,9 @@
       <method />
     </configuration>
     <configuration default="false" name="异步编程.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="异步编程.js" working-dir="$PROJECT_DIR$/js异步编程四种方法">
+      <method />
+    </configuration>
+    <configuration default="false" name="groupCheck.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="groupCheck.js" working-dir="$PROJECT_DIR$/kata">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -437,18 +437,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.7.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.1.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.继承.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.继承.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.groupCheck.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.继承.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.7.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.1.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.groupCheck.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.继承.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.7.js" />
       </list>
     </recent_temporary>
   </component>
@@ -480,28 +480,8 @@
       <workItem from="1480212557121" duration="15759000" />
       <workItem from="1480317611014" duration="52000" />
       <workItem from="1480331725009" duration="3836000" />
-      <workItem from="1480398813820" duration="2133000" />
-    </task>
-    <task id="LOCAL-00008" summary="日常练习  代码">
-      <created>1478148989692</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1478148989692</updated>
-    </task>
-    <task id="LOCAL-00009" summary="日常练习  代码">
-      <created>1478420458578</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1478420458578</updated>
-    </task>
-    <task id="LOCAL-00010" summary="for in 的理解">
-      <created>1478422084738</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1478422084739</updated>
+      <workItem from="1480398813820" duration="4951000" />
+      <workItem from="1480428535100" duration="5159000" />
     </task>
     <task id="LOCAL-00011" summary="更新代码">
       <created>1478423820416</created>
@@ -825,25 +805,46 @@
       <option name="project" value="LOCAL" />
       <updated>1480335496457</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="更新代码">
+      <created>1480400960217</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1480400960218</updated>
+    </task>
+    <task id="LOCAL-00058" summary="更新代码">
+      <created>1480402730526</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1480402730526</updated>
+    </task>
+    <task id="LOCAL-00059" summary="更新代码">
+      <created>1480402748567</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1480402748567</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102987000" />
+    <option name="totallyTimeSpent" value="110964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="9" width="1370" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2057057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.024024025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38175675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3935811" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49417636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4070946" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -898,18 +899,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianxi/进程调度算法/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="123" column="1" lean-forward="false" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="http:// git@github.com:ruanyf/react-demos.git">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
@@ -1214,9 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2834">
           <caret line="111" column="13" lean-forward="false" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,16 +1230,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="26">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#triangleType#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/groupCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#groupCheck#0" expanded="false" />
           </folding>
         </state>
       </provider>

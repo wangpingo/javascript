@@ -8,10 +8,12 @@ function triangleType(a, b, c) {
     });
     if (triangleArr[2] > triangleArr[1] + triangleArr[0]) {
         //cosA=[b²＋c²－a²]/(2bc)cosB=[a²＋c²－b²]/(2ac)cosC=[a²＋b²－c²]/(2ab)
-        var fAngle=Math.cos((triangleArr[0]*triangleArr[0]+triangleArr[1]*triangleArr[1]-triangleArr[2]*triangleArr[2])/(2*triangleArr[0]*triangleArr[1]));
-        // console.log(Math.acos(fAngle));
+        var fAngle=triangleArr[0]*triangleArr[0]+triangleArr[1]*triangleArr[1]-triangleArr[2]*triangleArr[2];
+        if (fAngle>0)return 1;
+        if (fAngle=0)return 2;
+        if (fAngle<0)return 3;
     }
-    // return 0;
+    return 0;
 }
 triangleType(9, 3, 2);
 triangleType(2, 4, 6);

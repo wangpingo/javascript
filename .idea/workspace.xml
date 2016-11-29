@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/triangleType.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js面向对象编程/继承.js" afterPath="$PROJECT_DIR$/js面向对象编程/继承.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" afterPath="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,30 +160,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="编程5.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/测试题/编程5.html">
+      <file leaf-file-name="triangleType.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="268" column="25" lean-forward="false" selection-start-line="268" selection-start-column="25" selection-end-line="268" selection-end-column="25" />
+            <state relative-caret-position="234">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5762#6091#0" expanded="false" />
-                <element signature="e#5939#6085#0" expanded="false" />
-                <element signature="e#7195#7303#0" expanded="false" />
-                <element signature="e#7510#7642#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="继承.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js面向对象编程/继承.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
+                <element signature="n#!!doc;n#triangleType#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -205,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianxi/缩略图之轮播图.html" />
         <option value="$PROJECT_DIR$/lianxi/图片切换3.html" />
         <option value="$PROJECT_DIR$/lianxi/无缝切换.html" />
         <option value="$PROJECT_DIR$/lianxi/无缝切换2.html" />
@@ -224,7 +207,6 @@
         <option value="$PROJECT_DIR$/kata/filter_list.js" />
         <option value="$PROJECT_DIR$/kata/UniqueInOrder.js" />
         <option value="$PROJECT_DIR$/js面向对象编程/Object.js" />
-        <option value="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
         <option value="$PROJECT_DIR$/编程风格/编程风格" />
         <option value="$PROJECT_DIR$/Javascript模块化编程/Javascript模块化编程" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/javascriptDom编程艺术" />
@@ -256,6 +238,8 @@
         <option value="$PROJECT_DIR$/测试题/jslib.js" />
         <option value="$PROJECT_DIR$/测试题/编程5.html" />
         <option value="$PROJECT_DIR$/js面向对象编程/继承.js" />
+        <option value="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
+        <option value="$PROJECT_DIR$/kata/triangleType.js" />
       </list>
     </option>
   </component>
@@ -311,7 +295,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js面向对象编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js异步编程四种方法" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,13 +359,7 @@
       <recent name="D:\360js\javascript\照片" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.继承.js">
-    <configuration default="false" name="3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/测试题/简答3.js" working-dir="$PROJECT_DIR$/测试题">
-      <method />
-    </configuration>
-    <configuration default="false" name="6.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/测试题/编程2.js" working-dir="$PROJECT_DIR$/测试题">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.triangleType.js">
     <configuration default="false" name="7.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/测试题/编程3.js" working-dir="$PROJECT_DIR$/测试题">
       <method />
     </configuration>
@@ -361,6 +367,12 @@
       <method />
     </configuration>
     <configuration default="false" name="继承.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="继承.js" working-dir="$PROJECT_DIR$/js面向对象编程">
+      <method />
+    </configuration>
+    <configuration default="false" name="triangleType.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="triangleType.js" working-dir="$PROJECT_DIR$/kata">
+      <method />
+    </configuration>
+    <configuration default="false" name="异步编程.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="异步编程.js" working-dir="$PROJECT_DIR$/js异步编程四种方法">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -424,19 +436,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.3.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.6.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.7.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.1.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.继承.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.7.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.1.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.继承.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.继承.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.7.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.1.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.3.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.6.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.继承.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.7.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -467,14 +479,8 @@
       <workItem from="1480138421215" duration="6217000" />
       <workItem from="1480212557121" duration="15759000" />
       <workItem from="1480317611014" duration="52000" />
-      <workItem from="1480331725009" duration="3761000" />
-    </task>
-    <task id="LOCAL-00007" summary="日常练习  代码">
-      <created>1478063171183</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1478063171183</updated>
+      <workItem from="1480331725009" duration="3836000" />
+      <workItem from="1480398813820" duration="2133000" />
     </task>
     <task id="LOCAL-00008" summary="日常练习  代码">
       <created>1478148989692</created>
@@ -812,11 +818,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480334122951</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="更新代码">
+      <created>1480335496457</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1480335496457</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100779000" />
+    <option name="totallyTimeSpent" value="102987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="9" width="1370" height="726" extended-state="0" />
@@ -890,13 +903,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianxi/图片切换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="124" column="26" lean-forward="false" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/进程调度算法/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -934,13 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js异步编程四种方法/异步编程.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1208,7 +1207,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js面向对象编程/继承.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2834">
+          <caret line="111" column="13" lean-forward="false" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,8 +1225,8 @@
         <state relative-caret-position="182">
           <caret line="268" column="25" lean-forward="false" selection-start-line="268" selection-start-column="25" selection-end-line="268" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#5762#6091#0" expanded="false" />
             <element signature="e#5939#6085#0" expanded="false" />
             <element signature="e#7195#7303#0" expanded="false" />
@@ -1227,12 +1235,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js面向对象编程/继承.js">
+    <entry file="file://$PROJECT_DIR$/js异步编程四种方法/异步编程.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+        <state relative-caret-position="129">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <element signature="n#!!doc;n#triangleType#0" expanded="false" />
           </folding>
         </state>
       </provider>

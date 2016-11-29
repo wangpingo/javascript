@@ -39,3 +39,10 @@
 //     return dfd.promise;
 // }
 // f1().then(f2);
+// function sum(a,b,callback) {
+//     var c=a+b;
+//     callback&&callback(c);
+// }
+// sum(2,3,function(q) {
+//     console.log(q);
+// });

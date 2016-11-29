@@ -5,18 +5,20 @@ function groupCheck(s) {
     var arr = s.split('');
     if (arr.length % 2 == 0) {
         for (var i = 0; i < arr.length/2; i++) {
-            if((arr.length - 1 - i)%2==0)return false;
+
+            if((arr.length - 2 - i-i)%2!=0) return false;
+
             switch (arr[i]) {
                 case '(':
-                    if (arr[(arr.length - 1 - i) != ")"])
+                    if (arr[(arr.length - 1 - i)] != ")")
                         return false;
                     break;
                 case '{' :
-                    if (arr[(arr.length - 1 - i) != "}"])
+                    if (arr[(arr.length - 1 - i)] != "}")
                         return false;
                     break;
                 case '[' :
-                    if (arr[(arr.length - 1 - i) != "]"])
+                    if (arr[(arr.length - 1 - i)] != "]")
                         return false;
                     break;
                 default:
@@ -30,6 +32,11 @@ function groupCheck(s) {
     }
 
 }
-console.log(groupCheck('()'));
-console.log(groupCheck('{(})'));
-console.log(groupCheck('[])'));
+// console.log(groupCheck('()'));
+// console.log(groupCheck('{(})'));
+// console.log(groupCheck('[])'));
+// console.log(groupCheck('({})'));
+console.log(groupCheck('[[]()]'));
+// console.log(groupCheck('[{()}]'));
+
+

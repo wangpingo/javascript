@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/removeSmallest.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/groupCheck.js" afterPath="$PROJECT_DIR$/kata/groupCheck.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,13 +159,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="groupCheck.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kata/groupCheck.js">
+      <file leaf-file-name="removeSmallest.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kata/removeSmallest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="26">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding>
-                <element signature="n#!!doc;n#groupCheck#0" expanded="false" />
+                <element signature="n#!!doc;n#removeSmallest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -199,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianxi/无缝切换.html" />
         <option value="$PROJECT_DIR$/lianxi/无缝切换2.html" />
         <option value="$PROJECT_DIR$/lianxi/图片切换2.html" />
         <option value="$PROJECT_DIR$/lianxi/jslibs.js" />
@@ -250,6 +249,7 @@
         <option value="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
         <option value="$PROJECT_DIR$/kata/triangleType.js" />
         <option value="$PROJECT_DIR$/kata/groupCheck.js" />
+        <option value="$PROJECT_DIR$/kata/removeSmallest.js" />
       </list>
     </option>
   </component>
@@ -493,14 +493,7 @@
       <workItem from="1480398813820" duration="4951000" />
       <workItem from="1480428535100" duration="8775000" />
       <workItem from="1480438202072" duration="269000" />
-      <workItem from="1480499782414" duration="4614000" />
-    </task>
-    <task id="LOCAL-00013" summary="更新代码">
-      <created>1478440365606</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1478440365606</updated>
+      <workItem from="1480499782414" duration="5188000" />
     </task>
     <task id="LOCAL-00014" summary="更新代码">
       <created>1478593958189</created>
@@ -838,17 +831,24 @@
       <option name="project" value="LOCAL" />
       <updated>1480435618697</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="更新代码">
+      <created>1480504943416</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1480504943416</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119463000" />
+    <option name="totallyTimeSpent" value="120037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="9" width="1370" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.024024025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.256006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -916,11 +916,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="http:// git@github.com:ruanyf/react-demos.git">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/内存分配算法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1246,10 +1241,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/groupCheck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="59">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc;n#groupCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/removeSmallest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc;n#removeSmallest#0" expanded="false" />
           </folding>
         </state>
       </provider>

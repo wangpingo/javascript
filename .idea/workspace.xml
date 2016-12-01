@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/solution.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/UniqueInOrder.js" afterPath="$PROJECT_DIR$/kata/UniqueInOrder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/groupCheck.js" afterPath="$PROJECT_DIR$/kata/groupCheck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/removeSmallest.js" afterPath="$PROJECT_DIR$/kata/removeSmallest.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,38 +159,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="groupCheck.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kata/groupCheck.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc;n#groupCheck#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="removeSmallest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kata/removeSmallest.js">
+      <file leaf-file-name="triangleType.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc;n#removeSmallest#0" expanded="false" />
-              </folding>
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniqueInOrder.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kata/UniqueInOrder.js">
+      <file leaf-file-name="solution.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kata/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="382">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#1357#1368#0" expanded="false" />
-                <marker date="1480512378367" expanded="false" signature="0:801" ph="..." />
+                <element signature="n#!!doc;n#solution#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -226,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianxi/无缝切换2.html" />
         <option value="$PROJECT_DIR$/lianxi/图片切换2.html" />
         <option value="$PROJECT_DIR$/lianxi/jslibs.js" />
         <option value="$PROJECT_DIR$/lianxi/图片切换5.html" />
@@ -277,6 +259,7 @@
         <option value="$PROJECT_DIR$/kata/removeSmallest.js" />
         <option value="$PROJECT_DIR$/kata/groupCheck.js" />
         <option value="$PROJECT_DIR$/kata/UniqueInOrder.js" />
+        <option value="$PROJECT_DIR$/kata/solution.js" />
       </list>
     </option>
   </component>
@@ -310,6 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -366,7 +350,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -396,11 +379,8 @@
       <recent name="D:\360js\javascript\照片" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.UniqueInOrder.js">
+  <component name="RunManager" selected="Node.js.solution.js">
     <configuration default="false" name="triangleType.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="triangleType.js" working-dir="$PROJECT_DIR$/kata">
-      <method />
-    </configuration>
-    <configuration default="false" name="异步编程.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="异步编程.js" working-dir="$PROJECT_DIR$/js异步编程四种方法">
       <method />
     </configuration>
     <configuration default="false" name="groupCheck.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="groupCheck.js" working-dir="$PROJECT_DIR$/kata">
@@ -410,6 +390,9 @@
       <method />
     </configuration>
     <configuration default="false" name="UniqueInOrder.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="UniqueInOrder.js" working-dir="$PROJECT_DIR$/kata">
+      <method />
+    </configuration>
+    <configuration default="false" name="solution.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/kata">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -474,18 +457,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.groupCheck.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.removeSmallest.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.UniqueInOrder.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.groupCheck.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.removeSmallest.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.UniqueInOrder.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.solution.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.UniqueInOrder.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.removeSmallest.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.groupCheck.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.异步编程.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.solution.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.UniqueInOrder.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.removeSmallest.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.groupCheck.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.triangleType.js" />
       </list>
     </recent_temporary>
   </component>
@@ -520,14 +503,8 @@
       <workItem from="1480398813820" duration="4951000" />
       <workItem from="1480428535100" duration="8775000" />
       <workItem from="1480438202072" duration="269000" />
-      <workItem from="1480499782414" duration="9843000" />
-    </task>
-    <task id="LOCAL-00016" summary="更新代码">
-      <created>1478595055432</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1478595055433</updated>
+      <workItem from="1480499782414" duration="9893000" />
+      <workItem from="1480552357904" duration="2509000" />
     </task>
     <task id="LOCAL-00017" summary="更新代码">
       <created>1478595131627</created>
@@ -865,25 +842,31 @@
       <option name="project" value="LOCAL" />
       <updated>1480506302033</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="更新代码">
+      <created>1480512679694</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1480512679694</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124692000" />
+    <option name="totallyTimeSpent" value="127251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="9" width="1370" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18993995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18993995" sideWeight="0.4924406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32094595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2179054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18993995" sideWeight="0.5075594" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38344595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -892,6 +875,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -904,7 +888,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32094595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2179054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18993995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -943,13 +927,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianxi/内存分配算法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="175" column="23" lean-forward="true" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/jslib.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1252,16 +1229,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
+    <entry file="file://$PROJECT_DIR$/kata/UniqueInOrder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="286">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="e#1357#1368#0" expanded="false" />
+            <marker date="1480512378367" expanded="false" signature="0:801" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/removeSmallest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="303">
           <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc;n#removeSmallest#0" expanded="false" />
@@ -1272,20 +1253,27 @@
     <entry file="file://$PROJECT_DIR$/kata/groupCheck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc;n#groupCheck#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kata/UniqueInOrder.js">
+    <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#1357#1368#0" expanded="false" />
-            <marker date="1480512378367" expanded="false" signature="0:801" ph="..." />
+            <element signature="n#!!doc;n#solution#0" expanded="false" />
           </folding>
         </state>
       </provider>

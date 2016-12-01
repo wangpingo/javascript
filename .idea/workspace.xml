@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/solution.js" afterPath="$PROJECT_DIR$/kata/solution.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/triangleType.js" afterPath="$PROJECT_DIR$/kata/triangleType.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,8 +162,8 @@
       <file leaf-file-name="triangleType.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="226">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -255,11 +255,11 @@
         <option value="$PROJECT_DIR$/测试题/编程5.html" />
         <option value="$PROJECT_DIR$/js面向对象编程/继承.js" />
         <option value="$PROJECT_DIR$/js异步编程四种方法/异步编程.js" />
-        <option value="$PROJECT_DIR$/kata/triangleType.js" />
         <option value="$PROJECT_DIR$/kata/removeSmallest.js" />
         <option value="$PROJECT_DIR$/kata/groupCheck.js" />
         <option value="$PROJECT_DIR$/kata/UniqueInOrder.js" />
         <option value="$PROJECT_DIR$/kata/solution.js" />
+        <option value="$PROJECT_DIR$/kata/triangleType.js" />
       </list>
     </option>
   </component>
@@ -504,14 +504,7 @@
       <workItem from="1480428535100" duration="8775000" />
       <workItem from="1480438202072" duration="269000" />
       <workItem from="1480499782414" duration="9893000" />
-      <workItem from="1480552357904" duration="4750000" />
-    </task>
-    <task id="LOCAL-00018" summary="更新代码">
-      <created>1478931558727</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1478931558727</updated>
+      <workItem from="1480552357904" duration="5357000" />
     </task>
     <task id="LOCAL-00019" summary="更新代码">
       <created>1478955427625</created>
@@ -849,11 +842,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480556480877</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="更新代码">
+      <created>1480558744582</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1480558744583</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129492000" />
+    <option name="totallyTimeSpent" value="130099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="9" width="1370" height="726" extended-state="0" />
@@ -1272,8 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/triangleType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="226">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>

@@ -13,7 +13,6 @@ function triangleType(a, b, c) {
         if (fAngle<0)return 3;
     }
     return 0;
-
 }
 console.log(triangleType(9, 3, 2));
 console.log(triangleType(2, 4, 6));

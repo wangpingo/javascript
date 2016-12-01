@@ -18,5 +18,7 @@ function solution(str) {
         return newArry;
     }
 }
+['ab', 'c_']
+    ['ab', 'c_']
 solution('abcda');
 

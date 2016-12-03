@@ -47,6 +47,7 @@
 //     return sum;
 // };
 
+
 function score( dice ) {
     var dc = [0,0,0,0,0,0];
     var tdr = [1000,200,300,400,500,600];

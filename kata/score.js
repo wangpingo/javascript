@@ -55,4 +55,3 @@ function score( dice ) {
         return s + (x >= 3? tdr[i] : 0) + sdr[i]*(x % 3);
     });
 }
-

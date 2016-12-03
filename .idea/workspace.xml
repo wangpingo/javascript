@@ -162,12 +162,12 @@
       <file leaf-file-name="score.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kata/score.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="52">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#score#0" expanded="false" />
                 <element signature="e#42#69#0" expanded="false" />
-                <marker date="1480733709625" expanded="false" signature="296:498" ph="..." />
+                <marker date="1480733828939" expanded="false" signature="296:498" ph="..." />
               </folding>
             </state>
           </provider>
@@ -484,14 +484,7 @@
       <workItem from="1480499782414" duration="9893000" />
       <workItem from="1480552357904" duration="5378000" />
       <workItem from="1480591755661" duration="8304000" />
-      <workItem from="1480728001482" duration="2859000" />
-    </task>
-    <task id="LOCAL-00024" summary="更新代码">
-      <created>1479373593580</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1479373593580</updated>
+      <workItem from="1480728001482" duration="2977000" />
     </task>
     <task id="LOCAL-00025" summary="更新代码">
       <created>1479373708154</created>
@@ -829,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480602451760</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="更新代码">
+      <created>1480733751880</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1480733751880</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141283000" />
+    <option name="totallyTimeSpent" value="141401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="9" width="1370" height="726" extended-state="0" />
@@ -1250,12 +1250,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/score.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="52">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#score#0" expanded="false" />
             <element signature="e#42#69#0" expanded="false" />
-            <marker date="1480733709625" expanded="false" signature="296:498" ph="..." />
+            <marker date="1480733828939" expanded="false" signature="296:498" ph="..." />
           </folding>
         </state>
       </provider>

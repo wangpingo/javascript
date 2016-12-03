@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lianxi/奥运五环.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/score.js" afterPath="$PROJECT_DIR$/kata/score.js" />
     </list>
@@ -159,16 +160,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="score.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="score.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kata/score.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="26">
+              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc;n#score#0" expanded="false" />
                 <element signature="e#42#69#0" expanded="false" />
-                <marker date="1480733843772" expanded="false" signature="296:498" ph="..." />
+                <marker date="1480734195578" expanded="false" signature="296:498" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="奥运五环.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianxi/奥运五环.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,8 +190,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -201,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianxi/jslibs.js" />
         <option value="$PROJECT_DIR$/lianxi/图片切换5.html" />
         <option value="$PROJECT_DIR$/lianxi/首次适应算法.html" />
         <option value="$PROJECT_DIR$/理论.html" />
@@ -252,6 +262,7 @@
         <option value="$PROJECT_DIR$/kata/solution.js" />
         <option value="$PROJECT_DIR$/kata/triangleType.js" />
         <option value="$PROJECT_DIR$/kata/score.js" />
+        <option value="$PROJECT_DIR$/lianxi/奥运五环.html" />
       </list>
     </option>
   </component>
@@ -309,7 +320,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kata" />
+              <option name="myItemId" value="lianxi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,14 +495,7 @@
       <workItem from="1480499782414" duration="9893000" />
       <workItem from="1480552357904" duration="5378000" />
       <workItem from="1480591755661" duration="8304000" />
-      <workItem from="1480728001482" duration="2992000" />
-    </task>
-    <task id="LOCAL-00026" summary="更新代码">
-      <created>1479447269049</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1479447269049</updated>
+      <workItem from="1480728001482" duration="5442000" />
     </task>
     <task id="LOCAL-00027" summary="更新代码">
       <created>1479522492605</created>
@@ -829,11 +833,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480733835320</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="更新代码">
+      <created>1480733943118</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1480733943118</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141416000" />
+    <option name="totallyTimeSpent" value="143866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="9" width="1370" height="726" extended-state="0" />
@@ -907,13 +918,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kata/取消重复.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/getPost.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -1250,13 +1254,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/score.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="26">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc;n#score#0" expanded="false" />
             <element signature="e#42#69#0" expanded="false" />
-            <marker date="1480733843772" expanded="false" signature="296:498" ph="..." />
+            <marker date="1480734195578" expanded="false" signature="296:498" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi/奥运五环.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

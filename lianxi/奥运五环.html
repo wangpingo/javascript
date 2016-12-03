@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>奥运五环</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .circle,.blue::after{
+            width: 200px;
+            height: 200px;
+            border: 10px solid black;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .blue{
+            border-color: blue;
+            left: 0;
+            top: 0;
+        }
+        .blue::after{
+            left: -10px;
+            top: -10px;
+            display: block;
+            content: '';
+            position: relative;
+            border-color: blue;
+            border-bottom-color: transparent;
+            z-index: 1;
+        }
+        .yellow{
+            border-color: yellow;
+            left: 230px;
+        }
+        .yellow::after{
+            left: -10px;
+            top: -10px;
+            display: block;
+            content: '';
+            position: relative;
+            border-color: yellow;
+            z-index: 1;
+        }
+        .red{
+            border-color: red;
+            left: 460px;
+        }
+        .red::after{
+            left: -10px;
+            top: -10px;
+            display: block;
+            content: '';
+            position: relative;
+            border-color: red;
+        }
+        .green{
+            border-color: green;
+            left: 115px;
+            top: 110px;
+        }
+        .green::after{
+            left: -10px;
+            top: -10px;
+            display: block;
+            content: '';
+            position: relative;
+            border-color: green;
+            /*border-right-color:transparent ;*/
+        }
+        .black{
+            border-color: black;
+            left: 345px;
+            top: 110px;
+        }
+        .black::after{
+            left: -10px;
+            top: -10px;
+            display: block;
+            content: '';
+            position: relative;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle blue"></div>
+    <div class="circle yellow"></div>
+    <div class="circle red"></div>
+    <div class="circle green"></div>
+    <div class="circle black"></div>
+</body>
+</html>

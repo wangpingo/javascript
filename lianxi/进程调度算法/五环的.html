@@ -2,89 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>奥运五环</title>
+    <title></title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
 
-        .circle,.circle::after {
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .circle,.circle::after{
             width: 200px;
             height: 200px;
             border: 10px solid;
             border-radius: 50%;
             position: absolute;
         }
+
         .circle::after{
             content: '';
             display: block;
             top:-10px;
             left:-10px;
         }
-        .blue {
+
+        .blue{
             border-color: blue;
         }
-
-        .blue::after {
+        .blue::after{
             border-color: blue;
             z-index: 1;
-
-            /*border-bottom-color: transparent;*/
-
+            border-bottom-color: transparent;
         }
 
-        .yellow {
+        .yellow{
             border-color: yellow;
-            left: 230px;
+            left:230px;
         }
-
-        .yellow::after {
+        .yellow::after{
+            border-color: yellow;
             z-index: 1;
-
-            border-color: yellow;
+            border-left-color: transparent;
         }
-
-        .red {
+        .red{
             border-color: red;
-            left: 460px;
+            left:460px;
         }
-
-        .red::after {
-
-
+        .red::after{
             border-color: red;
+            z-index: 1;
+            border-left-color: transparent;
         }
-
-        .green {
+        .green{
             border-color: green;
-            left: 115px;
-            top: 110px;
+            top:130px;
+            left:120px;
         }
 
-        .green::after {
-
+        .green::after{
             border-color: green;
         }
 
-        .black {
+        .black{
             border-color: black;
-            left: 345px;
-            top: 110px;
+            top:130px;
+            left:350px;
         }
 
-        .black::after {
-
-
+        .black::after{
             border-color: black;
+            z-index: 1;
+            border-top-color: transparent;
+            border-right-color: transparent;
         }
+
     </style>
 </head>
 <body>
+
 <div class="circle blue"></div>
 <div class="circle yellow"></div>
 <div class="circle red"></div>
 <div class="circle green"></div>
 <div class="circle black"></div>
+
 </body>
 </html>

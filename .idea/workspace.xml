@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lianxi/时钟.html" afterPath="$PROJECT_DIR$/lianxi/时钟.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,8 +161,8 @@
       <file leaf-file-name="时钟.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lianxi/时钟.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="156">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <marker date="1480822565128" expanded="true" signature="2204:2247" ph="..." />
               </folding>
@@ -470,14 +469,7 @@
       <workItem from="1480552357904" duration="5378000" />
       <workItem from="1480591755661" duration="8304000" />
       <workItem from="1480728001482" duration="11914000" />
-      <workItem from="1480815844031" duration="5438000" />
-    </task>
-    <task id="LOCAL-00032" summary="更新代码">
-      <created>1479727295386</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1479727295386</updated>
+      <workItem from="1480815844031" duration="5573000" />
     </task>
     <task id="LOCAL-00033" summary="更新代码">
       <created>1479729949560</created>
@@ -815,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480822291355</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="更新代码">
+      <created>1480822570330</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1480822570330</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155776000" />
+    <option name="totallyTimeSpent" value="155911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1201,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/时钟.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="156">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <marker date="1480822565128" expanded="true" signature="2204:2247" ph="..." />
           </folding>

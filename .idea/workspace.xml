@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lianxi/旋转立方体.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lianxi/时钟.html" afterPath="$PROJECT_DIR$/lianxi/时钟.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,14 +160,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="时钟.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lianxi/时钟.html">
+      <file leaf-file-name="旋转立方体.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianxi/旋转立方体.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <marker date="1480822565128" expanded="true" signature="2204:2247" ph="..." />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,6 +177,7 @@
       <list>
         <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -198,8 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianxi/jslib.js" />
-        <option value="$PROJECT_DIR$/图片拖拽.html" />
         <option value="$PROJECT_DIR$/kata/Unique In Order.js" />
         <option value="$PROJECT_DIR$/kata/取消重复.html" />
         <option value="$PROJECT_DIR$/kata/2.js" />
@@ -249,6 +248,8 @@
         <option value="$PROJECT_DIR$/lianxi/位置.html" />
         <option value="$PROJECT_DIR$/lianxi/时钟.js" />
         <option value="$PROJECT_DIR$/lianxi/时钟.html" />
+        <option value="$PROJECT_DIR$/lianxi/旋转的立方体.css" />
+        <option value="$PROJECT_DIR$/lianxi/旋转立方体.html" />
       </list>
     </option>
   </component>
@@ -324,6 +325,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -469,14 +471,7 @@
       <workItem from="1480552357904" duration="5378000" />
       <workItem from="1480591755661" duration="8304000" />
       <workItem from="1480728001482" duration="11914000" />
-      <workItem from="1480815844031" duration="5573000" />
-    </task>
-    <task id="LOCAL-00033" summary="更新代码">
-      <created>1479729949560</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1479729949560</updated>
+      <workItem from="1480815844031" duration="12889000" />
     </task>
     <task id="LOCAL-00034" summary="更新代码">
       <created>1479730665479</created>
@@ -814,17 +809,24 @@
       <option name="project" value="LOCAL" />
       <updated>1480822570330</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="更新代码">
+      <created>1480822705042</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1480822705042</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155911000" />
+    <option name="totallyTimeSpent" value="163227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.057291668" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -872,20 +874,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianxi/元素宽高.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianxi/jslianxi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/affsetParent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1200,11 +1188,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/时钟.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
           <folding>
-            <marker date="1480822565128" expanded="true" signature="2204:2247" ph="..." />
+            <element signature="n#html#0;n#!!top" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1480822880590" expanded="false" signature="0:2744" ph="..." />
+            <marker date="1480822880590" expanded="false" signature="1913:2728" ph="..." />
+            <marker date="1480822880590" expanded="true" signature="2206:2249" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi/旋转的立方体.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi/旋转立方体.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

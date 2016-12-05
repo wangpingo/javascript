@@ -16,7 +16,7 @@ var pools = Array.from({length: 2});
 console.log(pools.length);
 console.log(queueTime([],0));//0
 console.log(queueTime([1,2,3,4],1));//10 //[0] min=0 pool[0]=1;
-console.log(queueTime([2,2,3,3,4,4],2));//9  // [0,0]
+console.log(queueTime([2,2,3,3,4,4],2));//9  // [0,0]->pool[0]=0+2=2;[2,0][2,2][3,2][5,3][5,6][9,6][9,10]
 console.log(queueTime([1,2,3,4,5],100));//5
 console.log(queueTime([1,4,6,8,3],2));//1,3,4,6,8->10
 console.log(queueTime([1,4,6,8,9,100],2));//16

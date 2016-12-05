@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js面向对象编程/call,apply.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js面向对象编程/call,apply知识点" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js面向对象编程/call，apply.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/tripledouble.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/findEventIndex.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascripts.iws" />
@@ -162,45 +159,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tripledouble.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kata/tripledouble.js">
+      <file leaf-file-name="findEventIndex.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kata/findEventIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+            <state relative-caret-position="212">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
-                <element signature="n#!!doc;n#tripledouble#0" expanded="false" />
+                <element signature="n#!!doc;n#findEvenIndex#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="call，apply.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js面向对象编程/call，apply.js">
+      <file leaf-file-name="UniqueInOrder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kata/UniqueInOrder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc;n#Obj#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="call,apply知识点" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js面向对象编程/call,apply知识点">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="-156">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="call,apply.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js面向对象编程/call,apply.html">
+      <file leaf-file-name="filter_list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kata/filter_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="182">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -213,8 +198,8 @@
       <list>
         <option value="Html5" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -235,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Javascript模块化编程/Javascript模块化编程" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/javascriptDom编程艺术" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/jsDom.html" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/图片库.html" />
@@ -286,6 +270,7 @@
         <option value="$PROJECT_DIR$/js面向对象编程/call，apply.js" />
         <option value="$PROJECT_DIR$/js面向对象编程/call,apply知识点" />
         <option value="$PROJECT_DIR$/js面向对象编程/call,apply.html" />
+        <option value="$PROJECT_DIR$/kata/findEventIndex.js" />
       </list>
     </option>
   </component>
@@ -350,20 +335,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js面向对象编程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -400,10 +371,7 @@
       <recent name="D:\360js\javascript\lianxi" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.call，apply.js">
-    <configuration default="false" name="solution.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/kata">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.findEventIndex.js">
     <configuration default="false" name="score.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="score.js" working-dir="$PROJECT_DIR$/kata">
       <method />
     </configuration>
@@ -414,6 +382,9 @@
       <method />
     </configuration>
     <configuration default="false" name="call，apply.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="call，apply.js" working-dir="$PROJECT_DIR$/js面向对象编程">
+      <method />
+    </configuration>
+    <configuration default="false" name="findEventIndex.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="findEventIndex.js" working-dir="$PROJECT_DIR$/kata">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -477,19 +448,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.solution.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.score.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.queueTime.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.tripledouble.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.call，apply.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.score.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.queueTime.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.tripledouble.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.call，apply.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.findEventIndex.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.call，apply.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.tripledouble.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.queueTime.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.score.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.solution.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.findEventIndex.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.call，apply.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.tripledouble.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.queueTime.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.score.js" />
       </list>
     </recent_temporary>
   </component>
@@ -531,14 +502,7 @@
       <workItem from="1480815844031" duration="12938000" />
       <workItem from="1480857523688" duration="665000" />
       <workItem from="1480916199641" duration="5049000" />
-      <workItem from="1480924817294" duration="7898000" />
-    </task>
-    <task id="LOCAL-00039" summary="更新代码">
-      <created>1479893409680</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1479893409680</updated>
+      <workItem from="1480924817294" duration="13273000" />
     </task>
     <task id="LOCAL-00040" summary="更新代码">
       <created>1479893508242</created>
@@ -876,21 +840,28 @@
       <option name="project" value="LOCAL" />
       <updated>1480928888630</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="更新代码">
+      <created>1480937268295</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1480937268296</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176888000" />
+    <option name="totallyTimeSpent" value="182263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22761194" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06492537" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18302828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20965058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18993995" sideWeight="0.51264757" order="2" side_tool="true" content_ui="tabs" />
@@ -934,13 +905,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js面向对象编程/Object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/编程风格/跨域">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1124,13 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kata/UniqueInOrder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Javascript模块化编程/Javascript模块化编程">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -1142,13 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kata/filter_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1240,16 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kata/tripledouble.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc;n#tripledouble#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js面向对象编程/call,apply知识点">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1260,9 +1200,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js面向对象编程/call,apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="296">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/tripledouble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc;n#tripledouble#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/UniqueInOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/filter_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/findEventIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc;n#findEvenIndex#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

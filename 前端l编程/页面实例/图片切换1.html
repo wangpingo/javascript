@@ -12,7 +12,6 @@
             list-style: none;
         }
         #tab{
-            z-index: 9999;
             right: 10px;
             bottom: 10px;
             position: absolute;
@@ -35,13 +34,9 @@
             margin:  50px auto;
         }
         #content img{
-            position: absolute;
-            left: 0;
-            top: 0;
-            /*opacity: 1;*/
+            display: none;
         }
         #arrow{
-            z-index: 9999;
             position: absolute;
             left: 10px;
             bottom: 10px;
@@ -57,7 +52,9 @@
             line-height: 20px;
             cursor: pointer;
         }
-
+        #content .selected{
+            display: block;
+        }
         #tab .selected{
 
             background: yellow;
@@ -65,30 +62,24 @@
     </style>
 </head>
 <body>
-<div id="container">
-    <ul id="tab">
-        <li class="selected">1</li>
-        <li onselectstart="return false;">2</li>
-        <li onselectstart="return false;">3</li>
-        <li onselectstart="return false;">4</li>
-    </ul>
-    <div id="content">
-        <!--<img src="img/1.jpg" style="z-index: 4">-->
-        <!--<img src="img/2.jpg" style="z-index: 3">-->
-        <!--<img src="img/3.jpg" style="z-index: 2">-->
-        <!--<img src="img/4.jpg" style="z-index: 1">-->
-        <img src="img/1.jpg" >
-        <img src="img/2.jpg" >
-        <img src="img/3.jpg" >
-        <img src="img/4.jpg" >
-
+    <div id="container">
+        <ul id="tab">
+            <li class="selected">1</li>
+            <li onselectstart="return false;">2</li>
+            <li onselectstart="return false;">3</li>
+            <li onselectstart="return false;">4</li>
+        </ul>
+        <div id="content">
+            <img class="selected" src="../img/1.jpg">
+            <img src="../img/2.jpg">
+            <img src="../img/3.jpg">
+            <img src="../img/4.jpg">
+        </div>
+        <div id="arrow">
+            <span id="prev" onselectstart="return false;">&lt;</span>
+            <span id="next" onselectstart="return false;">&gt;</span>
+        </div>
     </div>
-    <div id="arrow">
-        <span id="prev" onselectstart="return false;">&lt;</span>
-        <span id="next" onselectstart="return false;">&gt;</span>
-    </div>
-</div>
-<script src="jslib.js"></script>
 <script>
     var oContainer=document.getElementById("container");
     var aLi=oContainer.getElementsByTagName("li");
@@ -97,10 +88,9 @@
     var oPrev=document.getElementById("prev");
     var timer;
     var iNow=0;
-    var imax=aLi.length;
     for(var i=0;i<aLi.length;i++){
         aLi[i].index=i;
-        aImg[i].style.zIndex=aLi.length-i;
+
         aLi[i].onmouseover=function(){
             changeImag(this.index);
             iNow=this.index;
@@ -120,29 +110,21 @@
     function changeImag(elem){
         for(var i=0;i<aLi.length;i++){
             aLi[i].className="";
-            aImg[i].className="";
-
+            aImg[i].className=""
         }
-        aImg[elem].style.opacity=0;
         aLi[elem].className="selected";
-//        aImg[elem].className="selected";
-          imax++;
-        //alert(imax)
-          aImg[elem].style.zIndex=imax;
-          animate(aImg[elem],{
-            opacity:100
-        })
+        aImg[elem].className="selected";
     }
     timer=setInterval(function(){
         oNext.onclick();
-    },3000);
+    },1000);
     oContainer.onmouseover=function(){
         clearInterval(timer);
     };
     oContainer.onmouseout=function(){
         timer=setInterval(function(){
             oNext.onclick();
-        },3000)
+        },1000)
     }
 </script>
 </body>

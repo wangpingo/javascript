@@ -1,0 +1,85 @@
+/**
+ * Created by 35031 on 2016/12/6.
+ */
+function clone(arr)
+{
+    var ret = new Array();
+    for (var p in arr)
+    {
+        ret[p] = arr[p];
+    }
+    return ret;
+}
+function ranArr(count, max)
+{
+    var i = 0,
+        n = count ? count : 100,
+        max = max ? max : 10; //最大页地址max，地址流为100长度
+    var arr = new Array(count);
+    for (i = 0; i < n; i++)
+        arr[i] = Math.ceil(Math.random() * max);
+    return arr;
+}
+var LRU = function (obj)
+{
+    this.arr = clone(obj.arr); //页地址流
+    console.log(this.arr);
+    this.pages = obj.pages; //页数
+    //this.stack=new Array(this.pages);
+    this.stack = [];
+    console.log(this.stack);
+    this.count = 0; //命中数
+}
+LRU.prototype = {
+    init: function ()
+    {
+        this.run();
+    },
+    run: function ()
+    {
+        var i = 0,
+            len = 0,
+            arr = this.arr,
+            stack = this.stack,
+            tmp = new Array(),
+            stack2;
+
+
+        for (var j in arr)
+        { //页地址流
+            console.log(arr[j]);
+            stack2 = clone(stack);
+            for (i = 0, len = this.pages; i < len; i++)
+            {
+                if (arr[j] == stack[i])
+                {
+                    this.count++;
+                    tmp = stack.splice(i, 1);
+                    stack.unshift(tmp[0]); //LRU操作，重新排序
+
+
+                    break;
+                }
+            }
+            console.log(stack2);
+            if (i == len && stack[i] == undefined) stack.unshift(arr[j]);
+            else if (i == len)
+            {
+                stack.pop();
+                stack.unshift(arr[j]);
+            } //LRU操作,删除并添加
+            else continue;
+
+        }
+    }
+};
+var arr = ranArr(20, 5);
+arr = [2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2];
+var obj = new LRU(
+    {
+        arr: arr,
+        pages: 5
+    });
+obj.run();
+console.log(obj);
+console.log(obj.count / (obj.arr.length));

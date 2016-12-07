@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/validParenthess.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/validParenthess.js" afterPath="$PROJECT_DIR$/kata/validParenthess.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -185,8 +185,8 @@
       <file leaf-file-name="validParenthess.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kata/validParenthess.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="367">
+              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding>
                 <element signature="n#!!doc;n#validParentheses#0" expanded="false" />
               </folding>
@@ -511,14 +511,7 @@
       <workItem from="1480924817294" duration="16466000" />
       <workItem from="1480991188653" duration="15092000" />
       <workItem from="1481018075113" duration="7297000" />
-      <workItem from="1481092493257" duration="4802000" />
-    </task>
-    <task id="LOCAL-00049" summary="更新代码">
-      <created>1480057561858</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1480057561858</updated>
+      <workItem from="1481092493257" duration="5909000" />
     </task>
     <task id="LOCAL-00050" summary="更新代码">
       <created>1480068771263</created>
@@ -856,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481093022892</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="更新代码">
+      <created>1481097338040</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1481097338040</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212647000" />
+    <option name="totallyTimeSpent" value="213754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -1269,8 +1269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/validParenthess.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="367">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
             <element signature="n#!!doc;n#validParentheses#0" expanded="false" />
           </folding>

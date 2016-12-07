@@ -1,6 +1,16 @@
 /**
  * Created by 35031 on 2016/12/6.
  */
+function ranArr(count, max)
+{
+    var i = 0,
+        n= count ? count : 100,
+        max = max ? max : 10; //最大页地址max，地址流为100长度
+    var arr = new Array(count);
+    for (i = 0; i < n; i++)
+        arr[i] = Math.ceil(Math.random() * max);
+    return arr;
+}
 function clone(arr)
 {
     var ret = new Array();
@@ -10,26 +20,16 @@ function clone(arr)
     }
     return ret;
 }
-function ranArr(count, max)
-{
-    var i = 0,
-        n = count ? count : 100,
-        max = max ? max : 10; //最大页地址max，地址流为100长度
-    var arr = new Array(count);
-    for (i = 0; i < n; i++)
-        arr[i] = Math.ceil(Math.random() * max);
-    return arr;
-}
 var LRU = function (obj)
 {
     this.arr = clone(obj.arr); //页地址流
-    console.log(this.arr);
+    // console.log(this.arr);// iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
     this.pages = obj.pages; //页数
     //this.stack=new Array(this.pages);
     this.stack = [];
-    console.log(this.stack);
+    // console.log(this.stack);//iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
     this.count = 0; //命中数
-}
+};
 LRU.prototype = {
     init: function ()
     {
@@ -43,25 +43,21 @@ LRU.prototype = {
             stack = this.stack,
             tmp = new Array(),
             stack2;
-
-
-        for (var j in arr)
+        for (var j in arr)//2 ,3,2,1
         { //页地址流
-            console.log(arr[j]);
+            console.log(arr[j]);//-----------------------------------
             stack2 = clone(stack);
-            for (i = 0, len = this.pages; i < len; i++)
+            for (i = 0, len = this.pages;i < len; i++)
             {
                 if (arr[j] == stack[i])
                 {
                     this.count++;
                     tmp = stack.splice(i, 1);
                     stack.unshift(tmp[0]); //LRU操作，重新排序
-
-
                     break;
                 }
             }
-            console.log(stack2);
+            console.log(stack2);//----------------------------------
             if (i == len && stack[i] == undefined) stack.unshift(arr[j]);
             else if (i == len)
             {
@@ -73,7 +69,8 @@ LRU.prototype = {
         }
     }
 };
-var arr = ranArr(20, 5);
+// var arr = ranArr(20, 5);
+// console.log(arr);
 arr = [2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2];
 var obj = new LRU(
     {
@@ -81,5 +78,6 @@ var obj = new LRU(
         pages: 5
     });
 obj.run();
+// obj.init();
 console.log(obj);
 console.log(obj.count / (obj.arr.length));

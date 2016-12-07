@@ -1,0 +1,13 @@
+function queueTime(customers, n) {
+    if(!customers || customers.length === 0) return 0;
+    if(customers.length <= n)return Math.max.apply(null, customers);
+    var pool = Array.from({length: n}).map(v => 0),//创建一个有n长pool数组
+        i = 0,
+        len = customers.length,
+        min;
+    for( ; i < len ;i++ ) {
+        min = Math.min.apply(null, pool);//找到pool里面的最小的元素
+        pool[pool.lastIndexOf(min)] += customers[i];//pool[pool.lastIndexOf(min)] =pool[pool.lastIndexOf(min)] + customers[i]
+    }
+    return Math.max.apply(null, pool);
+}

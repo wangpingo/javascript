@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kata/validParenthess.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/LRU.js" afterPath="$PROJECT_DIR$/kata/LRU.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,14 +169,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LRU.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LRU.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kata/LRU.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+            <state relative-caret-position="237">
+              <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc;n#ranArr#0" expanded="false" />
                 <element signature="n#!!block;n#ranArr#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validParenthess.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kata/validParenthess.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#validParentheses#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -211,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javascript.DOM编程艺术/what.html" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/js作用域" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/学习Javascript闭包（Closure）" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/what.js" />
@@ -262,6 +273,7 @@
         <option value="$PROJECT_DIR$/kata/代码.txt" />
         <option value="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" />
         <option value="$PROJECT_DIR$/kata/LRU.js" />
+        <option value="$PROJECT_DIR$/kata/validParenthess.js" />
       </list>
     </option>
   </component>
@@ -322,38 +334,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="前端l编程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="前端l编程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LRU算法" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="kata" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -397,10 +377,7 @@
       <recent name="D:\360js\javascript\五环的.html" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.LRU.js">
-    <configuration default="false" name="findEventIndex.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="findEventIndex.js" working-dir="$PROJECT_DIR$/kata">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.validParenthess.js">
     <configuration default="false" name="permutations.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="permutations.js" working-dir="$PROJECT_DIR$/kata">
       <method />
     </configuration>
@@ -411,6 +388,9 @@
       <method />
     </configuration>
     <configuration default="false" name="LRU.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="LRU.js" working-dir="$PROJECT_DIR$/kata">
+      <method />
+    </configuration>
+    <configuration default="false" name="validParenthess.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="validParenthess.js" working-dir="$PROJECT_DIR$/kata">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -474,19 +454,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.findEventIndex.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.permutations.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.for.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.递归.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.LRU.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.permutations.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.for.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.递归.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.LRU.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.validParenthess.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.LRU.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.permutations.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.递归.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.for.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.findEventIndex.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.validParenthess.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.LRU.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.permutations.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.递归.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.for.js" />
       </list>
     </recent_temporary>
   </component>
@@ -531,21 +511,7 @@
       <workItem from="1480924817294" duration="16466000" />
       <workItem from="1480991188653" duration="15092000" />
       <workItem from="1481018075113" duration="7297000" />
-      <workItem from="1481092493257" duration="97000" />
-    </task>
-    <task id="LOCAL-00047" summary="更新代码">
-      <created>1479974082656</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1479974082656</updated>
-    </task>
-    <task id="LOCAL-00048" summary="更新代码">
-      <created>1480054128887</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1480054128887</updated>
+      <workItem from="1481092493257" duration="4802000" />
     </task>
     <task id="LOCAL-00049" summary="更新代码">
       <created>1480057561858</created>
@@ -876,11 +842,25 @@
       <option name="project" value="LOCAL" />
       <updated>1481021436164</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="更新代码">
+      <created>1481092610295</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1481092610296</updated>
+    </task>
+    <task id="LOCAL-00097" summary="更新代码">
+      <created>1481093022891</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1481093022892</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207942000" />
+    <option name="totallyTimeSpent" value="212647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -941,13 +921,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/测试题/编程1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/测试题/编程2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1161,6 +1134,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,6 +1156,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,6 +1171,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,6 +1179,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,6 +1222,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,6 +1244,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,11 +1258,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kata/LRU.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+        <state relative-caret-position="237">
+          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
           <folding>
             <element signature="n#!!doc;n#ranArr#0" expanded="false" />
             <element signature="n#!!block;n#ranArr#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/validParenthess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#validParentheses#0" expanded="false" />
           </folding>
         </state>
       </provider>

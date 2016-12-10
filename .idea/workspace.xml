@@ -162,9 +162,23 @@
       <file leaf-file-name="旋转木麻.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="156">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding>
+                <marker date="1481355783981" expanded="true" signature="943:1342" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="闭包.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript.DOM编程艺术/闭包.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,8 +200,8 @@
       <list>
         <option value="Html5" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -209,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/测试题/3.js" />
         <option value="$PROJECT_DIR$/测试题/4.js" />
         <option value="$PROJECT_DIR$/测试题/5.js" />
         <option value="$PROJECT_DIR$/测试题/6.js" />
@@ -259,6 +272,7 @@
         <option value="$PROJECT_DIR$/kata/说明" />
         <option value="$PROJECT_DIR$/kata/LCS.js" />
         <option value="$PROJECT_DIR$/前端l编程/旋转木马/旋转木马.html" />
+        <option value="$PROJECT_DIR$/javascript.DOM编程艺术/闭包.js" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" />
       </list>
     </option>
@@ -342,6 +356,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript.DOM编程艺术" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -381,11 +409,8 @@
       <recent name="D:\360js\javascript\lianxi\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.validParenthess.js">
+  <component name="RunManager" selected="Node.js.闭包.js">
     <configuration default="false" name="permutations.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="permutations.js" working-dir="$PROJECT_DIR$/kata">
-      <method />
-    </configuration>
-    <configuration default="false" name="for.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/javascript.DOM编程艺术/for.js" working-dir="$PROJECT_DIR$/kata">
       <method />
     </configuration>
     <configuration default="false" name="递归.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="递归.js" working-dir="$PROJECT_DIR$/javascript.DOM编程艺术">
@@ -395,6 +420,9 @@
       <method />
     </configuration>
     <configuration default="false" name="validParenthess.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="validParenthess.js" working-dir="$PROJECT_DIR$/kata">
+      <method />
+    </configuration>
+    <configuration default="false" name="闭包.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="闭包.js" working-dir="$PROJECT_DIR$/javascript.DOM编程艺术">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -459,18 +487,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.permutations.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.for.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.递归.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.LRU.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.validParenthess.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.递归.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.LRU.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.validParenthess.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.闭包.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.validParenthess.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.LRU.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.permutations.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.递归.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.for.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.闭包.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.validParenthess.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.LRU.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.permutations.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.递归.js" />
       </list>
     </recent_temporary>
   </component>
@@ -518,35 +546,7 @@
       <workItem from="1481092493257" duration="7957000" />
       <workItem from="1481183545168" duration="1471000" />
       <workItem from="1481268604542" duration="492000" />
-      <workItem from="1481332564989" duration="7544000" />
-    </task>
-    <task id="LOCAL-00054" summary="更新代码">
-      <created>1480233389921</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1480233389921</updated>
-    </task>
-    <task id="LOCAL-00055" summary="更新代码">
-      <created>1480334122950</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1480334122951</updated>
-    </task>
-    <task id="LOCAL-00056" summary="更新代码">
-      <created>1480335496457</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1480335496457</updated>
-    </task>
-    <task id="LOCAL-00057" summary="更新代码">
-      <created>1480400960217</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1480400960218</updated>
+      <workItem from="1481332564989" duration="11608000" />
     </task>
     <task id="LOCAL-00058" summary="更新代码">
       <created>1480402730526</created>
@@ -863,18 +863,47 @@
       <option name="project" value="LOCAL" />
       <updated>1481350963326</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="更新代码">
+      <created>1481351384705</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1481351384705</updated>
+    </task>
+    <task id="LOCAL-00104" summary="更新代码">
+      <created>1481352293347</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1481352293347</updated>
+    </task>
+    <task id="LOCAL-00105" summary="更新代码">
+      <created>1481353234146</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1481353234146</updated>
+    </task>
+    <task id="LOCAL-00106" summary="更新代码">
+      <created>1481353255099</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1481353255099</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225309000" />
+    <option name="totallyTimeSpent" value="229373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.083333336" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515015" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.503003" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
@@ -883,7 +912,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18993995" sideWeight="0.51264757" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41597337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -948,13 +976,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/测试题/编程4.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/测试题/jslib.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -1278,11 +1299,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.DOM编程艺术/闭包.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <marker date="1481355783981" expanded="true" signature="943:1342" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

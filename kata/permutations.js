@@ -49,9 +49,10 @@ function permutations(string) {
     });
     return out;
 }
+console.log(permutations('abad'));
+// ['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa']1234 1324
 // console.log(permutations('a')); // ['a'] 1
 // console.log(permutations('ab')); // ['ab', 'ba'] 12 21
-console.log(permutations('abad')); // ['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa']1234 1324
 //1234 1243 1324 1342 1423 1432  4*3*2
 // var arr=[1,2,3];
 // tmp = arr.slice().splice(0,1);

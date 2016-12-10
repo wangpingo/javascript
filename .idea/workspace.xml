@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" afterPath="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/permutations.js" afterPath="$PROJECT_DIR$/kata/permutations.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,10 +162,23 @@
       <file leaf-file-name="旋转木麻.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="182">
+              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
               <folding>
                 <marker date="1481355783981" expanded="true" signature="943:1342" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permutations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kata/permutations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <marker date="1481357823228" expanded="true" signature="1071:1522" ph="..." />
+                <marker date="1481357823228" expanded="true" signature="1603:1913" ph="..." />
               </folding>
             </state>
           </provider>
@@ -179,16 +192,6 @@
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="旋转木马.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端l编程/旋转木马/旋转木马.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -264,7 +267,6 @@
         <option value="$PROJECT_DIR$/kata/findEventIndex.js" />
         <option value="$PROJECT_DIR$/kata/for.js" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/递归.js" />
-        <option value="$PROJECT_DIR$/kata/permutations.js" />
         <option value="$PROJECT_DIR$/kata/代码.txt" />
         <option value="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" />
         <option value="$PROJECT_DIR$/kata/LRU.js" />
@@ -274,6 +276,7 @@
         <option value="$PROJECT_DIR$/前端l编程/旋转木马/旋转木马.html" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/闭包.js" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" />
+        <option value="$PROJECT_DIR$/kata/permutations.js" />
       </list>
     </option>
   </component>
@@ -353,6 +356,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="旋转木马" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,14 +563,7 @@
       <workItem from="1481092493257" duration="7957000" />
       <workItem from="1481183545168" duration="1471000" />
       <workItem from="1481268604542" duration="492000" />
-      <workItem from="1481332564989" duration="11608000" />
-    </task>
-    <task id="LOCAL-00058" summary="更新代码">
-      <created>1480402730526</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1480402730526</updated>
+      <workItem from="1481332564989" duration="13608000" />
     </task>
     <task id="LOCAL-00059" summary="更新代码">
       <created>1480402748567</created>
@@ -891,17 +901,24 @@
       <option name="project" value="LOCAL" />
       <updated>1481353255099</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="更新代码">
+      <created>1481355828004</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1481355828004</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229373000" />
+    <option name="totallyTimeSpent" value="231373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515015" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2515015" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.503003" order="11" side_tool="true" content_ui="tabs" />
@@ -923,16 +940,16 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2545757" sideWeight="0.503003" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.503003" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2545757" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18243243" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515015" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1130,13 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kata/permutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kata/groupCheck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1291,10 +1301,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kata/permutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <marker date="1481357823228" expanded="true" signature="1071:1522" ph="..." />
+            <marker date="1481357823228" expanded="true" signature="1603:1913" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/旋转木马/旋转木马.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        <state relative-caret-position="225">
+          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1311,8 +1332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="182">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
           <folding>
             <marker date="1481355783981" expanded="true" signature="943:1342" ph="..." />
           </folding>

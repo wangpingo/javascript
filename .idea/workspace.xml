@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/旋转木马/旋转木马.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" afterPath="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" />
     </list>
@@ -172,8 +162,8 @@
       <file leaf-file-name="旋转木麻.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="57" column="14" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            <state relative-caret-position="17">
+              <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -528,14 +518,7 @@
       <workItem from="1481092493257" duration="7957000" />
       <workItem from="1481183545168" duration="1471000" />
       <workItem from="1481268604542" duration="492000" />
-      <workItem from="1481332564989" duration="4420000" />
-    </task>
-    <task id="LOCAL-00052" summary="更新代码">
-      <created>1480147371718</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1480147371718</updated>
+      <workItem from="1481332564989" duration="7128000" />
     </task>
     <task id="LOCAL-00053" summary="更新代码">
       <created>1480231565869</created>
@@ -873,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481338406940</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="更新代码">
+      <created>1481341390495</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1481341390495</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222185000" />
+    <option name="totallyTimeSpent" value="224893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -1290,8 +1280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="57" column="14" lean-forward="false" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="17">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding />
         </state>
       </provider>

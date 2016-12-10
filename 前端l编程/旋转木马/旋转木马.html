@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #state{
+            background: #ccc;
+            width: 1000px;
+            height: 400px;
+            margin: 100px auto;
+            position: relative;
+            box-shadow: 10px 10px 5px #999;
+            -webkit-perspective: 800px;
+            -webkit-perspective-origin: 50% -10%;
+            /*overflow: hidden;*/
+        }
+        #container{
+            width: 128px;
+            height: 100px;
+            position: absolute;
+            left:50%;
+            margin-left: -64px;
+            margin-top: 100px;
+            -webkit-transform-style: preserve-3d;
+            -webkit-transition: transform .5s ease-in-out;
+        }
+        #container img{
+            width: 128px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="state">
+        <div id="container">
+            <img src="img/1.jpg" alt=""/>
+            <img src="img/2.jpg" alt=""/>
+            <img src="img/3.jpg" alt=""/>
+            <img src="img/4.jpg" alt=""/>
+            <img src="img/5.jpg" alt=""/>
+            <img src="img/6.jpg" alt=""/>
+            <img src="img/7.jpg" alt=""/>
+            <img src="img/8.jpg" alt=""/>
+            <img src="img/9.jpg" alt=""/>
+        </div>
+
+    </div>
+    <script>
+
+        var oContainer = document.getElementById('container');
+        var aImg = oContainer.getElementsByTagName('img');
+        var translateDis =  128 / 2 / Math.tan(20 * Math.PI/180);
+
+        for(var i=0;i<aImg.length;i++){
+            aImg[i].style.WebkitTransform = 'rotateY('+ -i*40 +'deg) translateZ('+ (translateDis+20) +'px)';
+        }
+        var idx = 0;
+        oContainer.onclick = function(){
+            idx++;
+            this.style.WebkitTransform = 'rotateY('+ -40*idx +'deg)';
+        }
+
+    </script>
+</body>
+</html>

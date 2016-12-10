@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>旋转木马</title>
 </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #state{
+        width: 1000px;
+        height: 400px;
+        background: #ccc;
+        margin: 100px auto;
+        position: relative;
+        box-shadow: 10px 10px 5px #999;
+        -webkit-perspective: 800px;
+        -webkit-perspective-origin: 50% -10%;
+    }
+    #container{
+        width: 128px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        margin-left: -64px;
+        margin-top: 100px;
+        -webkit-transform-style:preserve-3d;
+        -webkit-transition: transform .5s ease-in-out;
+    }
+    img{
+        width: 128px;
+        height: 100px;
+        position: absolute;
+    }
+</style>
 <body>
-
+    <div id="state">
+        <div id="container">
+            <img src="../旋转木马/img/1.jpg">
+            <img src="../旋转木马/img/2.jpg">
+            <img src="../旋转木马/img/3.jpg">
+            <img src="../旋转木马/img/4.jpg">
+            <img src="../旋转木马/img/5.jpg">
+            <img src="../旋转木马/img/6.jpg">
+            <img src="../旋转木马/img/7.jpg">
+            <img src="../旋转木马/img/8.jpg">
+            <img src="../旋转木马/img/9.jpg">
+        </div>
+    </div>
 </body>
+<script>
+    var oContainer=document.getElementById('container');
+    var aImg=oContainer.getElementsByTagName('img');
+    var translateDis=oContainer.offsetWidth/2/Math.tan(20*Math.PI/180);
+    for (var i=0;i<aImg.length;i++){
+        aImg[i].style.WebkitTransform='rotateY('+ -i*40 +'deg) translateZ('+ (translateDis+20) +'px)';
+    }
+    var idx = 0;
+    oContainer.onclick = function(){
+        idx++;
+        this.style.WebkitTransform = 'rotateY('+ -40*idx +'deg)';
+    }
+</script>
 </html>

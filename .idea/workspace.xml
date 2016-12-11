@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html" afterPath="$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,8 +162,8 @@
       <file leaf-file-name="3D轮滚.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="208">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -525,14 +525,7 @@
       <workItem from="1481268604542" duration="492000" />
       <workItem from="1481332564989" duration="14237000" />
       <workItem from="1481366935361" duration="2375000" />
-      <workItem from="1481420268818" duration="3163000" />
-    </task>
-    <task id="LOCAL-00062" summary="更新代码">
-      <created>1480504943416</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1480504943416</updated>
+      <workItem from="1481420268818" duration="3304000" />
     </task>
     <task id="LOCAL-00063" summary="更新代码">
       <created>1480505519970</created>
@@ -870,11 +863,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481422412520</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="更新代码">
+      <created>1481423478828</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1481423478828</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237540000" />
+    <option name="totallyTimeSpent" value="237681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1310,8 +1310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="208">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

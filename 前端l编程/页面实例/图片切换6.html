@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    #container{
+        width: 805px;
+        height: 300px;
+        overflow: hidden;
+        margin: 100px auto;
+    }
+    #container li{
+        width: 160px;
+        height: 300px;
+        position: relative;
+        float: left;
+        border-right: 1px solid #000;
+        -webkit-transition: all 1s ease;
+    }
+    #container li a{
+        width: 805px;
+        height: 30px;
+        position: absolute;
+        bottom: 0;
+        /*background: rgba(0,0,0,0.5);*/
+        background: #000;
+        opacity: 0.5;
+        color: white;
+        line-height: 30px;
+        left: 0;
+    }
+
+    #container:hover li{
+        width: 50px;
+        height:300px;
+    }
+    #container li:hover{
+        width: 600px;
+        height:300px ;
+    }
+
+</style>
+<body>
+    <ul id="container">
+        <li><img src="../旋转木马/img/1.jpg"><a>1</a></li>
+        <li><img src="../旋转木马/img/2.jpg"><a>2</a></li>
+        <li><img src="../旋转木马/img/3.jpg"><a>3</a></li>
+        <li><img src="../旋转木马/img/4.jpg"><a>4</a></li>
+        <li><img src="../旋转木马/img/5.jpg"><a>5</a></li>
+    </ul>
+</body>
+</html>

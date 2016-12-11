@@ -65,7 +65,6 @@ LRU.prototype = {
                 stack.unshift(arr[j]);
             } //LRU操作,删除并添加
             else continue;
-
         }
     }
 };

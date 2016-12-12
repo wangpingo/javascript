@@ -57,7 +57,7 @@ LRU.prototype = {
                     break;
                 }
             }
-            console.log(stack2);//----------------------------------
+            //console.log(stack2);//----------------------------------
             if (i == len && stack[i] == undefined) stack.unshift(arr[j]);
             else if (i == len)
             {
@@ -68,13 +68,14 @@ LRU.prototype = {
         }
     }
 };
+//缺页
 // var arr = ranArr(20, 5);
 // console.log(arr);
-arr = [2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2];
+arr = [7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1];
 var obj = new LRU(
     {
         arr: arr,
-        pages: 5
+        pages: 3
     });
 obj.run();
 // obj.init();

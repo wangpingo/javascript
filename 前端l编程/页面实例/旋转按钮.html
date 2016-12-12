@@ -4,62 +4,82 @@
     <meta charset="UTF-8">
     <title>旋转按钮</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        #container{
+
+        #container {
             position: fixed;
             bottom: 20px;
             right: 20px;
             width: 49px;
             height: 49px;
         }
-        #imgs{
+
+        #imgs {
             position: relative;
             width: 49px;
             height: 49px;
         }
-        #imgs img{
+
+        #imgs img {
             position: absolute;
             bottom: 0px;
             left: 0px;
-            -webkit-transition: all 1s ease ;
+            -webkit-transition: all 1s ease;
         }
     </style>
 </head>
 <body>
-    <div id="container" >
-        <div id="imgs">
-            <img src="../img/full.png">
-            <img src="../img/open.png">
-            <img src="../img/prev.png">
-            <img src="../img/refresh.png">
-            <img src="../img/close.png">
-            <img src="../img/home.png">
-        </div>
+<div id="container">
+    <div id="imgs">
+        <img src="../img/full.png">
+        <img src="../img/open.png">
+        <img src="../img/prev.png">
+        <img src="../img/refresh.png">
+        <img src="../img/close.png">
+        <img src="../img/home.png">
     </div>
+</div>
 <script>
-    var oBtn=document.getElementById('container');
-    var aImgs=document.getElementsByTagName('img');
-    var flag=true;
-    oBtn.onclick=function () {
+    var oBtn = document.getElementById('container');
+    var aImgs = document.getElementsByTagName('img');
+    var flag = true;
+    aImgs[5].onclick = function () {
         if (flag) {
-            aImgs[5].style.WebkitTransform='rotateZ(-360deg)';
-            for (var i = 0; i < aImgs.length-1; i++) {
-                aImgs[i].style.transition = i * 100+'ms';
-                aImgs[i].style.WebkitTransform = 'rotateZ('+18*i+'deg) translateX(-150px)';
+            aImgs[5].style.WebkitTransform = 'rotateZ(-360deg)';
+            for (var i = 0; i < aImgs.length - 1; i++) {
+                aImgs[i].style.transition = i * 100 + 'ms';
+                aImgs[i].style.WebkitTransform = 'rotateZ(' + 22.5 * i + 'deg) translateX(-150px)';
             }
-        }else {
-            aImgs[5].style.WebkitTransform='rotateZ(0deg)';
-            for (var i = 0; i < aImgs.length-1; i++) {
-                aImgs[i].style.transition = i * 100+'ms';
-                aImgs[i].style.WebkitTransform = 'rotateZ('+-18*i+'deg) translateX(0px)';
+        } else {
+            aImgs[5].style.WebkitTransform = 'rotateZ(0deg)';
+            for (var i = 0; i < aImgs.length - 1; i++) {
+                aImgs[i].style.transition = (aImgs.length - i - i) * 100 + 'ms';
+                aImgs[i].style.WebkitTransform = 'rotateZ(' + -22.5 * i + 'deg) translateX(0px)';
             }
-
         }
-        flag= !flag;
+        flag = !flag;
     };
+    for (var i = 0; i < aImgs.length - 1; i++) {
+            aImgs[i].state=false;
+            aImgs[i].onclick = function () {
+                if (!this.state) {
+                    this.state = true;
+                    var currTransform = this.style.WebkitTransform;
+                    this.style.WebkitTransitionDuration = '0.3s';
+                    this.style.opacity = 0.6;
+                    this.style.WebkitTransform = currTransform + ' scale(2)';
+                    var that = this;
+                    setTimeout(function () {
+                        that.style.opacity = 1;
+                        that.style.WebkitTransform = currTransform;
+                        that.state = false;
+                    }, 300)
+                }
+            }
+        }
 </script>
 </body>
 </html>

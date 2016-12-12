@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/img/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/img/full.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/img/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/img/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/img/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/img/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/页面实例/旋转按钮.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html" afterPath="$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata/LRU.js" afterPath="$PROJECT_DIR$/kata/LRU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" afterPath="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/页面实例/旋转按钮.html" afterPath="$PROJECT_DIR$/前端l编程/页面实例/旋转按钮.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,41 +160,23 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="旋转木麻.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
+    <leaf>
+      <file leaf-file-name="LRU.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kata/LRU.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="75" />
-              <folding>
-                <marker date="1481355783981" expanded="true" signature="943:1342" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="旋转按钮.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转按钮.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="26">
+              <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3D轮滚.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html">
+      <file leaf-file-name="LRU.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js面向对象编程/LRU.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#1524#1701#0" expanded="false" />
-                <element signature="e#1712#1797#0" expanded="false" />
-                <element signature="e#1809#1893#0" expanded="false" />
-                <element signature="e#2192#2196#0" expanded="true" />
-                <marker date="1481432283999" expanded="false" signature="702:1189" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -272,7 +249,6 @@
         <option value="$PROJECT_DIR$/kata/for.js" />
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/递归.js" />
         <option value="$PROJECT_DIR$/kata/代码.txt" />
-        <option value="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" />
         <option value="$PROJECT_DIR$/kata/validParenthess.js" />
         <option value="$PROJECT_DIR$/kata/说明" />
         <option value="$PROJECT_DIR$/kata/LCS.js" />
@@ -280,11 +256,12 @@
         <option value="$PROJECT_DIR$/javascript.DOM编程艺术/闭包.js" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" />
         <option value="$PROJECT_DIR$/kata/permutations.js" />
-        <option value="$PROJECT_DIR$/kata/LRU.js" />
         <option value="$PROJECT_DIR$/前端l编程/银行家算法/银行家算法.html" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/图片切换6.html" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/旋转按钮.html" />
+        <option value="$PROJECT_DIR$/kata/LRU.js" />
+        <option value="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" />
       </list>
     </option>
   </component>
@@ -324,7 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -383,7 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="LRU算法" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,11 +374,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="前端l编程" />
+              <option name="myItemId" value="kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js面向对象编程" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,7 +408,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,19 +429,19 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="http:// git@github.com:ruanyf/react-demos.git" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\360js\javascript\前端l编程\img" />
-      <recent name="D:\360js\javascript\前端l编程" />
-      <recent name="D:\360js\javascript\测试题" />
-      <recent name="D:\360js\javascript\kata" />
-      <recent name="D:\360js\javascript\lianxi" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\360js\javascript\前端l编程\页面实例" />
       <recent name="D:\360js\javascript\前端l编程\内存分配算法" />
       <recent name="D:\360js\javascript\前端l编程\银行家算法" />
       <recent name="D:\360js\javascript\javascript.DOM编程艺术" />
       <recent name="D:\360js\javascript\五环的.html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\360js\javascript\js面向对象编程" />
+      <recent name="D:\360js\javascript\前端l编程\img" />
+      <recent name="D:\360js\javascript\前端l编程" />
+      <recent name="D:\360js\javascript\测试题" />
+      <recent name="D:\360js\javascript\kata" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.LRU.js">
@@ -596,14 +583,9 @@
       <workItem from="1481268604542" duration="492000" />
       <workItem from="1481332564989" duration="14237000" />
       <workItem from="1481366935361" duration="2375000" />
-      <workItem from="1481420268818" duration="13382000" />
-    </task>
-    <task id="LOCAL-00067" summary="更新代码">
-      <created>1480558744582</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1480558744583</updated>
+      <workItem from="1481420268818" duration="18984000" />
+      <workItem from="1481529124252" duration="2829000" />
+      <workItem from="1481546332000" duration="611000" />
     </task>
     <task id="LOCAL-00068" summary="更新代码">
       <created>1480575158628</created>
@@ -941,34 +923,41 @@
       <option name="project" value="LOCAL" />
       <updated>1481428152965</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="更新代码">
+      <created>1481439344384</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1481439344384</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247759000" />
+    <option name="totallyTimeSpent" value="256801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.066816814" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16966967" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.503003" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933443" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18993995" sideWeight="0.51264757" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41597337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933443" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41597337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1026,7 +1015,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianxi/旋转的立方体.css" />
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转立方体.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1227,20 +1215,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kata/permutations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <marker date="1481357823228" expanded="true" signature="1071:1522" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,17 +1233,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kata/LRU.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,23 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="135" column="14" lean-forward="true" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
-          <folding>
-            <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1481369325125" expanded="true" signature="4389:4395" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="4434:4440" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="4573:4579" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="4627:4633" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="4758:4764" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="4805:4811" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="4940:4946" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="4988:4994" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="5382:5388" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="5428:5434" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="5572:5578" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="5626:5632" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="5762:5768" ph=" " />
-            <marker date="1481369325125" expanded="true" signature="5809:5815" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,7 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,32 +1307,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="75" />
-          <folding>
-            <marker date="1481355783981" expanded="true" signature="943:1342" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#1524#1701#0" expanded="false" />
-            <element signature="e#1712#1797#0" expanded="false" />
-            <element signature="e#1809#1893#0" expanded="false" />
-            <element signature="e#2192#2196#0" expanded="true" />
-            <marker date="1481432283999" expanded="false" signature="702:1189" ph="..." />
-          </folding>
+        <state relative-caret-position="43">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转按钮.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="70" column="23" lean-forward="false" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kata/LRU.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js面向对象编程/LRU.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

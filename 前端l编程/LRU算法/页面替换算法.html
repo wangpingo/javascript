@@ -6,6 +6,15 @@
 </head>
 <body>
 <script>
+    function clone(arr)
+    {
+        var ret = new Array();
+        for (var p in arr)
+        {
+            ret[p] = arr[p];
+        }
+        return ret;
+    }
     function ranArr(count, max)
     {
         var i = 0,
@@ -74,8 +83,9 @@
             pages: 3
         });
     LRU.run();
+
     console.log(LRU);
-    console.log(LRU.count / (obj.arr.length));//命中率
+    console.log(LRU.count / (LRU.arr.length));//命中率
 </script>
 </body>
 </html>

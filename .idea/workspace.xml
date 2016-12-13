@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" afterPath="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,21 +168,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LRU.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LRU.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js面向对象编程/LRU.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="286">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="页面替换算法.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="页面替换算法.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+            <state relative-caret-position="147">
+              <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -268,8 +267,8 @@
         <option value="$PROJECT_DIR$/前端l编程/页面实例/3D轮滚.html" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/旋转按钮.html" />
         <option value="$PROJECT_DIR$/kata/LRU.js" />
-        <option value="$PROJECT_DIR$/js面向对象编程/LRU.js" />
         <option value="$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html" />
+        <option value="$PROJECT_DIR$/js面向对象编程/LRU.js" />
       </list>
     </option>
   </component>
@@ -594,28 +593,7 @@
       <workItem from="1481420268818" duration="18984000" />
       <workItem from="1481529124252" duration="2829000" />
       <workItem from="1481546332000" duration="2138000" />
-      <workItem from="1481613839983" duration="35000" />
-    </task>
-    <task id="LOCAL-00073" summary="更新代码">
-      <created>1480733751880</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1480733751880</updated>
-    </task>
-    <task id="LOCAL-00074" summary="更新代码">
-      <created>1480733835320</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1480733835320</updated>
-    </task>
-    <task id="LOCAL-00075" summary="更新代码">
-      <created>1480733943118</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1480733943118</updated>
+      <workItem from="1481613839983" duration="274000" />
     </task>
     <task id="LOCAL-00076" summary="更新代码">
       <created>1480746949978</created>
@@ -939,11 +917,32 @@
       <option name="project" value="LOCAL" />
       <updated>1481547956259</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="更新代码">
+      <created>1481613897403</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1481613897403</updated>
+    </task>
+    <task id="LOCAL-00123" summary="更新代码">
+      <created>1481613984025</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1481613984025</updated>
+    </task>
+    <task id="LOCAL-00124" summary="更新代码">
+      <created>1481614049252</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1481614049252</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258363000" />
+    <option name="totallyTimeSpent" value="258602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1343,18 +1342,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js面向对象编程/LRU.js">
+    <entry file="file://$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="147">
+          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html">
+    <entry file="file://$PROJECT_DIR$/js面向对象编程/LRU.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+        <state relative-caret-position="286">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

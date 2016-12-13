@@ -11,9 +11,6 @@ function clone(arr)
     }
     return ret;
 }
-
-
-
 var LRU = function (obj)
 {
     this.arr = clone(obj.arr); //页地址流

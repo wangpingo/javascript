@@ -6,13 +6,11 @@
 //     this.name=name;
 //     this.age=age;
 // }
-
 class User{
     constructor(name,age){
         this.age=age;
         this.name=name;
     }
-
 // //静态方法
 // User.getClassName=function () {
 //     return 'User';
@@ -40,14 +38,11 @@ class User{
 //         return 'name:'+this.name+'| age'+this.age;
 //     }
 // });
-
-
 // Manager.__proto__=User;//继承静态方法
 // Manager.prototype=User.prototype;
 // Manager.prototype.changePassword=function (pwd) {
 //     this.password=pwd;
 // };
-
 }
 // function Manager(name,age,password) {
 //     User.call(this,name,age);

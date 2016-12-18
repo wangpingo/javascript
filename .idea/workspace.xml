@@ -174,8 +174,8 @@
       <file leaf-file-name="class.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES6/lesson1/class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -521,14 +521,7 @@
       <workItem from="1481614604080" duration="78000" />
       <workItem from="1481637887378" duration="3016000" />
       <workItem from="1481953814349" duration="6886000" />
-      <workItem from="1482060948680" duration="494000" />
-    </task>
-    <task id="LOCAL-00083" summary="更新代码">
-      <created>1480839289878</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1480839289878</updated>
+      <workItem from="1482060948680" duration="518000" />
     </task>
     <task id="LOCAL-00084" summary="更新代码">
       <created>1480917611692</created>
@@ -866,11 +859,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482061402877</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="更新代码">
+      <created>1482061444239</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1482061444239</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269174000" />
+    <option name="totallyTimeSpent" value="269198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1287,8 +1287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson1/class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>

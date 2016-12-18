@@ -41,6 +41,7 @@ class User{
 //     }
 // });
 
+
 // Manager.__proto__=User;//继承静态方法
 // Manager.prototype=User.prototype;
 // Manager.prototype.changePassword=function (pwd) {

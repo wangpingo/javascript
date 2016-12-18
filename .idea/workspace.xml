@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/lesson1/class.js" afterPath="$PROJECT_DIR$/ES6/lesson1/class.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -174,8 +173,8 @@
       <file leaf-file-name="class.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES6/lesson1/class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="390">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -521,14 +520,7 @@
       <workItem from="1481614604080" duration="78000" />
       <workItem from="1481637887378" duration="3016000" />
       <workItem from="1481953814349" duration="6886000" />
-      <workItem from="1482060948680" duration="518000" />
-    </task>
-    <task id="LOCAL-00084" summary="更新代码">
-      <created>1480917611692</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1480917611692</updated>
+      <workItem from="1482060948680" duration="568000" />
     </task>
     <task id="LOCAL-00085" summary="更新代码">
       <created>1480921272120</created>
@@ -866,11 +858,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482061444239</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="更新代码">
+      <created>1482061482978</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1482061482978</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269198000" />
+    <option name="totallyTimeSpent" value="269248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1287,8 +1286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson1/class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="390">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>

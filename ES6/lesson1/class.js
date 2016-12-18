@@ -59,5 +59,6 @@ class Manager extends User{
 }
 var manager=new Manager('leo',22,'123');
 manager.changeName('zen ling');
+
 console.log(manager.name);
 console.log(manager.info);

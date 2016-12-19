@@ -135,6 +135,7 @@
 
             var flag = true;
             function fn(){
+//                clearInterval(timer);
                 if(flag){
                     var fnleft = (oContainer.offsetWidth - 750) / 2 ;
                     var fntop = (oContainer.offsetHeight - 500) / 2 ;
@@ -168,12 +169,8 @@
 
                 }
                 flag = !flag;
-
             }
-
-
             oNext.onclick = oPrev.onclick = function(){
-
                 if(this == oNext){
                     iNow++;
                     if(iNow == aDiv.length){
@@ -185,13 +182,10 @@
                         iNow = aDiv.length - 1;
                     }
                 }
-
-
                 var arr = [];
                 for(var i=0;i<24;i++){
                     arr.push(i);
                 }
-
                 arr.sort(function(){
                     return Math.random() - 0.5;
                 });

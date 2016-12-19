@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson2/promise.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/旋转合并照片墙/照片墙.html" afterPath="$PROJECT_DIR$/前端l编程/旋转合并照片墙/照片墙.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/lesson2/promise.js" afterPath="$PROJECT_DIR$/ES6/lesson2/promise.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,8 +162,8 @@
       <file leaf-file-name="promise.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="520">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc;n#asyncFun#0" expanded="false" />
               </folding>
@@ -595,14 +594,7 @@
       <workItem from="1481637887378" duration="3016000" />
       <workItem from="1481953814349" duration="6886000" />
       <workItem from="1482060948680" duration="6451000" />
-      <workItem from="1482120730123" duration="611000" />
-    </task>
-    <task id="LOCAL-00087" summary="更新代码">
-      <created>1480928888630</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1480928888630</updated>
+      <workItem from="1482120730123" duration="1055000" />
     </task>
     <task id="LOCAL-00088" summary="更新代码">
       <created>1480937268295</created>
@@ -940,11 +932,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482062534027</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="更新代码">
+      <created>1482121355732</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1482121355734</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275742000" />
+    <option name="totallyTimeSpent" value="276186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1361,8 +1360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="520">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc;n#asyncFun#0" expanded="false" />
           </folding>

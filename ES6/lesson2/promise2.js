@@ -1,7 +1,7 @@
 /**
  * Created by 35031 on 2016/12/19.
  */
-'use strict'
+'use strict';
 class User{
     constructor(name,password){
         this.name=name;
@@ -23,7 +23,7 @@ class User{
         let password=this.password;
         return new Promise(function (resolve,reject) {
             setTimeout(function () {
-                if (name==='123'){
+                if (password==='123'){
                     resolve('sucess');
                 }else {
                     reject('error')
@@ -38,3 +38,13 @@ var user=new User('leo','123');
 // }).catch(function (err) {
 //     console.log(err);
 // });
+user.validateName()
+    .then(function (result) {
+   return user.validatePassword();
+})
+    .then(function (result) {
+        console.log('验证成功！')
+    })
+    .catch(function (err) {
+       console.log('用户名或密码错误！');
+    });

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson3/Symble05.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson3/Symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson3/Symbol4.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/lesson3/symbols.js" afterPath="$PROJECT_DIR$/ES6/lesson3/symbols.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -222,11 +220,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Symbol.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Symbol.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES6/lesson3/Symbol.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Symbol4.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ES6/lesson3/Symbol4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -266,7 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kata/groupCheck.js" />
         <option value="$PROJECT_DIR$/kata/UniqueInOrder.js" />
         <option value="$PROJECT_DIR$/kata/solution.js" />
         <option value="$PROJECT_DIR$/kata/triangleType.js" />
@@ -317,6 +326,7 @@
         <option value="$PROJECT_DIR$/ES6/lesson3/symbols.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symble05.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol.js" />
+        <option value="$PROJECT_DIR$/ES6/lesson3/Symbol4.js" />
       </list>
     </option>
   </component>
@@ -528,11 +538,8 @@
       <recent name="D:\360js\javascript\kata" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Symbol.js">
+  <component name="RunManager" selected="Node.js.Symbol4.js">
     <configuration default="false" name="synbols与遍历器的认识.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="synbols与遍历器的认识.js" working-dir="$PROJECT_DIR$/ES6/lesson3">
-      <method />
-    </configuration>
-    <configuration default="false" name="Symbol02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Symbol02.js" working-dir="$PROJECT_DIR$/ES6/lesson3">
       <method />
     </configuration>
     <configuration default="false" name="symbols.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="symbols.js" working-dir="$PROJECT_DIR$/ES6/lesson3">
@@ -542,6 +549,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Symbol.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Symbol.js" working-dir="$PROJECT_DIR$/ES6/lesson3">
+      <method />
+    </configuration>
+    <configuration default="false" name="Symbol4.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Symbol4.js" working-dir="$PROJECT_DIR$/ES6/lesson3">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -606,18 +616,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.synbols与遍历器的认识.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Symbol02.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.symbols.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Symble05.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Symbol.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.symbols.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Symble05.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Symbol.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Symbol4.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Symbol.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Symble05.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.symbols.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.synbols与遍历器的认识.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Symbol02.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Symbol4.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Symbol.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Symble05.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.symbols.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.synbols与遍历器的认识.js" />
       </list>
     </recent_temporary>
   </component>
@@ -677,14 +687,7 @@
       <workItem from="1482060948680" duration="6451000" />
       <workItem from="1482120730123" duration="7376000" />
       <workItem from="1482132653295" duration="538000" />
-      <workItem from="1482147179324" duration="4605000" />
-    </task>
-    <task id="LOCAL-00097" summary="更新代码">
-      <created>1481093022891</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1481093022892</updated>
+      <workItem from="1482147179324" duration="5680000" />
     </task>
     <task id="LOCAL-00098" summary="更新代码">
       <created>1481097338040</created>
@@ -1022,11 +1025,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482150090739</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="更新代码">
+      <created>1482153103773</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1482153103773</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287650000" />
+    <option name="totallyTimeSpent" value="288725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1087,13 +1097,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/图片切换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/affsetParent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1445,6 +1448,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/lesson3/Symbol4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>

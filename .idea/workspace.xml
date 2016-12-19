@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson2/promise2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/lesson2/promise.js" afterPath="$PROJECT_DIR$/ES6/lesson2/promise.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,11 +159,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="promise.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="promise2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="39" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="312">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc;n#asyncFun#0" expanded="false" />
               </folding>
@@ -203,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/测试题/编程1.js" />
         <option value="$PROJECT_DIR$/测试题/编程2.js" />
         <option value="$PROJECT_DIR$/测试题/编程3.js" />
         <option value="$PROJECT_DIR$/测试题/编程4.1.html" />
@@ -254,6 +265,7 @@
         <option value="$PROJECT_DIR$/ES6/lesson1/class.js" />
         <option value="$PROJECT_DIR$/前端l编程/旋转合并照片墙/照片墙.html" />
         <option value="$PROJECT_DIR$/ES6/lesson2/promise.js" />
+        <option value="$PROJECT_DIR$/ES6/lesson2/promise2.js" />
       </list>
     </option>
   </component>
@@ -447,11 +459,8 @@
       <recent name="D:\360js\javascript\kata" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.class.js">
+  <component name="RunManager" selected="Node.js.promise2.js">
     <configuration default="false" name="LRU.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="LRU.js" working-dir="$PROJECT_DIR$/kata">
-      <method />
-    </configuration>
-    <configuration default="false" name="闭包.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="闭包.js" working-dir="$PROJECT_DIR$/javascript.DOM编程艺术">
       <method />
     </configuration>
     <configuration default="false" name="dblLinear.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="dblLinear.js" working-dir="$PROJECT_DIR$/kata">
@@ -461,6 +470,9 @@
       <method />
     </configuration>
     <configuration default="false" name="class.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/ES6/lesson1">
+      <method />
+    </configuration>
+    <configuration default="false" name="promise2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promise2.js" working-dir="$PROJECT_DIR$/ES6/lesson2">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -525,18 +537,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.LRU.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.闭包.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.dblLinear.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.let与const.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.class.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.dblLinear.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.let与const.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.class.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.promise2.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.class.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.let与const.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.dblLinear.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.LRU.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.闭包.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.promise2.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.class.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.let与const.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.dblLinear.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.LRU.js" />
       </list>
     </recent_temporary>
   </component>
@@ -594,14 +606,7 @@
       <workItem from="1481637887378" duration="3016000" />
       <workItem from="1481953814349" duration="6886000" />
       <workItem from="1482060948680" duration="6451000" />
-      <workItem from="1482120730123" duration="1055000" />
-    </task>
-    <task id="LOCAL-00088" summary="更新代码">
-      <created>1480937268295</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1480937268296</updated>
+      <workItem from="1482120730123" duration="2021000" />
     </task>
     <task id="LOCAL-00089" summary="更新代码">
       <created>1480943448797</created>
@@ -939,11 +944,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482121355734</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="更新代码">
+      <created>1482121799223</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1482121799223</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276186000" />
+    <option name="totallyTimeSpent" value="277152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -953,7 +965,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.503003" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933443" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39933443" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52579033" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18993995" sideWeight="0.51264757" order="2" side_tool="true" content_ui="tabs" />
@@ -1024,13 +1036,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kata/tripledouble.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kata/UniqueInOrder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -1331,6 +1336,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1360,10 +1368,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="312">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc;n#asyncFun#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="39" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>

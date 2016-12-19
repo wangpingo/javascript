@@ -1,7 +1,7 @@
 /**
  * Created by 35031 on 2016/12/19.
  */
-'use strict'
+'use strict';
 class UserGroup{
     constructor(users){
         //json {name:xxx}
@@ -24,10 +24,11 @@ class UserGroup{
     }
 }
 let group=new UserGroup({'aaa':'1111','eee':'2222'});
-// for (let user of group){
-//     console.log(user)
-// }
-let  iterator= group[Symbol.iterator]();
-console.log(iterator.next());
-console.log(iterator.next());
-console.log(iterator.next());
+// let i=0;
+for (let user of group){
+    console.log(user)
+}
+// let  iterator= group[Symbol.iterator]();
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());

@@ -1,7 +1,7 @@
 /**
  * Created by 35031 on 2016/12/19.
  */
-function asyncFun() {
+function asyncFun(a,b) {
     return new Promise(function (resolve,reject) {
         if (typeof a!=='number' || b!=='number'){
             reject(new Error('not  number'))

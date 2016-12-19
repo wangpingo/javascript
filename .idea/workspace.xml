@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson2/promiseError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson2/promise3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/lesson2/promise.js" afterPath="$PROJECT_DIR$/ES6/lesson2/promise.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,25 +160,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="promise2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise2.js">
+      <file leaf-file-name="promise3.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="49" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="promiseError.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ES6/lesson2/promiseError.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="52" selection-end-column="6" />
-              <folding>
-                <element signature="e#43#85#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -186,11 +175,33 @@
       <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="520">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc;n#asyncFun#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promise2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promiseError.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/lesson2/promiseError.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/测试题/编程3.js" />
         <option value="$PROJECT_DIR$/测试题/编程4.1.html" />
         <option value="$PROJECT_DIR$/测试题/jslib.js" />
         <option value="$PROJECT_DIR$/测试题/编程5.html" />
@@ -275,9 +285,10 @@
         <option value="$PROJECT_DIR$/ES6/lesson1/let与const.js" />
         <option value="$PROJECT_DIR$/ES6/lesson1/class.js" />
         <option value="$PROJECT_DIR$/前端l编程/旋转合并照片墙/照片墙.html" />
-        <option value="$PROJECT_DIR$/ES6/lesson2/promise.js" />
         <option value="$PROJECT_DIR$/ES6/lesson2/promise2.js" />
         <option value="$PROJECT_DIR$/ES6/lesson2/promiseError.js" />
+        <option value="$PROJECT_DIR$/ES6/lesson2/promise.js" />
+        <option value="$PROJECT_DIR$/ES6/lesson2/promise3.js" />
       </list>
     </option>
   </component>
@@ -345,6 +356,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="前端l编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="前端l编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="银行家算法" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,13 +500,7 @@
       <recent name="D:\360js\javascript\kata" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.promiseError.js">
-    <configuration default="false" name="dblLinear.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="dblLinear.js" working-dir="$PROJECT_DIR$/kata">
-      <method />
-    </configuration>
-    <configuration default="false" name="let与const.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="let与const.js" working-dir="$PROJECT_DIR$/ES6/lesson1">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.promise3.js">
     <configuration default="false" name="class.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/ES6/lesson1">
       <method />
     </configuration>
@@ -485,6 +508,12 @@
       <method />
     </configuration>
     <configuration default="false" name="promiseError.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promiseError.js" working-dir="$PROJECT_DIR$/ES6/lesson2">
+      <method />
+    </configuration>
+    <configuration default="false" name="promise3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promise3.js" working-dir="$PROJECT_DIR$/ES6/lesson2">
+      <method />
+    </configuration>
+    <configuration default="false" name="promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promise.js" working-dir="$PROJECT_DIR$/ES6/lesson2">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -548,19 +577,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.dblLinear.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.let与const.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.class.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.promise2.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.promiseError.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.class.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.promise2.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.promiseError.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.promise3.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.promise.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.promiseError.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.promise2.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.class.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.let与const.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.dblLinear.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.promise3.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.promise.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.promiseError.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.promise2.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.class.js" />
       </list>
     </recent_temporary>
   </component>
@@ -618,14 +647,7 @@
       <workItem from="1481637887378" duration="3016000" />
       <workItem from="1481953814349" duration="6886000" />
       <workItem from="1482060948680" duration="6451000" />
-      <workItem from="1482120730123" duration="3003000" />
-    </task>
-    <task id="LOCAL-00091" summary="更新代码">
-      <created>1480946790226</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1480946790226</updated>
+      <workItem from="1482120730123" duration="5514000" />
     </task>
     <task id="LOCAL-00092" summary="更新代码">
       <created>1481009058643</created>
@@ -963,11 +985,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482123406535</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="更新代码">
+      <created>1482123752098</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1482123752098</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278134000" />
+    <option name="totallyTimeSpent" value="280645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -977,7 +1006,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545757" sideWeight="0.503003" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39933443" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27454242" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52579033" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18993995" sideWeight="0.51264757" order="2" side_tool="true" content_ui="tabs" />
@@ -1043,18 +1072,11 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kata/filter_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript.DOM编程艺术/递归.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1371,32 +1393,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="49" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="520">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc;n#asyncFun#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson2/promiseError.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="563">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#43#85#0" expanded="false" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>

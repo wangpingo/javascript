@@ -3,8 +3,9 @@
  */
 function asyncFun(a,b) {
     return new Promise(function (resolve,reject) {
-        if (typeof a!=='number' || b!=='number'){
-            reject(new Error('not  number'))
+        if (typeof a !=='number'||typeof b !=='number'){
+            console.log(typeof a,typeof b);
+            reject(new Error('not  number'));
         }
         setTimeout(function () {
             resolve(a+b);

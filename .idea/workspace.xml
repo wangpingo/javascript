@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="" />
+    <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -613,14 +615,7 @@
       <workItem from="1482132653295" duration="538000" />
       <workItem from="1482147179324" duration="7187000" />
       <workItem from="1482198407190" duration="105000" />
-      <workItem from="1482224411458" duration="36000" />
-    </task>
-    <task id="LOCAL-00100" summary="更新代码">
-      <created>1481338406925</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1481338406940</updated>
+      <workItem from="1482224411458" duration="158000" />
     </task>
     <task id="LOCAL-00101" summary="更新代码">
       <created>1481341390495</created>
@@ -958,11 +953,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482155270277</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="更新代码">
+      <created>1482224482611</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1482224482613</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290373000" />
+    <option name="totallyTimeSpent" value="290495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />

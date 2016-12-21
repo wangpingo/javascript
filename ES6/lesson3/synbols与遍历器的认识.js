@@ -10,6 +10,7 @@ var obj={
     'my name':'gaoquankang'
 };
 obj.name;
+
 obj['my name'];
 console.log(name===name2);
 let obj1={

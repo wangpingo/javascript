@@ -158,7 +158,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Symble03.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Symble03.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES6/lesson3/Symble03.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -166,6 +166,16 @@
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="synbols与遍历器的认识.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,7 +255,6 @@
         <option value="$PROJECT_DIR$/ES6/lesson2/promise.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/User.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol02.js" />
-        <option value="$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/symbols.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symble05.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol.js" />
@@ -253,6 +262,7 @@
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol06.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol4.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symble03.js" />
+        <option value="$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js" />
       </list>
     </option>
   </component>
@@ -598,14 +608,7 @@
       <workItem from="1482147179324" duration="7187000" />
       <workItem from="1482198407190" duration="105000" />
       <workItem from="1482224411458" duration="1022000" />
-      <workItem from="1482289258539" duration="144000" />
-    </task>
-    <task id="LOCAL-00108" summary="更新代码">
-      <created>1481357830366</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1481357830366</updated>
+      <workItem from="1482289258539" duration="159000" />
     </task>
     <task id="LOCAL-00109" summary="更新代码">
       <created>1481359747947</created>
@@ -943,11 +946,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482289393479</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="更新代码">
+      <created>1482289409538</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1482289409538</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291503000" />
+    <option name="totallyTimeSpent" value="291518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1322,13 +1332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson3/Symbol4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1343,6 +1346,14 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

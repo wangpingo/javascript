@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js" afterPath="$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -610,14 +609,7 @@
       <workItem from="1482198407190" duration="105000" />
       <workItem from="1482224411458" duration="1022000" />
       <workItem from="1482289258539" duration="185000" />
-      <workItem from="1482406109558" duration="572000" />
-    </task>
-    <task id="LOCAL-00110" summary="更新代码">
-      <created>1481422412505</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1481422412520</updated>
+      <workItem from="1482406109558" duration="1245000" />
     </task>
     <task id="LOCAL-00111" summary="更新代码">
       <created>1481423478828</created>
@@ -955,11 +947,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482289433971</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="更新代码">
+      <created>1482406690996</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1482406690996</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292116000" />
+    <option name="totallyTimeSpent" value="292789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />

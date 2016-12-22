@@ -11,8 +11,7 @@ var obj={
 };
 obj.name;
 
-
-obj['my name'];
+    obj['my name'];
 console.log(name===name2);
 let obj1={
     [name](){

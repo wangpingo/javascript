@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js" afterPath="$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -174,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -609,14 +610,7 @@
       <workItem from="1482198407190" duration="105000" />
       <workItem from="1482224411458" duration="1022000" />
       <workItem from="1482289258539" duration="185000" />
-      <workItem from="1482406109558" duration="1245000" />
-    </task>
-    <task id="LOCAL-00111" summary="更新代码">
-      <created>1481423478828</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1481423478828</updated>
+      <workItem from="1482406109558" duration="1632000" />
     </task>
     <task id="LOCAL-00112" summary="更新代码">
       <created>1481423623434</created>
@@ -954,11 +948,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482406690996</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="更新代码">
+      <created>1482409623030</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1482409623030</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292789000" />
+    <option name="totallyTimeSpent" value="293176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1353,7 +1354,7 @@
     <entry file="file://$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
       </provider>

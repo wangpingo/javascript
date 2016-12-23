@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html" afterPath="$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -173,8 +174,8 @@
       <file leaf-file-name="内存分配算法.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -578,14 +579,7 @@
       <workItem from="1482224411458" duration="1022000" />
       <workItem from="1482289258539" duration="185000" />
       <workItem from="1482406109558" duration="1826000" />
-      <workItem from="1482471239405" duration="22000" />
-    </task>
-    <task id="LOCAL-00115" summary="更新代码">
-      <created>1481428152965</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1481428152965</updated>
+      <workItem from="1482471239405" duration="221000" />
     </task>
     <task id="LOCAL-00116" summary="更新代码">
       <created>1481439344384</created>
@@ -923,11 +917,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482410158793</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="更新代码">
+      <created>1482471452895</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1482471452895</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293392000" />
+    <option name="totallyTimeSpent" value="293591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1322,8 +1323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
           <folding />
         </state>
       </provider>

@@ -174,8 +174,8 @@
       <file leaf-file-name="内存分配算法.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+            <state relative-caret-position="263">
+              <caret line="192" column="9" lean-forward="false" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -579,14 +579,7 @@
       <workItem from="1482224411458" duration="1022000" />
       <workItem from="1482289258539" duration="185000" />
       <workItem from="1482406109558" duration="1826000" />
-      <workItem from="1482471239405" duration="221000" />
-    </task>
-    <task id="LOCAL-00116" summary="更新代码">
-      <created>1481439344384</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1481439344384</updated>
+      <workItem from="1482471239405" duration="253000" />
     </task>
     <task id="LOCAL-00117" summary="更新代码">
       <created>1481547059195</created>
@@ -924,11 +917,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482471452895</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="更新代码">
+      <created>1482471491151</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1482471491151</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293591000" />
+    <option name="totallyTimeSpent" value="293623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1323,8 +1323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+        <state relative-caret-position="263">
+          <caret line="192" column="9" lean-forward="false" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
           <folding />
         </state>
       </provider>

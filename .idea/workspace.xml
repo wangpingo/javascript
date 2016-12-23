@@ -170,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="synbols与遍历器的认识.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js">
+      <file leaf-file-name="内存分配算法.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -212,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kata/score.js" />
         <option value="$PROJECT_DIR$/lianxi/五环.html" />
         <option value="$PROJECT_DIR$/lianxi/进程调度算法/五环的.html" />
         <option value="$PROJECT_DIR$/lianxi/奥运五环.html" />
@@ -263,6 +262,7 @@
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol4.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symble03.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js" />
+        <option value="$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html" />
       </list>
     </option>
   </component>
@@ -382,38 +382,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="内存分配算法" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,14 +577,8 @@
       <workItem from="1482198407190" duration="105000" />
       <workItem from="1482224411458" duration="1022000" />
       <workItem from="1482289258539" duration="185000" />
-      <workItem from="1482406109558" duration="1767000" />
-    </task>
-    <task id="LOCAL-00114" summary="更新代码">
-      <created>1481424843510</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1481424843510</updated>
+      <workItem from="1482406109558" duration="1826000" />
+      <workItem from="1482471239405" duration="22000" />
     </task>
     <task id="LOCAL-00115" summary="更新代码">
       <created>1481428152965</created>
@@ -954,11 +916,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482410141204</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="更新代码">
+      <created>1482410158793</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1482410158793</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293311000" />
+    <option name="totallyTimeSpent" value="293392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1242,13 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="192" column="9" lean-forward="false" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/LRU算法/页面替换算法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1353,7 +1315,15 @@
     <entry file="file://$PROJECT_DIR$/ES6/lesson3/synbols与遍历器的认识.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端l编程/内存分配算法/内存分配算法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
           <folding />
         </state>
       </provider>

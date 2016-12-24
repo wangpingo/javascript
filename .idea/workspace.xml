@@ -173,8 +173,8 @@
       <file leaf-file-name="co.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES6/lesson2/co.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="26">
+              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -554,14 +554,7 @@
       <workItem from="1482406109558" duration="1826000" />
       <workItem from="1482471239405" duration="2052000" />
       <workItem from="1482501973308" duration="5149000" />
-      <workItem from="1482561983534" duration="1273000" />
-    </task>
-    <task id="LOCAL-00127" summary="更新代码">
-      <created>1481614665112</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1481614665112</updated>
+      <workItem from="1482561983534" duration="1905000" />
     </task>
     <task id="LOCAL-00128" summary="更新代码">
       <created>1481640631642</created>
@@ -899,11 +892,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482562785822</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="更新代码">
+      <created>1482565793453</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1482565793453</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301844000" />
+    <option name="totallyTimeSpent" value="302476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -1299,8 +1299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson2/co.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="26">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
           <folding />
         </state>
       </provider>

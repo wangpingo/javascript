@@ -15,3 +15,8 @@ var arr=Array.from({
     return item+'----'+index;
 });
 console.log(arr);
+var arr1=[1,2,3,4,5,6,7];
+arr1.copyWithin(1,5,7);
+console.log(arr1);
+arr.fill(10);
+console.log(arr);

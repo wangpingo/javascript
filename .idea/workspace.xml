@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson4/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ES6/lesson6/Array.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascripts.iws" />
@@ -159,46 +159,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yield+generator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/lesson5/yield+generator.js">
+      <file leaf-file-name="Array.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ES6/lesson6/Array.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="co.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/lesson2/co.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ES6/lesson4/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/lesson2/promise.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -235,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kata/tripledouble.js" />
         <option value="$PROJECT_DIR$/js面向对象编程/call,apply的用法" />
         <option value="$PROJECT_DIR$/js面向对象编程/call，apply.js" />
         <option value="$PROJECT_DIR$/js面向对象编程/call,apply知识点" />
@@ -286,6 +253,7 @@
         <option value="$PROJECT_DIR$/ES6/lesson5/yield+generator.js" />
         <option value="$PROJECT_DIR$/ES6/lesson2/co.js" />
         <option value="$PROJECT_DIR$/ES6/lesson4/map.js" />
+        <option value="$PROJECT_DIR$/ES6/lesson6/Array.js" />
       </list>
     </option>
   </component>
@@ -338,6 +306,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ES6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,10 +397,7 @@
       <recent name="D:\360js\javascript\kata" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.map.js">
-    <configuration default="false" name="generator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="generator.js" working-dir="$PROJECT_DIR$/ES6/lesson5">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.Array.js">
     <configuration default="false" name="yield.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="yield.js" working-dir="$PROJECT_DIR$/ES6/lesson5">
       <method />
     </configuration>
@@ -425,6 +408,9 @@
       <method />
     </configuration>
     <configuration default="false" name="map.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="map.js" working-dir="$PROJECT_DIR$/ES6/lesson4">
+      <method />
+    </configuration>
+    <configuration default="false" name="Array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Array.js" working-dir="$PROJECT_DIR$/ES6/lesson6">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -488,19 +474,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.generator.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.yield.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.异常处理.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.yield+generator.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.map.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.yield.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.异常处理.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.yield+generator.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.map.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Array.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.map.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.yield+generator.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.异常处理.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.yield.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.generator.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Array.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.map.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.yield+generator.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.异常处理.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.yield.js" />
       </list>
     </recent_temporary>
   </component>
@@ -568,14 +554,7 @@
       <workItem from="1482471239405" duration="2052000" />
       <workItem from="1482501973308" duration="5149000" />
       <workItem from="1482561983534" duration="2590000" />
-      <workItem from="1482730750909" duration="2315000" />
-    </task>
-    <task id="LOCAL-00132" summary="更新代码">
-      <created>1482061444239</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1482061444239</updated>
+      <workItem from="1482730750909" duration="4275000" />
     </task>
     <task id="LOCAL-00133" summary="更新代码">
       <created>1482061482978</created>
@@ -913,11 +892,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482731022905</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="更新代码">
+      <created>1482733270972</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1482733270974</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305476000" />
+    <option name="totallyTimeSpent" value="307436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1370" height="735" extended-state="0" />
@@ -979,13 +965,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kata/LCS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/五环的.html/五环的.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1294,16 +1273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/lesson5/yield+generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson2/co.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1316,6 +1285,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/lesson5/yield+generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/lesson6/Array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>

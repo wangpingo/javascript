@@ -14,6 +14,7 @@ var arr=Array.from({
     'length':2
 },function (item,index) {
     return item+'----'+index;
+
 });
 console.log(arr);
 var arr1=[1,2,3,4,5,6,7];

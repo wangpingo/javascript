@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/EventMethod.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/EventMthod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/EventTarget.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/EventTarget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/animation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/animation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/bindEvent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/bindEvent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/customEvent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/customEvent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/jquery-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/jquery_01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/selector.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/selecttor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/响应式/01.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/响应式/01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JQuery/animation.html" afterPath="$PROJECT_DIR$/JQuery/animation.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -174,21 +161,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="animation.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JQuery/animation.html">
+      <file leaf-file-name="01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端l编程/响应式/01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="182">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JQuery/animation.js">
+      <file leaf-file-name="01.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端l编程/响应式/01.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -200,10 +187,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
-        <option value="CSS File" />
         <option value="package_json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -227,8 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ES6/lesson3/symbols.js" />
-        <option value="$PROJECT_DIR$/ES6/lesson3/Symble05.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol01.js" />
         <option value="$PROJECT_DIR$/ES6/lesson3/Symbol06.js" />
@@ -276,8 +261,10 @@
         <option value="$PROJECT_DIR$/JQuery/EventTarget.js" />
         <option value="$PROJECT_DIR$/JQuery/customEvent.js" />
         <option value="$PROJECT_DIR$/JQuery/customEvent.html" />
-        <option value="$PROJECT_DIR$/JQuery/animation.html" />
         <option value="$PROJECT_DIR$/JQuery/animation.js" />
+        <option value="$PROJECT_DIR$/JQuery/animation.html" />
+        <option value="$PROJECT_DIR$/前端l编程/响应式/01.html" />
+        <option value="$PROJECT_DIR$/前端l编程/响应式/01.css" />
       </list>
     </option>
   </component>
@@ -342,7 +329,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JQuery" />
+              <option name="myItemId" value="前端l编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="前端l编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="响应式" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,14 +560,7 @@
       <workItem from="1483442768899" duration="3294000" />
       <workItem from="1483492070691" duration="9688000" />
       <workItem from="1483533173062" duration="6168000" />
-      <workItem from="1483578592860" duration="282000" />
-    </task>
-    <task id="LOCAL-00148" summary="更新代码">
-      <created>1482155270277</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1482155270277</updated>
+      <workItem from="1483578592860" duration="2331000" />
     </task>
     <task id="LOCAL-00149" summary="更新代码">
       <created>1482224482611</created>
@@ -900,11 +898,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483492248108</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="更新代码">
+      <created>1483578894055</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1483578894055</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348482000" />
+    <option name="totallyTimeSpent" value="350531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -921,7 +926,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21546547" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.496997" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47920132" sideWeight="0.41516516" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.41516516" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47920132" sideWeight="0.5848348" order="10" side_tool="false" content_ui="tabs" />
@@ -975,20 +980,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6/lesson3/symbols.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/lesson3/Symbol01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson3/Symbol4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1262,6 +1253,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,6 +1291,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,8 +1307,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JQuery/animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="234">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端l编程/响应式/01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端l编程/响应式/01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>

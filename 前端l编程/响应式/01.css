@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+    .mainbody{
+        width: 770px;
+        margin-right: 30px;
+    }
+    .sidebar{
+        width: 370px;
+    }
+}

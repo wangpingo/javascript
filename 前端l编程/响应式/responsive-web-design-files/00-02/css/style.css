@@ -1,0 +1,162 @@
+body{
+  margin-top:35px;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+
+img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+h3, p{
+  padding:20px;
+}
+
+.container{
+  width:960px;
+  margin:0 auto;
+}
+
+#header, #nav, #footer, #mainbody, #sidebar{
+
+  line-height:25px;
+  background:#eee;
+  margin-bottom:20px;
+  padding-bottom:20px;
+  color:#999;
+}
+
+#mainbody, #sidebar{
+  height:300px;
+  float:left;
+  margin-bottom:35px;
+}
+
+#mainbody {
+  width:620px;
+  /*background:#ddefcb;*/
+  margin-right:20px;
+}
+
+#sidebar{
+  width:320px;
+  /*background:#ffcbdd;*/
+}
+
+#footer{
+  clear:both;
+}
+
+#footer h5{
+  padding-top:20px;
+}
+
+#footer {
+  background:none;
+  border-top:1px solid #eee;
+}
+#header{
+  background:none;
+  border-bottom:1px solid #eee;
+}
+#header h1{
+  font-size:2.5em;
+  margin-top:50px;
+  color:#3c3c3c;
+}
+
+#header h2{
+  font-size:1em;
+  color:#ccc;
+}
+
+/* 导航菜单 */
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+#nav li, #nav li a{
+  display: inline-block;
+  padding: 7px 15px;
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+#nav li a:hover{
+  background: #eee;
+}
+
+#nav{
+  background: none;
+}
+
+#nav .active{
+  background: #eee;
+}
+
+.toggle-btn{
+  display: none;
+}
+
+#showcase{
+  margin-bottom: 20px;
+}
+
+/* Swipe 幻灯片 */
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.slider-control .left{
+  position: absolute;
+  left: 20px;
+  top: 45%;
+}
+
+.slider-control .right{
+  position: absolute;
+  right: 20px;
+  top: 45%;
+}
+
+.slider-control button{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: 3px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0.7;
+  display: none;
+}
+
+.swipe:hover button{
+  display: block;
+}
+
+.slider-control button:hover{
+  opacity: 0.5;
+}

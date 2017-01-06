@@ -1,0 +1,15 @@
+body{
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+h2{
+  color: #eee;
+}
+
+@media screen and ( resolution: 1dppx ), screen and ( -webkit-device-pixel-ratio: 1 ) {
+  body{
+    background: #c0392b;
+  }
+}

@@ -1,0 +1,21 @@
+body{
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+h2{
+  color: #eee;
+}
+
+@media ( orientation: landscape ){
+  body{
+    background: #27ae60;
+  }
+}
+
+@media ( orientation: portrait ){
+  body{
+    background: #f2cb2b;
+  }
+}

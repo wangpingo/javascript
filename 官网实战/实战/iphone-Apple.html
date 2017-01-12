@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>苹果(中国)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #top {
+            background-color: #444444;
+            width: 100%;
+            height: 40px;
+            font-size: 10px;
+            color: white;
+        }
+
+        .top{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .left1{
+            margin-left:13%;
+        }
+        .right{
+            float: right;
+            margin-right: 13%;
+        }
+        #navP{
+            width: 100%;
+            height: 40px;
+            background-color: rgba(30,30,30,1);
+        }
+        #nav{
+            background-color: rgba(30,30,30,1);
+            margin:  0 auto;
+            width: 80%;
+            height: 40px;
+            font-size: 15px;
+            color: white;
+            /*text-align: justify;*/
+            /*width: 100%;*/
+            display: -webkit-box;
+            -webkit-box-pack: justify;
+            /*-webkit-box-sizing: content-box;*/
+        }
+        #nav .top{
+            display: block;
+        }
+        .sosuo{
+            background-image: url("image_large 1.svg");
+        }
+        .shop{
+            background-image: url("image_large2.svg");
+        }
+        .apple{
+            background-image: url("image_large.svg");
+        }
+        .img{
+            /*margin-right:10px ;*/
+            /*position: relative;*/
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: 20px 44px;
+            background-position: center center;
+            width: 20px;
+            height: 40px;
+        }
+        .active{
+            color: #b7b7b7;
+        }
+    </style>
+</head>
+<body>
+<div id="top">
+    <span class="top left1">商店首页</span>|
+    <span class="top left2">退出商店</span>
+    <span class="top right"><广告> </span>
+</div>
+<div id="navP">
+    <!--<div style="height: 40px;width: 10% ;display: inline-block"></div>-->
+    <div id="nav">
+        <span class="top img apple">&nbsp;</span>
+        <span class="top active">Mac</span>
+        <span class="top">iPad</span>
+        <span class="top">iPhone</span>
+        <span class="top">Watch</span>
+        <span class="top">Music</span>
+        <span class="top">技术支持</span>
+        <span class="top img sosuo">&nbsp;</span>
+        <span class="top img shop">&nbsp;</span>
+    </div>
+    <!--<div style="height: 40px;width: 10%;display: inline-block"></div>-->
+</div>
+
+</body>
+</html>

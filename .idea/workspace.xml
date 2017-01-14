@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="更新代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/页面实例/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端l编程/页面实例/盒模型.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/官网实战/iPhone - Apple (中国).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/官网实战/实战/apple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/官网实战/实战/image_large 1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/官网实战/实战/image_large.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/官网实战/实战/image_large2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/官网实战/实战/iphone-Apple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/官网实战/首页 _ 星巴克.html" />
+    <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascripts.iws" />
@@ -167,11 +158,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="盒模型.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/盒模型.html">
+      <file leaf-file-name="旋转木麻.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="7" />
+            <state relative-caret-position="26">
+              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -367,8 +358,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -584,14 +575,9 @@
       <workItem from="1483861547528" duration="726000" />
       <workItem from="1484016245664" duration="4000" />
       <workItem from="1484032819078" duration="3193000" />
-      <workItem from="1484203504970" duration="1566000" />
-    </task>
-    <task id="LOCAL-00151" summary="更新代码">
-      <created>1482224646560</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1482224646560</updated>
+      <workItem from="1484203504970" duration="1731000" />
+      <workItem from="1484381688102" duration="323000" />
+      <workItem from="1484403646445" duration="24000" />
     </task>
     <task id="LOCAL-00152" summary="更新代码">
       <created>1482224764941</created>
@@ -929,11 +915,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483665902188</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="更新代码">
+      <created>1484205111804</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1484205111804</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401058000" />
+    <option name="totallyTimeSpent" value="401570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1024,13 +1017,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JQuery/TraversingDown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JQuery/TraversingUp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1303,7 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
           <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1066">
           <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,11 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1534">
           <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding>
-            <element signature="e#2135#2141#1" expanded="false" />
-            <element signature="e#2423#2429#1" expanded="false" />
-            <element signature="e#2472#2478#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,10 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="e#1717#1723#0" expanded="false" />
-            <element signature="e#1723#1729#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1358,14 +1331,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/盒模型.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="7" />
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>

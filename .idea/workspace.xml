@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
+    <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="更新代码">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascripts.iws" />
@@ -161,8 +161,8 @@
       <file leaf-file-name="旋转木麻.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="156">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -205,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JQuery/app.js" />
         <option value="$PROJECT_DIR$/JQuery/jquery_01.html" />
         <option value="$PROJECT_DIR$/JQuery/selector.html" />
         <option value="$PROJECT_DIR$/JQuery/selecttor.js" />
@@ -256,6 +255,7 @@
         <option value="$PROJECT_DIR$/官网实战/实战/iphone-Apple.html" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/blog.html" />
         <option value="$PROJECT_DIR$/前端l编程/页面实例/盒模型.html" />
+        <option value="$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html" />
       </list>
     </option>
   </component>
@@ -298,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,56 +311,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="编程风格" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="前端l编程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="页面实例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="前端l编程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,19 +334,19 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="http:// git@github.com:ruanyf/react-demos.git" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\360js\javascript\官网实战\实战" />
-      <recent name="D:\360js\javascript\jQuery UI" />
-      <recent name="D:\360js\javascript\前端l编程\响应式" />
-      <recent name="D:\360js\javascript\前端l编程" />
-      <recent name="D:\360js\javascript\js面向对象编程" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\360js\javascript\官网实战" />
       <recent name="D:\360js\javascript\前端l编程" />
       <recent name="D:\360js\javascript\前端l编程\页面实例" />
       <recent name="D:\360js\javascript\前端l编程\内存分配算法" />
       <recent name="D:\360js\javascript\前端l编程\银行家算法" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\360js\javascript\官网实战\实战" />
+      <recent name="D:\360js\javascript\jQuery UI" />
+      <recent name="D:\360js\javascript\前端l编程\响应式" />
+      <recent name="D:\360js\javascript\前端l编程" />
+      <recent name="D:\360js\javascript\js面向对象编程" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.caller和callee区别.js">
@@ -577,14 +531,11 @@
       <workItem from="1484032819078" duration="3193000" />
       <workItem from="1484203504970" duration="1731000" />
       <workItem from="1484381688102" duration="323000" />
-      <workItem from="1484403646445" duration="24000" />
-    </task>
-    <task id="LOCAL-00152" summary="更新代码">
-      <created>1482224764941</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1482224764941</updated>
+      <workItem from="1484403646445" duration="107000" />
+      <workItem from="1484450418723" duration="73000" />
+      <workItem from="1484450698742" duration="104000" />
+      <workItem from="1484504694368" duration="475000" />
+      <workItem from="1484505662843" duration="144000" />
     </task>
     <task id="LOCAL-00153" summary="更新代码">
       <created>1482224830473</created>
@@ -922,11 +873,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484205111804</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="更新代码">
+      <created>1484403705364</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1484403705364</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401570000" />
+    <option name="totallyTimeSpent" value="402449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -939,14 +897,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24174175" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24174175" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.496997" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.41516516" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47920132" sideWeight="0.5848348" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2590164" sideWeight="0.5848348" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26276276" sideWeight="0.53797466" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1343,8 +1301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/页面实例/旋转木麻.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="156">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>

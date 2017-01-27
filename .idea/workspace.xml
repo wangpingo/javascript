@@ -4,7 +4,6 @@
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/天天有课" afterPath="$PROJECT_DIR$/天天有课" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js面向对象编程/call,apply.html" afterPath="$PROJECT_DIR$/js面向对象编程/call,apply.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,12 +158,12 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="call,apply.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js面向对象编程/call,apply.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -301,7 +300,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,6 +328,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -558,14 +557,8 @@
       <workItem from="1484890801880" duration="152000" />
       <workItem from="1484940562569" duration="5740000" />
       <workItem from="1485203968624" duration="1844000" />
-      <workItem from="1485428988346" duration="229000" />
-    </task>
-    <task id="LOCAL-00159" summary="更新代码">
-      <created>1482406690996</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1482406690996</updated>
+      <workItem from="1485428988346" duration="335000" />
+      <workItem from="1485486109133" duration="18000" />
     </task>
     <task id="LOCAL-00160" summary="更新代码">
       <created>1482409623030</created>
@@ -903,11 +896,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485429188195</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="更新代码">
+      <created>1485429232474</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1485429232474</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412273000" />
+    <option name="totallyTimeSpent" value="412397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1325,7 +1325,7 @@
     <entry file="file://$PROJECT_DIR$/js面向对象编程/call,apply.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
         </state>
       </provider>

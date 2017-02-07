@@ -158,7 +158,18 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JQuery/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JQuery/animation.js" />
         <option value="$PROJECT_DIR$/前端l编程/响应式/01.html" />
         <option value="$PROJECT_DIR$/前端l编程/响应式/01.css" />
         <option value="$PROJECT_DIR$/前端l编程/响应式/responsive-web-design-files/03-02/css/style.css" />
@@ -246,6 +256,7 @@
         <option value="$PROJECT_DIR$/js面向对象编程/node.js" />
         <option value="$PROJECT_DIR$/js面向对象编程/index.html" />
         <option value="$PROJECT_DIR$/js面向对象编程/call,apply.html" />
+        <option value="$PROJECT_DIR$/JQuery/1.html" />
       </list>
     </option>
   </component>
@@ -562,14 +573,8 @@
       <workItem from="1485203968624" duration="1844000" />
       <workItem from="1485428988346" duration="335000" />
       <workItem from="1485486109133" duration="332000" />
-      <workItem from="1486359386386" duration="1796000" />
-    </task>
-    <task id="LOCAL-00163" summary="更新代码">
-      <created>1482410158793</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1482410158793</updated>
+      <workItem from="1486359386386" duration="1852000" />
+      <workItem from="1486430055806" duration="99000" />
     </task>
     <task id="LOCAL-00164" summary="更新代码">
       <created>1482471452895</created>
@@ -907,11 +912,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486362023606</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="更新代码">
+      <created>1486362039963</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1486362039964</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414507000" />
+    <option name="totallyTimeSpent" value="414662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -924,9 +936,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="111" y="36" width="1168" height="643" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3203125" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3203125" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.496997" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.41516516" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1002,13 +1014,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jQuery UI/jquery-ui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery UI/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1336,6 +1341,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>

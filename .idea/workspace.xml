@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/天天有课" afterPath="$PROJECT_DIR$/天天有课" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascripts.iws" />
@@ -172,8 +171,8 @@
       <file leaf-file-name="class.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES6/lesson1/class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+            <state relative-caret-position="111">
+              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -211,7 +210,9 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -432,7 +433,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fellows11" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -660,14 +661,7 @@
       <workItem from="1486607870042" duration="4281000" />
       <workItem from="1486622641629" duration="5662000" />
       <workItem from="1486862886033" duration="2863000" />
-      <workItem from="1486866021531" duration="774000" />
-    </task>
-    <task id="LOCAL-00180" summary="更新代码">
-      <created>1482731022905</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1482731022905</updated>
+      <workItem from="1486866021531" duration="1053000" />
     </task>
     <task id="LOCAL-00181" summary="更新代码">
       <created>1482733270972</created>
@@ -1005,11 +999,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486866687786</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="更新代码">
+      <created>1486866808567</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1486866808567</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429337000" />
+    <option name="totallyTimeSpent" value="429616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1022,11 +1023,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2872024" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.496997" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5409836" sideWeight="0.80282736" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5409836" sideWeight="0.80282736" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5409836" sideWeight="0.19717261" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10655738" sideWeight="0.5848348" order="10" side_tool="false" content_ui="tabs" />
@@ -1439,8 +1440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6/lesson1/class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="111">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding />
         </state>
       </provider>

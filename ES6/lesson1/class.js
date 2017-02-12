@@ -53,8 +53,6 @@ class Manager extends User{
         super(name,age);
         this.password=password;
     }
-
-
     changePassword(password){
         this.password=password;
     }
@@ -64,4 +62,4 @@ manager.changeName('zen ling');
 console.log(manager.name);
 console.log(manager.info);
 console.log(manager);
-// info 方法
+// info 方法好用

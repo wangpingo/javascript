@@ -53,6 +53,8 @@ class Manager extends User{
         super(name,age);
         this.password=password;
     }
+
+
     changePassword(password){
         this.password=password;
     }

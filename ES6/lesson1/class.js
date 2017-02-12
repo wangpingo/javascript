@@ -63,4 +63,4 @@ manager.changeName('zen ling');
 console.log(manager.name);
 console.log(manager.info);
 console.log(manager);
-// info 方法好用
+// info 方法好用哈哈

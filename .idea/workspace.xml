@@ -2,8 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/green_two_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_one_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_two_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_one_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_one_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/ads/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_three.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/ads/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_two.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/zoomlens.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/hot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/ads/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/green.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/green_two.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/ads/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/upload/20120216.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/headerbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/advertise.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_two_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_three_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/adindex.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/theme.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue_three_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/green_one_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/green_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/upload/20120219.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_three_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/zoomloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/green_two_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/green_one_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_two.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/loadingAnimation.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/ads/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/upload/20120220.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/upload/20120218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/upload/20120217.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_three_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_one_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/btn_cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_two_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/chos.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/zoom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_three.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/common.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/look.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/star-matrix.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQuery/电商网站/images/pro_img/yellow_two_small.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/天天有课" afterPath="$PROJECT_DIR$/天天有课" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JQuery/1.html" afterPath="$PROJECT_DIR$/JQuery/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JQuery/exentsJQuery.js" afterPath="$PROJECT_DIR$/JQuery/exentsJQuery.js" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,11 +217,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JQuery/1.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JQuery/电商网站/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -177,8 +235,8 @@
         <option value="Html5" />
         <option value="package_json" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -206,7 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端l编程/响应式/01.html" />
         <option value="$PROJECT_DIR$/前端l编程/响应式/01.css" />
         <option value="$PROJECT_DIR$/前端l编程/响应式/responsive-web-design-files/03-02/css/style.css" />
         <option value="$PROJECT_DIR$/前端l编程/响应式/responsive-web-design-files/03-02/navigation.html" />
@@ -230,7 +287,6 @@
         <option value="$PROJECT_DIR$/JQuery/filter.js" />
         <option value="$PROJECT_DIR$/JQuery/exentsJQuery.html" />
         <option value="$PROJECT_DIR$/JQuery/myJquery.js" />
-        <option value="$PROJECT_DIR$/JQuery/exentsJQuery.js" />
         <option value="$PROJECT_DIR$/JQuery/noConflict.html" />
         <option value="$PROJECT_DIR$/JQuery/noConflict.js" />
         <option value="$PROJECT_DIR$/jQuery UI/jquery-3.1.1.min.js" />
@@ -257,6 +313,8 @@
         <option value="$PROJECT_DIR$/js面向对象编程/index.html" />
         <option value="$PROJECT_DIR$/js面向对象编程/call,apply.html" />
         <option value="$PROJECT_DIR$/JQuery/1.html" />
+        <option value="$PROJECT_DIR$/JQuery/exentsJQuery.js" />
+        <option value="$PROJECT_DIR$/JQuery/电商网站/index.html" />
       </list>
     </option>
   </component>
@@ -299,8 +357,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -341,6 +399,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="电商网站" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JQuery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="电商网站" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -363,19 +461,19 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="http:// git@github.com:ruanyf/react-demos.git" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\360js\javascript\js面向对象编程" />
-      <recent name="D:\360js\javascript\天天有课\css" />
-      <recent name="D:\360js\javascript\天天有课" />
-      <recent name="D:\360js\javascript\官网实战\实战" />
-      <recent name="D:\360js\javascript\jQuery UI" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\360js\javascript\官网实战" />
       <recent name="D:\360js\javascript\前端l编程" />
       <recent name="D:\360js\javascript\前端l编程\页面实例" />
       <recent name="D:\360js\javascript\前端l编程\内存分配算法" />
       <recent name="D:\360js\javascript\前端l编程\银行家算法" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\360js\javascript\JQuery\电商网站" />
+      <recent name="D:\360js\javascript\js面向对象编程" />
+      <recent name="D:\360js\javascript\天天有课\css" />
+      <recent name="D:\360js\javascript\天天有课" />
+      <recent name="D:\360js\javascript\官网实战\实战" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.node.js">
@@ -575,21 +673,9 @@
       <workItem from="1485486109133" duration="332000" />
       <workItem from="1486359386386" duration="1852000" />
       <workItem from="1486430055806" duration="1194000" />
-      <workItem from="1486607870042" duration="8000" />
-    </task>
-    <task id="LOCAL-00167" summary="更新代码">
-      <created>1482471561151</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1482471561151</updated>
-    </task>
-    <task id="LOCAL-00168" summary="更新代码">
-      <created>1482472832899</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1482472832899</updated>
+      <workItem from="1486607870042" duration="4281000" />
+      <workItem from="1486622641629" duration="5662000" />
+      <workItem from="1486862886033" duration="5000" />
     </task>
     <task id="LOCAL-00169" summary="更新代码">
       <created>1482502735264</created>
@@ -920,11 +1006,25 @@
       <option name="project" value="LOCAL" />
       <updated>1486430299420</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="更新代码">
+      <created>1486608016409</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1486608016409</updated>
+    </task>
+    <task id="LOCAL-00217" summary="更新代码">
+      <created>1486608915458</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1486608915459</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415765000" />
+    <option name="totallyTimeSpent" value="425705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -939,7 +1039,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31991217" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257686" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.496997" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.41516516" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -954,7 +1054,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39344263" sideWeight="0.5758258" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.8003003" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270142" sideWeight="0.8003003" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41597337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1015,84 +1115,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jQuery UI/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery UI/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39130">
-          <caret line="1505" column="7" lean-forward="false" selection-start-line="1505" selection-start-column="7" selection-end-line="1505" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/icpicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/rewards.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/menu_icon.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/home.min.js.下载">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/官网实战/首页 _ 星巴克_files/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端l编程/响应式/responsive-web-design-files/00-02/viewport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端l编程/响应式/responsive-web-design-files/00-02/viewport-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1345,10 +1367,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/bindEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/customEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JQuery/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="488">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/EventMethod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/customEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/exentsJQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/bindEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQuery/电商网站/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>

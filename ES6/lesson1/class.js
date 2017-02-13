@@ -61,7 +61,8 @@ class Manager extends User{
 var manager=new Manager('leo',22,'123');
 manager.changeName('zen ling');
 console.log(manager.name);
+
 consol.log();
 console.log(manager.info);
 console.log(manager);
-// info 方法好用哈哈
+// info 方法好用

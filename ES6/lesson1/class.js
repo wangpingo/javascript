@@ -72,5 +72,51 @@ function AA() {
         return this.a;
     }
 }
-var BB=new  AA();
-console.log(BB.b());
+
+// var BB=new  AA();
+// console.log(BB.b());
+//
+// console.log('---------');
+// console.log(hello);
+// var hello=function hello() {
+//     console.log(222);
+// };
+//
+// function hello() {
+//     console.log(111);
+// }
+//
+//
+// hello();
+var x;
+
+console.log(f);
+function f() {
+    x = 2;
+}
+console.log(f);
+var f;
+
+f();
+console.log(x);
+x = 0;
+f = function () {
+    x = 1;
+}
+f();
+console.log(x);
+f();
+console.log(x);
+
+
+
+// console.log('---------');
+// console.log(hellos);
+//
+// function hellos() {
+//     console.log(111);
+// }
+// var hellos=function hello() {
+//     console.log(222);
+// };
+// hellos();

@@ -72,7 +72,6 @@ function AA() {
         return this.a;
     }
 }
-
 // var BB=new  AA();
 // console.log(BB.b());
 //
@@ -88,6 +87,7 @@ function AA() {
 //
 //
 // hello();
+
 var x;
 
 console.log(f);
@@ -107,16 +107,32 @@ f();
 console.log(x);
 f();
 console.log(x);
+console.log('---------');
+console.log(hellos);
 
+function hellos() {
+    console.log(111);
+}
+var hellos=function hello() {
+    console.log(222);
+};
+hellos();
+console.log('----');
+function Leaf() {
+    this.a=1;
+}
+Leaf.prototype.cc=function () {
+    console.log(222);
+    console.log(this);
+    console.log(this.__proto__+"aaa");
+    console.log(this==leaf);
+}
+var leaf=new Leaf();
 
-
-// console.log('---------');
-// console.log(hellos);
-//
-// function hellos() {
-//     console.log(111);
-// }
-// var hellos=function hello() {
-//     console.log(222);
-// };
-// hellos();
+leaf.cc();
+var http=require('http');
+http.createServer(function (req,res) {
+    res.writeHead(200,{'Content-type':'text/html'});
+    res.end('hha');
+}).listen(3000);
+console.log("aa");

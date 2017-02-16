@@ -128,7 +128,6 @@ Leaf.prototype.cc=function () {
     console.log(this==leaf);
 }
 var leaf=new Leaf();
-
 leaf.cc();
 var http=require('http');
 http.createServer(function (req,res) {

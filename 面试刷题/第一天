@@ -1,0 +1,44 @@
+4:浏览器内核
+ie：trident
+mozilla:gecko
+chrome:webkit
+opera:presto,blink
+5:html有哪些新特性？如何处理html5兼容性问题？如何区分html5和html关系
+html5现在已经不是sgml子集，主要关于图像，存储，多任务，位置，更多语意化标签等新功能的增加
+利用js中createElement动态创建新标签，然后在一用css给标签加上一些默认属性，
+同过docitype声明来看。或者看新标签区分
+6：语意化标签如何理解
+用正确的标签做正确的事情
+1：html语意化让网页变得结构化，利于浏览器解析。2:html语意化让网页不加载css样式也能让文档呈现一定格式
+3：利于seo，是seo更能找到重点；4：便于编程人员阅读，利于维护
+7：html离线存储的集中方式
+localsorage：长期存储数据，浏览器关闭不消失；
+sessionStorg：数据在浏览器关闭后自动删除
+8：什么是事件循环机制
+libuv库负责node api的执行，将不同的任务分配给不同的线程。形成一个事件循环，事件循环的结果以一步的方式
+返回给v8引擎。
+8：iframe有哪些缺点？
+1：iframe会阻塞主页面的onload事件
+2：iframe与浏览器共享连接池，影响页面的并行加载。
+3：我认为可以通过javascript动态加载src属性。可以绕过前两个问题
+9：请描述一下cookies，locaistorage，sessionstorage的区别
+1：cookies在浏览器和服务器之间互相传递。sessionstorage和localstorage不会。
+2：sessionstorage和localstorage的存储空间更大。localstorage和sessionstorage有更多
+丰富易用的接口：并且有各自独立的存储空间
+1：css选择符有哪些？哪些属性可以继承？优先级算法如何计算？css新增伪类有哪些
+id选择器，类选择器，标签选择器，相邻选择器，子选择器，通配符选择器，属性选择器，伪类选择器，后代选择器
+可继承的属性；fontsize，fontfamily，color等 不可继承width，height，margin，padding
+!important>id>class>tag !important 比内联优先级高
+css3新增伪类选择器 p:first-of-type  P:nth-child
+ie bug
+双边距bug float引起 用display
+-3px像素问题 float引起 display-inline -3px
+hover失效 用正确顺序 link visted hover active
+z-index问题 父级加入relative
+
+
+
+
+
+
+

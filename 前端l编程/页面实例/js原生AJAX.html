@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var Ajax={
+            get:function (url,fn) {
+                var obj=new  XMLHttpRequest();
+                obj.open('GET',url,true);
+                obj.onreadystatechange=function () {
+                    if (obj.readyState==4&&obj.status==200||obj.status==304){
+                        fn.call(this,obj.responseText);
+                    }
+                }
+                obj.send(null);
+            }
+        }
+    </script>
+</body>
+</html>

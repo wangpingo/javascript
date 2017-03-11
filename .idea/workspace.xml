@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1319a5a-07d4-4fb2-abee-047427435a1e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/面试刷题/测试.html" afterPath="$PROJECT_DIR$/面试刷题/测试.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/天天有课" afterPath="$PROJECT_DIR$/天天有课" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/天天有课/04-01-02更改昵称.html" afterPath="$PROJECT_DIR$/天天有课/04-01-02更改昵称.html" />
     </list>
     <ignored path="javascripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -216,8 +217,8 @@
       <file leaf-file-name="04-01-02更改昵称.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/天天有课/04-01-02更改昵称.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="28">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -333,8 +334,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
+    <option name="y" value="5" />
     <option name="width" value="1370" />
-    <option name="height" value="735" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -354,8 +356,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -656,14 +658,8 @@
       <workItem from="1488711738338" duration="771000" />
       <workItem from="1488777897086" duration="3322000" />
       <workItem from="1489125349807" duration="21000" />
-      <workItem from="1489146587403" duration="74000" />
-    </task>
-    <task id="LOCAL-00203" summary="更新代码">
-      <created>1484630245006</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1484630245007</updated>
+      <workItem from="1489146587403" duration="843000" />
+      <workItem from="1489231196469" duration="425000" />
     </task>
     <task id="LOCAL-00204" summary="更新代码">
       <created>1484630266356</created>
@@ -1001,11 +997,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488788930587</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <task id="LOCAL-00252" summary="更新代码">
+      <created>1489146786915</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1489146786915</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481403000" />
+    <option name="totallyTimeSpent" value="482597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1017,15 +1020,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="5" width="1370" height="730" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2822823" sideWeight="0.4620253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.496997" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23627287" sideWeight="0.48723724" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23825504" sideWeight="0.49024025" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5409836" sideWeight="0.19717261" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23627287" sideWeight="0.5127628" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23825504" sideWeight="0.5097598" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26276276" sideWeight="0.53797466" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270142" sideWeight="0.5431918" order="7" side_tool="false" content_ui="tabs" />
@@ -1431,8 +1434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/天天有课/04-01-02更改昵称.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="28">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>
